@@ -1,0 +1,19 @@
+<% options.fonts.forEach(font => {
+
+%>@font-face {
+  <%
+  Object.keys(font.properties).forEach(key => {
+  %>
+  <%= key %>: <%= key === 'font-family' ? '\'' + font.properties[key] + '\'' : font.properties[key] %>;<%
+  })
+  %>
+  src: <%= font.local.map(name => `local('${name}')` ).join(', ') %> <% if (font.local.length > 0 && font.sources.length > 0){ %>, <% } %>
+<%= font.sources.map(file => { return `    url('${file.path}') format('${file.format}')` }).join(',\n') %>
+
+}
+
+<%
+
+}) %>
+
+
