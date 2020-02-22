@@ -1,0 +1,69 @@
+{
+  "name": "nuxt-font-loader-strategy",
+  "version": "0.0.0",
+  "description": "Helps to load fonts and activate them by preloading.",
+  "keywords": [
+    "nuxtjs",
+    "font",
+    "webfont",
+    "preload",
+    "prefetch",
+    "webworker"
+  ],
+  "repository": "GrabarzUndPartner/nuxt-font-loader-strategy",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Thorn-Welf Walli",
+      "email": "thorn.walli@grabarzundpartner.de"
+    },
+    {
+      "name": "Stephan Gerbeth",
+      "email": "stephan.gerbeth@grabarzundpartner.de"
+    }
+  ],
+  "files": [
+    "lib"
+  ],
+  "main": "lib/module.js",
+  "scripts": {
+    "dev": "nuxt example",
+    "generate": "nuxt generate --config-file example/nuxt.config.js",
+    "build": "nuxt build --config-file example/nuxt.config.js",
+    "start": "nuxt start --config-file example/nuxt.config.js",
+    "lint": "yarn lint:js && yarn lint:css",
+    "lint:js": "eslint --ext .js,.vue example lib test",
+    "lint:css": "stylelint \"example/**/*.vue\" \"example/**/*.css\", \"lib/**/*.vue\" \"lib/**/*.css\"",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "test": "yarn lint && jest",
+    "baqend-deploy-pagespeed": "baqend deploy -f './dist' -b 'www' pagespeed"
+  },
+  "dependencies": {
+    "change-case": "^4.1.1",
+    "postcss-nesting": "^7.0.1",
+    "worker-loader": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@nuxtjs/eslint-config": "latest",
+    "@nuxtjs/module-test-utils": "latest",
+    "babel-eslint": "latest",
+    "babel-jest": "latest",
+    "codecov": "latest",
+    "eslint": "latest",
+    "eslint-plugin-json": "latest",
+    "husky": "latest",
+    "jest": "latest",
+    "nuxt-edge": "latest",
+    "standard-version": "latest",
+    "stylelint": "latest",
+    "stylelint-config-recess-order": "latest",
+    "stylelint-config-standard": "latest"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
