@@ -41,9 +41,6 @@
   "dependencies": {
     "change-case": "^4.1.1",
     "postcss-nesting": "^7.0.1",
-    "stylelint": "^13.2.0",
-    "stylelint-config-recess-order": "^2.0.3",
-    "stylelint-config-standard": "^20.0.0",
     "worker-loader": "^2.0.0"
   },
   "devDependencies": {
@@ -57,10 +54,14 @@
     "babel-jest": "latest",
     "codecov": "latest",
     "eslint": "latest",
+    "eslint-plugin-json": "latest",
     "husky": "latest",
     "jest": "latest",
     "nuxt-edge": "latest",
-    "standard-version": "latest"
+    "standard-version": "latest",
+    "stylelint": "latest",
+    "stylelint-config-recess-order": "latest",
+    "stylelint-config-standard": "latest"
   },
   "publishConfig": {
     "access": "public"
