@@ -46,8 +46,8 @@
       ".releaserc": "json",
       ".stylelintrc": "json",
       ".vcmrc": "json",
-      "*.css": "css",
-      "*.pcss": "css",
+      "*.css": "postcss",
+      "*.pcss": "postcss",
       ".*ignore": "ignore",
       "*.js.tmpl": "javascript",
       "*.html.tmpl": "html"
@@ -73,18 +73,17 @@
       "pflannery.vscode-versionlens",
       "eamodio.gitlens",
       "EditorConfig.EditorConfig",
-      "eg2.vscode-npm-script",
       "codezombiech.gitignore",
       "mrmlnc.vscode-attrs-sorter",
       "steoates.autoimport",
-      "vscode-icons-team.vscode-icons",
       "wayou.vscode-todo-highlight",
-      "wix.vscode-import-cost",
       "yzhang.markdown-all-in-one",
       "dariofuzinato.vue-peek",
       "formulahendry.auto-close-tag",
       "formulahendry.auto-rename-tag",
-      "jcbuisson.vue"
+      "jcbuisson.vue",
+      "naumovs.color-highlight",
+      "csstools.postcss"
     ]
   }
 }
