@@ -1,5 +1,13 @@
 # Project Changelog
 
+# [1.1.0](https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/compare/v1.0.0...v1.1.0) (2020-04-28)
+
+
+### Features
+
+* **lighthouse:** add option to ignore prefetches in lighthouse ([5b5eab8](https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/commit/5b5eab8bc31c89e1d58a7529ffa5cbd8e59e4e65))
+* **lighthouse:** add option to ignore prefetches in lighthouse ([131b17e](https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/commit/131b17e4aabd9204df3cdefb9a10fc1704ea2d45))
+
 # 1.0.0 (2020-02-22)
 
 
