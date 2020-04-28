@@ -54,6 +54,7 @@ module.exports = {
   modules: [
     [
       resolve(__dirname, '..'), {
+        ignoreLighthouse: true,
         prefetchCount: 2,
         fonts: [
           {

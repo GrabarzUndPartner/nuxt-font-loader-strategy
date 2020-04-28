@@ -1,8 +1,11 @@
 # nuxt-font-loader-strategy
 
+[![Grabarz & Partner - Module][grabarz-partner-module-src]][grabarz-partner-href] 
+
 [![Build Status][travis-build-status-src]][travis-build-status-href]
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![Renovate - Status][renovate-status-src]][renovate-status-href]
 [![License][license-src]][license-href]
 
 > Helps to load the fonts and activate them by preloading.
@@ -38,6 +41,7 @@ yarn add nuxt-font-loader-strategy # or npm install nuxt-font-loader-strategy
   modules: [
 
     ['nuxt-font-loader-strategy', { 
+        ignoreLighthouse: true,
         ignoredEffectiveTypes: ['2g', 'slow-2g'],
         fonts: [
           // Font
@@ -99,7 +103,8 @@ yarn add nuxt-font-loader-strategy # or npm install nuxt-font-loader-strategy
 
 | Property                | Type       | Description                                                                                                               | Default                     |
 | ----------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| `useWorker`             | `Boolean`  | If set, the non-preloads are loaded via WebWorker.                                                                        | `false`                     |
+| `useWorker`             | `Boolean`  | If set, the non-preloads (prefetches) are loaded via WebWorker.                                                           | `false`                     |
+| `ignoreLighthouse`      | `Boolean`  | If set, the non-preloads (prefetches) in Lighthouse are disabled (ignored).                                               | `false`                     |
 | `classPattern`          | `Boolean`  | Font css class pattern.                                                                                                   | `[family]_[weight]_[style]` |
 | `importPathResolve`     | `Function` | Path resolve for font `src: url(fontPath)`                                                                                | Replace `@/` to `~`         |
 | `requirePathResolve`    | `Function` | Path resolve for `require(fontPath)`                                                                                      | no changes                  |
@@ -252,6 +257,12 @@ Connection speed dependent font loading, requires the support of `navigator.conn
 [MIT License](./LICENSE)
 
 <!-- Badges -->
+
+[grabarz-partner-module-src]: <https://img.shields.io/badge/Grabarz%20&%20Partner-Module-d19700>
+[grabarz-partner-href]: <https://grabarzundpartner.de>
+
+[renovate-status-src]: <https://img.shields.io/badge/renovate-enabled-brightgreen>
+[renovate-status-href]: <https://renovate.whitesourcesoftware.com/>
 
 [travis-build-status-src]: <https://travis-ci.org/GrabarzUndPartner/nuxt-font-loader-strategy.svg?branch=master>
 [travis-build-status-href]: <https://travis-ci.org/GrabarzUndPartner/nuxt-font-loader-strategy>
