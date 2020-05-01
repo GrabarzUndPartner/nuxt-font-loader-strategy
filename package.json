@@ -39,29 +39,29 @@
     "baqend-deploy-pagespeed": "baqend deploy -f './dist' -b 'www' pagespeed"
   },
   "dependencies": {
-    "change-case": "^4.1.1",
-    "postcss-nesting": "^7.0.1",
-    "worker-loader": "^2.0.0"
+    "change-case": "4.1.1",
+    "postcss-nesting": "7.0.1",
+    "worker-loader": "2.0.0"
   },
   "devDependencies": {
-    "@babel/core": "latest",
-    "@babel/preset-env": "latest",
-    "@commitlint/cli": "latest",
-    "@commitlint/config-conventional": "latest",
-    "@nuxtjs/eslint-config": "latest",
-    "@nuxtjs/module-test-utils": "latest",
-    "babel-eslint": "latest",
-    "babel-jest": "latest",
-    "codecov": "latest",
-    "eslint": "latest",
-    "eslint-plugin-json": "latest",
-    "husky": "latest",
-    "jest": "latest",
+    "@babel/core": "7.9.6",
+    "@babel/preset-env": "7.9.6",
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
+    "@nuxtjs/eslint-config": "2.0.2",
+    "@nuxtjs/module-test-utils": "1.6.1",
+    "babel-eslint": "10.1.0",
+    "babel-jest": "25.5.1",
+    "codecov": "3.6.5",
+    "eslint": "6.8.0",
+    "eslint-plugin-json": "2.1.1",
+    "husky": "4.2.5",
+    "jest": "24.0.0",
     "nuxt-edge": "latest",
-    "standard-version": "latest",
-    "stylelint": "latest",
-    "stylelint-config-recess-order": "latest",
-    "stylelint-config-standard": "latest"
+    "standard-version": "7.1.0",
+    "stylelint": "13.3.3",
+    "stylelint-config-recess-order": "2.0.4",
+    "stylelint-config-standard": "20.0.0"
   },
   "publishConfig": {
     "access": "public"
