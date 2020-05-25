@@ -27,12 +27,19 @@
         Cum natus eveniet condimentum aliquid, repudiandae ultrices est, cumque fringilla? Repellendus deleniti non quidem a, recusandae harum in, nemo! Aut rhoncus alias risus sem? Facere fugiat, magni animi reiciendis interdum mauris purus, laboriosam fringilla. Corporis dolores dis provident aperiam ipsam. Vivamus tellus, temporibus a luctus, nesciunt, rutrum similique nostrum. Temporibus quisquam, rerum maecenas, diam, risus, volutpat, viverra proin accusamus maecenas, nibh justo animi, mauris proin? A congue debitis architecto? Varius aptent minus pellentesque rutrum, quas rutrum dis, scelerisque massa nunc anim sociis dignissimos libero, viverra, suspendisse vehicula, vulputate? Distinctio et. Condimentum atque fugit necessitatibus odit molestie sodales voluptatibus doloremque. Suscipit.
       </p>
     </section>
+    <atom-github-corner />
   </article>
 </template>
 
 <script>
 
+import AtomGithubCorner from '@/components/atoms/GithubCorner'
+
 export default {
+  components: {
+    AtomGithubCorner
+  },
+
   head () {
     return {
       htmlAttrs: {
