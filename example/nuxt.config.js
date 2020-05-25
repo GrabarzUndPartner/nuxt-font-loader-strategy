@@ -17,11 +17,6 @@ module.exports = {
     resourceHints: false
   },
 
-  router: {
-    base: getBasePath(),
-    prefetchLinks: false
-  },
-
   build: {
 
     filenames: {
@@ -49,6 +44,14 @@ module.exports = {
         }))
       }
     }
+  },
+
+  generate: {
+    dir: getDistPath()
+  },
+
+  router: {
+    base: getBasePath()
   },
 
   modules: [
@@ -112,5 +115,9 @@ module.exports = {
 }
 
 function getBasePath () {
-  return process.env.npm_config_base || '/'
+  return process.env.npm_config_base || process.env.BASE_PATH || '/'
+}
+
+function getDistPath () {
+  return process.env.npm_config_dist || process.env.DIST_PATH || 'dist'
 }
