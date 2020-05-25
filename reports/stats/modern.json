@@ -5,8 +5,8 @@
   ],
   "version": "4.43.0",
   "hash": "b8ca3b5de7006f8757ef",
-  "time": 4064,
-  "builtAt": 1590430545895,
+  "time": 4406,
+  "builtAt": 1590441015730,
   "publicPath": "/nuxt-font-loader-strategy/_nuxt/",
   "outputPath": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/dist/client",
   "assetsByChunkName": {

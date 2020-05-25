@@ -5,8 +5,8 @@
   ],
   "version": "4.43.0",
   "hash": "aa0765908a2c91452365",
-  "time": 6362,
-  "builtAt": 1590430540269,
+  "time": 6179,
+  "builtAt": 1590441009667,
   "publicPath": "/nuxt-font-loader-strategy/_nuxt/",
   "outputPath": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/dist/client",
   "assetsByChunkName": {
@@ -8330,9 +8330,9 @@
           "chunks": [
             1
           ],
-          "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/modules/_to-iobject.js",
-          "issuerId": 19,
-          "issuerName": "./node_modules/core-js/modules/_to-iobject.js",
+          "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/modules/_to-object.js",
+          "issuerId": 21,
+          "issuerName": "./node_modules/core-js/modules/_to-object.js",
           "issuerPath": [
             {
               "id": 117,
@@ -8350,9 +8350,9 @@
               "name": "./node_modules/core-js/modules/es6.symbol.js"
             },
             {
-              "id": 19,
-              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/modules/_to-iobject.js",
-              "name": "./node_modules/core-js/modules/_to-iobject.js"
+              "id": 21,
+              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/modules/_to-object.js",
+              "name": "./node_modules/core-js/modules/_to-object.js"
             }
           ],
           "failed": false,
@@ -24875,9 +24875,9 @@
       "chunks": [
         1
       ],
-      "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/modules/_to-iobject.js",
-      "issuerId": 19,
-      "issuerName": "./node_modules/core-js/modules/_to-iobject.js",
+      "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/modules/_to-object.js",
+      "issuerId": 21,
+      "issuerName": "./node_modules/core-js/modules/_to-object.js",
       "issuerPath": [
         {
           "id": 117,
@@ -24895,9 +24895,9 @@
           "name": "./node_modules/core-js/modules/es6.symbol.js"
         },
         {
-          "id": 19,
-          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/modules/_to-iobject.js",
-          "name": "./node_modules/core-js/modules/_to-iobject.js"
+          "id": 21,
+          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/modules/_to-object.js",
+          "name": "./node_modules/core-js/modules/_to-object.js"
         }
       ],
       "failed": false,
