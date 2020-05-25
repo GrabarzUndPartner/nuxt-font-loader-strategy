@@ -68,11 +68,10 @@ jobs:
           cp -R reports/* dist/reports/
           touch dist/.nojekyll
         env:
-
-          WEBSITE_HOST: ${{ format('https://{0}.github.io/{1}', github.repository_owner, 'nuxt-font-loader-strategy') }}
-          BASE_PATH: ${{ format('/{0}/', 'nuxt-font-loader-strategy') }}
+          WEBSITE_HOST: https://grabarzundpartner.github.io/nuxt-font-loader-strategy
+          BASE_PATH: /nuxt-font-loader-strategy/
           DIST_PATH: dist
-          GITHUB_URL: ${{ format('https://github.com/{0}', github.repository) }}
+          GITHUB_URL: https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy
 
       - name: Archive Production Artifact
         uses: actions/upload-artifact@master
