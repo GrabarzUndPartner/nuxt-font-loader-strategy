@@ -5,16 +5,18 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 module.exports = {
   dev: isDev,
 
-  modern: 'client',
+  modern: isDev ? false : 'client',
 
   rootDir: resolve(__dirname, '..'),
   buildDir: resolve(__dirname, '.nuxt'),
   srcDir: __dirname,
 
-  // mode: 'spa',
-
   render: {
     resourceHints: false
+  },
+
+  env: {
+    GITHUB_REPO_URL: `https://github.com/${process.env.GITHUB_REPOSITORY}`
   },
 
   build: {
