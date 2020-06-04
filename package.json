@@ -35,8 +35,7 @@
     "lint:js": "eslint --ext .js,.vue example lib test",
     "lint:css": "stylelint \"example/**/*.vue\" \"example/**/*.css\", \"lib/**/*.vue\" \"lib/**/*.css\"",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",
-    "test": "yarn lint && jest",
-    "baqend-deploy-pagespeed": "baqend deploy -f './dist' -b 'www' pagespeed"
+    "test": "yarn lint && jest"
   },
   "dependencies": {
     "change-case": "4.1.1",
