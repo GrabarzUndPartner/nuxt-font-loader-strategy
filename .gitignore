@@ -2,6 +2,7 @@ node_modules
 *.iml
 .idea
 *.log*
+.history
 .nuxt
 .vscode/settings.json
 !.vscode/launch.json
