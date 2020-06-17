@@ -35,8 +35,7 @@
     "lint:js": "eslint --ext .js,.vue example lib test",
     "lint:css": "stylelint \"example/**/*.vue\" \"example/**/*.css\", \"lib/**/*.vue\" \"lib/**/*.css\"",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",
-    "test": "yarn lint && jest",
-    "baqend-deploy-pagespeed": "baqend deploy -f './dist' -b 'www' pagespeed"
+    "test": "yarn lint && jest"
   },
   "dependencies": {
     "change-case": "4.1.1",
@@ -53,13 +52,13 @@
     "babel-eslint": "10.1.0",
     "babel-jest": "26.0.1",
     "codecov": "3.7.0",
-    "eslint": "7.1.0",
+    "eslint": "7.2.0",
     "eslint-plugin-json": "2.1.1",
     "husky": "4.2.5",
-    "jest": "24.0.0",
+    "jest": "26.0.1",
     "nuxt-edge": "latest",
     "standard-version": "8.0.0",
-    "stylelint": "13.5.0",
+    "stylelint": "13.6.0",
     "stylelint-config-recess-order": "2.0.4",
     "stylelint-config-standard": "20.0.0"
   },
