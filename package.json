@@ -39,19 +39,19 @@
   },
   "dependencies": {
     "change-case": "4.1.1",
-    "postcss-nesting": "7.0.1",
     "worker-loader": "2.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.10.3",
     "@babel/preset-env": "7.10.3",
-    "@commitlint/cli": "8.3.5",
-    "@commitlint/config-conventional": "8.3.4",
+    "@commitlint/cli": "9.0.1",
+    "@commitlint/config-conventional": "9.0.1",
     "@nuxtjs/eslint-config": "3.0.0",
     "@nuxtjs/module-test-utils": "1.6.1",
     "babel-eslint": "10.1.0",
     "babel-jest": "26.0.1",
     "codecov": "3.7.0",
+    "core-js": "3.6.5",
     "eslint": "7.3.0",
     "eslint-plugin-json": "2.1.1",
     "husky": "4.2.5",
@@ -60,7 +60,8 @@
     "standard-version": "8.0.0",
     "stylelint": "13.6.1",
     "stylelint-config-recess-order": "2.0.4",
-    "stylelint-config-standard": "20.0.0"
+    "stylelint-config-standard": "20.0.0",
+    "postcss-nesting": "7.0.1"
   },
   "publishConfig": {
     "access": "public"
