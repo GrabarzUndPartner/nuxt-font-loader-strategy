@@ -47,7 +47,7 @@
     "@commitlint/cli": "9.0.1",
     "@commitlint/config-conventional": "9.0.1",
     "@nuxtjs/eslint-config": "3.0.0",
-    "@nuxtjs/module-test-utils": "1.6.2",
+    "@nuxtjs/module-test-utils": "1.6.3",
     "babel-eslint": "10.1.0",
     "babel-jest": "26.1.0",
     "codecov": "3.7.0",
