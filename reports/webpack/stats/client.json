@@ -5,8 +5,8 @@
   ],
   "version": "4.43.0",
   "hash": "4e000ae0183cddd1ced5",
-  "time": 7246,
-  "builtAt": 1594131839729,
+  "time": 7168,
+  "builtAt": 1594848120280,
   "publicPath": "/nuxt-font-loader-strategy/_nuxt/",
   "outputPath": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/dist/client",
   "assetsByChunkName": {
@@ -15375,9 +15375,9 @@
           "chunks": [
             1
           ],
-          "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/internals/object-create.js",
-          "issuerId": 91,
-          "issuerName": "./node_modules/core-js/internals/object-create.js",
+          "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/internals/object-get-own-property-names.js",
+          "issuerId": 60,
+          "issuerName": "./node_modules/core-js/internals/object-get-own-property-names.js",
           "issuerPath": [
             {
               "id": 156,
@@ -15395,9 +15395,9 @@
               "name": "./node_modules/core-js/modules/es.symbol.js"
             },
             {
-              "id": 91,
-              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/internals/object-create.js",
-              "name": "./node_modules/core-js/internals/object-create.js"
+              "id": 60,
+              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/internals/object-get-own-property-names.js",
+              "name": "./node_modules/core-js/internals/object-get-own-property-names.js"
             }
           ],
           "failed": false,
@@ -36657,9 +36657,9 @@
       "chunks": [
         1
       ],
-      "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/internals/object-create.js",
-      "issuerId": 91,
-      "issuerName": "./node_modules/core-js/internals/object-create.js",
+      "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/internals/object-get-own-property-names.js",
+      "issuerId": 60,
+      "issuerName": "./node_modules/core-js/internals/object-get-own-property-names.js",
       "issuerPath": [
         {
           "id": 156,
@@ -36677,9 +36677,9 @@
           "name": "./node_modules/core-js/modules/es.symbol.js"
         },
         {
-          "id": 91,
-          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/internals/object-create.js",
-          "name": "./node_modules/core-js/internals/object-create.js"
+          "id": 60,
+          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/internals/object-get-own-property-names.js",
+          "name": "./node_modules/core-js/internals/object-get-own-property-names.js"
         }
       ],
       "failed": false,
