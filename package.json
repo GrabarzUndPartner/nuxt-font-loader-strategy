@@ -52,7 +52,7 @@
     "babel-jest": "26.2.2",
     "codecov": "3.7.2",
     "core-js": "3.6.5",
-    "eslint": "7.5.0",
+    "eslint": "7.6.0",
     "eslint-plugin-json": "2.1.2",
     "husky": "4.2.5",
     "jest": "26.2.2",
