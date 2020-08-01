@@ -3,28 +3,28 @@
   ],
   "warnings": [
   ],
-  "version": "4.43.0",
-  "hash": "6988cf06e9e022395e99",
-  "time": 4703,
-  "builtAt": 1595359722998,
+  "version": "4.44.1",
+  "hash": "231de60040f95c045c67",
+  "time": 4759,
+  "builtAt": 1596288546568,
   "publicPath": "/nuxt-font-loader-strategy/_nuxt/",
   "outputPath": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/dist/client",
   "assetsByChunkName": {
-    "app": "app.93b1c9afe245c400bb96.js",
-    "commons/app": "commons/app.7c72a6cf4ccfadff19a4.js",
-    "pages/index": "pages/index.91a5ea5cf9d48edea174.js",
-    "runtime": "runtime.c59f9631dbdea13a5bbd.js"
+    "app": "app.3e156eb0d61ff627aab5.js",
+    "node_modules/commons": "node_modules/commons.56e34eff3360f94fb5b3.js",
+    "pages/index": "pages/index.e1cbad9613d41d00ae68.js",
+    "runtime": "runtime.b95a10fa19960b9bd26c.js"
   },
   "assets": [
     {
       "name": "../server/index.spa.html",
-      "size": 1076,
+      "size": 1094,
       "chunks": [
       ],
       "chunkNames": [
       ],
       "info": {
-        "size": 1076
+        "size": 1094
       },
       "emitted": true
     },
@@ -42,13 +42,13 @@
     },
     {
       "name": "../server/modern.manifest.json",
-      "size": 14269,
+      "size": 14378,
       "chunks": [
       ],
       "chunkNames": [
       ],
       "info": {
-        "size": 14269
+        "size": 14378
       },
       "emitted": true
     },
@@ -65,8 +65,8 @@
       "emitted": true
     },
     {
-      "name": "app.93b1c9afe245c400bb96.js",
-      "size": 46756,
+      "name": "app.3e156eb0d61ff627aab5.js",
+      "size": 46768,
       "chunks": [
         0
       ],
@@ -75,22 +75,7 @@
       ],
       "info": {
         "immutable": true,
-        "size": 46756
-      },
-      "emitted": true
-    },
-    {
-      "name": "commons/app.7c72a6cf4ccfadff19a4.js",
-      "size": 153369,
-      "chunks": [
-        1
-      ],
-      "chunkNames": [
-        "commons/app"
-      ],
-      "info": {
-        "immutable": true,
-        "size": 153369
+        "size": 46768
       },
       "emitted": true
     },
@@ -239,8 +224,23 @@
       "emitted": true
     },
     {
-      "name": "pages/index.91a5ea5cf9d48edea174.js",
-      "size": 8660,
+      "name": "node_modules/commons.56e34eff3360f94fb5b3.js",
+      "size": 153369,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "node_modules/commons"
+      ],
+      "info": {
+        "immutable": true,
+        "size": 153369
+      },
+      "emitted": true
+    },
+    {
+      "name": "pages/index.e1cbad9613d41d00ae68.js",
+      "size": 8672,
       "chunks": [
         2
       ],
@@ -249,12 +249,12 @@
       ],
       "info": {
         "immutable": true,
-        "size": 8660
+        "size": 8672
       },
       "emitted": true
     },
     {
-      "name": "runtime.c59f9631dbdea13a5bbd.js",
+      "name": "runtime.b95a10fa19960b9bd26c.js",
       "size": 2417,
       "chunks": [
         3
@@ -278,9 +278,9 @@
         0
       ],
       "assets": [
-        "runtime.c59f9631dbdea13a5bbd.js",
-        "commons/app.7c72a6cf4ccfadff19a4.js",
-        "app.93b1c9afe245c400bb96.js"
+        "runtime.b95a10fa19960b9bd26c.js",
+        "node_modules/commons.56e34eff3360f94fb5b3.js",
+        "app.3e156eb0d61ff627aab5.js"
       ],
       "children": {
       },
@@ -296,9 +296,9 @@
         0
       ],
       "assets": [
-        "runtime.c59f9631dbdea13a5bbd.js",
-        "commons/app.7c72a6cf4ccfadff19a4.js",
-        "app.93b1c9afe245c400bb96.js"
+        "runtime.b95a10fa19960b9bd26c.js",
+        "node_modules/commons.56e34eff3360f94fb5b3.js",
+        "app.3e156eb0d61ff627aab5.js"
       ],
       "children": {
       },
@@ -310,7 +310,7 @@
         2
       ],
       "assets": [
-        "pages/index.91a5ea5cf9d48edea174.js"
+        "pages/index.e1cbad9613d41d00ae68.js"
       ],
       "children": {
       },
@@ -324,14 +324,14 @@
       "rendered": true,
       "initial": true,
       "entry": false,
-      "size": 110880,
+      "size": 110904,
       "names": [
         "app"
       ],
       "files": [
-        "app.93b1c9afe245c400bb96.js"
+        "app.3e156eb0d61ff627aab5.js"
       ],
-      "hash": "93b1c9afe245c400bb96",
+      "hash": "3e156eb0d61ff627aab5",
       "siblings": [
         1,
         3
@@ -2954,9 +2954,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/stylePostLoader.js!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/postcss-loader/src/index.js??ref--4-oneOf-1-2!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=style&index=0&lang=postcss&",
-          "issuerId": 175,
-          "issuerName": "./node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--4-oneOf-1-2!./node_modules/vue-loader/lib??vue-loader-options!./example/pages/index.vue?vue&type=style&index=0&lang=postcss&",
+          "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/postcss-loader/src/index.js??ref--3-oneOf-1-2!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/nuxt-font-loader-strategy/font-face.css",
+          "issuerId": 162,
+          "issuerName": "./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/postcss-loader/src??ref--3-oneOf-1-2!./example/.nuxt/nuxt-font-loader-strategy/font-face.css",
           "issuerPath": [
             {
               "id": 111,
@@ -2975,28 +2975,18 @@
             },
             {
               "id": null,
-              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/babel-loader/lib/index.js??ref--2-0!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/router.js",
-              "name": "./example/.nuxt/router.js"
+              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/babel-loader/lib/index.js??ref--2-0!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/nuxt-font-loader-strategy/index.js",
+              "name": "./example/.nuxt/nuxt-font-loader-strategy/index.js"
             },
             {
-              "id": null,
-              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue",
-              "name": "./example/pages/index.vue"
+              "id": 161,
+              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-style-loader/index.js??ref--3-oneOf-1-0!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/postcss-loader/src/index.js??ref--3-oneOf-1-2!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/nuxt-font-loader-strategy/font-face.css",
+              "name": "./example/.nuxt/nuxt-font-loader-strategy/font-face.css"
             },
             {
-              "id": 174,
-              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-style-loader/index.js??ref--4-oneOf-1-0!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/postcss-loader/src/index.js??ref--4-oneOf-1-2!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=style&index=0&lang=postcss&",
-              "name": "./example/pages/index.vue?vue&type=style&index=0&lang=postcss&"
-            },
-            {
-              "id": 171,
-              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-style-loader/index.js??ref--4-oneOf-1-0!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/stylePostLoader.js!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/postcss-loader/src/index.js??ref--4-oneOf-1-2!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=style&index=0&lang=postcss&",
-              "name": "./node_modules/vue-style-loader??ref--4-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--4-oneOf-1-2!./node_modules/vue-loader/lib??vue-loader-options!./example/pages/index.vue?vue&type=style&index=0&lang=postcss&"
-            },
-            {
-              "id": 175,
-              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/stylePostLoader.js!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/postcss-loader/src/index.js??ref--4-oneOf-1-2!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=style&index=0&lang=postcss&",
-              "name": "./node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--4-oneOf-1-2!./node_modules/vue-loader/lib??vue-loader-options!./example/pages/index.vue?vue&type=style&index=0&lang=postcss&"
+              "id": 162,
+              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/postcss-loader/src/index.js??ref--3-oneOf-1-2!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/nuxt-font-loader-strategy/font-face.css",
+              "name": "./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/postcss-loader/src??ref--3-oneOf-1-2!./example/.nuxt/nuxt-font-loader-strategy/font-face.css"
             }
           ],
           "failed": false,
@@ -4663,7 +4653,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/postcss-loader/src??ref--3-oneOf-1-2!./example/.nuxt/nuxt-font-loader-strategy/font-face.css",
           "index": 172,
           "index2": 180,
-          "size": 4810,
+          "size": 4834,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -4723,7 +4713,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 5,
-          "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../../node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = require(\"../../../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_1___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff\");\nvar ___CSS_LOADER_URL_IMPORT_2___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_3___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff\");\nvar ___CSS_LOADER_URL_IMPORT_4___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_5___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff\");\nvar ___CSS_LOADER_URL_IMPORT_6___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_7___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff\");\nvar ___CSS_LOADER_URL_IMPORT_8___ = require(\"assets/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_9___ = require(\"assets/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff\");\nvar ___CSS_LOADER_URL_IMPORT_10___ = require(\"assets/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_11___ = require(\"assets/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700.woff\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_5___);\nvar ___CSS_LOADER_URL_REPLACEMENT_6___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_6___);\nvar ___CSS_LOADER_URL_REPLACEMENT_7___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_7___);\nvar ___CSS_LOADER_URL_REPLACEMENT_8___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_8___);\nvar ___CSS_LOADER_URL_REPLACEMENT_9___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_9___);\nvar ___CSS_LOADER_URL_REPLACEMENT_10___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_10___);\nvar ___CSS_LOADER_URL_REPLACEMENT_11___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_11___);\n// Module\nexports.push([module.id, \"@font-face{font-family:Roboto;font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:normal;font-display:swap;src:local(\\\"Roboto\\\"),local(\\\"Roboto-Regular\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \") format(\\\"woff\\\")}@font-face{font-family:Roboto;font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:300;font-style:normal;font-display:swap;src:local(\\\"Roboto Light\\\"),local(\\\"Roboto-Light\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \") format(\\\"woff\\\")}@font-face{font-family:Roboto;font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:italic;font-display:swap;src:local(\\\"Roboto\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_4___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_5___ + \") format(\\\"woff\\\")}@font-face{font-family:Roboto;font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:700;font-style:normal;font-display:swap;src:local(\\\"Roboto Bold\\\"),local(\\\"Roboto-Bold\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_6___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_7___ + \") format(\\\"woff\\\")}@font-face{font-family:Roboto Slab;font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:normal;font-display:swap;src:url(\" + ___CSS_LOADER_URL_REPLACEMENT_8___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_9___ + \") format(\\\"woff\\\")}@font-face{font-family:Roboto Slab;font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:700;font-style:normal;font-display:swap;src:url(\" + ___CSS_LOADER_URL_REPLACEMENT_10___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_11___ + \") format(\\\"woff\\\")}\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
+          "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../../node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = require(\"../../../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_1___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff\");\nvar ___CSS_LOADER_URL_IMPORT_2___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_3___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff\");\nvar ___CSS_LOADER_URL_IMPORT_4___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_5___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff\");\nvar ___CSS_LOADER_URL_IMPORT_6___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_7___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff\");\nvar ___CSS_LOADER_URL_IMPORT_8___ = require(\"assets/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_9___ = require(\"assets/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff\");\nvar ___CSS_LOADER_URL_IMPORT_10___ = require(\"assets/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_11___ = require(\"assets/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700.woff\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_5___);\nvar ___CSS_LOADER_URL_REPLACEMENT_6___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_6___);\nvar ___CSS_LOADER_URL_REPLACEMENT_7___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_7___);\nvar ___CSS_LOADER_URL_REPLACEMENT_8___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_8___);\nvar ___CSS_LOADER_URL_REPLACEMENT_9___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_9___);\nvar ___CSS_LOADER_URL_REPLACEMENT_10___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_10___);\nvar ___CSS_LOADER_URL_REPLACEMENT_11___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_11___);\n// Module\nexports.push([module.id, \"@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:normal;font-display:swap;src:local(\\\"Roboto\\\"),local(\\\"Roboto-Regular\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:300;font-style:normal;font-display:swap;src:local(\\\"Roboto Light\\\"),local(\\\"Roboto-Light\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:italic;font-display:swap;src:local(\\\"Roboto\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_4___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_5___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:700;font-style:normal;font-display:swap;src:local(\\\"Roboto Bold\\\"),local(\\\"Roboto-Bold\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_6___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_7___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto Slab\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:normal;font-display:swap;src:url(\" + ___CSS_LOADER_URL_REPLACEMENT_8___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_9___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto Slab\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:700;font-style:normal;font-display:swap;src:url(\" + ___CSS_LOADER_URL_REPLACEMENT_10___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_11___ + \") format(\\\"woff\\\")}\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
         },
         {
           "id": 163,
@@ -5261,15 +5251,15 @@
       "rendered": true,
       "initial": true,
       "entry": false,
-      "reason": "split chunk (cache group: commons) (name: commons/app)",
+      "reason": "split chunk (cache group: commons) (name: node_modules/commons)",
       "size": 490581,
       "names": [
-        "commons/app"
+        "node_modules/commons"
       ],
       "files": [
-        "commons/app.7c72a6cf4ccfadff19a4.js"
+        "node_modules/commons.56e34eff3360f94fb5b3.js"
       ],
-      "hash": "7c72a6cf4ccfadff19a4",
+      "hash": "56e34eff3360f94fb5b3",
       "siblings": [
         0,
         3
@@ -8905,9 +8895,9 @@
           "chunks": [
             1
           ],
-          "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/layouts/default.vue",
+          "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/components/nuxt-error.vue",
           "issuerId": null,
-          "issuerName": "./example/.nuxt/layouts/default.vue",
+          "issuerName": "./example/.nuxt/components/nuxt-error.vue",
           "issuerPath": [
             {
               "id": 111,
@@ -8926,13 +8916,8 @@
             },
             {
               "id": null,
-              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/babel-loader/lib/index.js??ref--2-0!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/App.js",
-              "name": "./example/.nuxt/App.js"
-            },
-            {
-              "id": null,
-              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/layouts/default.vue",
-              "name": "./example/.nuxt/layouts/default.vue"
+              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/components/nuxt-error.vue",
+              "name": "./example/.nuxt/components/nuxt-error.vue"
             }
           ],
           "failed": false,
@@ -16972,14 +16957,14 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 14248,
+      "size": 14272,
       "names": [
         "pages/index"
       ],
       "files": [
-        "pages/index.91a5ea5cf9d48edea174.js"
+        "pages/index.e1cbad9613d41d00ae68.js"
       ],
-      "hash": "91a5ea5cf9d48edea174",
+      "hash": "e1cbad9613d41d00ae68",
       "siblings": [
       ],
       "parents": [
@@ -17461,7 +17446,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--4-oneOf-1-2!./node_modules/vue-loader/lib??vue-loader-options!./example/pages/index.vue?vue&type=style&index=0&lang=postcss&",
           "index": 203,
           "index2": 200,
-          "size": 1772,
+          "size": 1796,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -17531,7 +17516,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 7,
-          "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.id, \"body{margin:0;font-size:16px;color:#333;background:#fff;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@media (prefers-color-scheme:light){body{color:#333;background:#fff}}@media (prefers-color-scheme:dark){body{color:#fff;background:#333}}.content{width:90%;margin:0 auto}.content h2,.content h3,.content h4,.content h5,.content h6{font-family:serif;font-weight:400;text-shadow:10px 10px #ddd}@media (prefers-color-scheme:dark){.content h2,.content h3,.content h4,.content h5,.content h6{text-shadow:10px 10px #000}}.font_roboto_slab_400_normal .content h2,.font_roboto_slab_400_normal .content h3,.font_roboto_slab_400_normal .content h4,.font_roboto_slab_400_normal .content h5,.font_roboto_slab_400_normal .content h6{font-family:Roboto Slab,serif}.content h1{font-family:serif}.font_roboto_slab_700_normal .content h1{font-family:Roboto Slab,serif;font-weight:700}.content h1{text-shadow:10px 10px #ddd}@media (prefers-color-scheme:dark){.content h1{text-shadow:10px 10px #000}}.content p{font-family:sans-serif;font-style:normal;font-weight:400}.font_roboto_400_normal .content p{font-family:Roboto,sans-serif}.content p.bold{font-family:sans-serif;font-weight:700}.font_roboto_700_normal .content p.bold{font-family:Roboto,sans-serif}.content p.light{font-family:sans-serif;font-weight:300}.font_roboto_300_normal .content p.light{font-family:Roboto,sans-serif}.content p.italic{font-family:sans-serif;font-style:italic;font-weight:400}.font_roboto_400_italic .content p.italic{font-family:Roboto,sans-serif}\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
+          "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.id, \"body{margin:0;font-size:16px;color:#333;background:#fff;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@media (prefers-color-scheme:light){body{color:#333;background:#fff}}@media (prefers-color-scheme:dark){body{color:#fff;background:#333}}.content{width:90%;margin:0 auto}.content h2,.content h3,.content h4,.content h5,.content h6{font-family:serif;font-weight:400;text-shadow:10px 10px #ddd}@media (prefers-color-scheme:dark){.content h2,.content h3,.content h4,.content h5,.content h6{text-shadow:10px 10px #000}}.font_roboto_slab_400_normal .content h2,.font_roboto_slab_400_normal .content h3,.font_roboto_slab_400_normal .content h4,.font_roboto_slab_400_normal .content h5,.font_roboto_slab_400_normal .content h6{font-family:\\\"Roboto Slab\\\",serif}.content h1{font-family:serif}.font_roboto_slab_700_normal .content h1{font-family:\\\"Roboto Slab\\\",serif;font-weight:700}.content h1{text-shadow:10px 10px #ddd}@media (prefers-color-scheme:dark){.content h1{text-shadow:10px 10px #000}}.content p{font-family:sans-serif;font-style:normal;font-weight:400}.font_roboto_400_normal .content p{font-family:\\\"Roboto\\\",sans-serif}.content p.bold{font-family:sans-serif;font-weight:700}.font_roboto_700_normal .content p.bold{font-family:\\\"Roboto\\\",sans-serif}.content p.light{font-family:sans-serif;font-weight:300}.font_roboto_300_normal .content p.light{font-family:\\\"Roboto\\\",sans-serif}.content p.italic{font-family:sans-serif;font-style:italic;font-weight:400}.font_roboto_400_italic .content p.italic{font-family:\\\"Roboto\\\",sans-serif}\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
         },
         {
           "id": 176,
@@ -18567,9 +18552,9 @@
         "runtime"
       ],
       "files": [
-        "runtime.c59f9631dbdea13a5bbd.js"
+        "runtime.b95a10fa19960b9bd26c.js"
       ],
-      "hash": "c59f9631dbdea13a5bbd",
+      "hash": "b95a10fa19960b9bd26c",
       "siblings": [
         0,
         1
@@ -24430,9 +24415,9 @@
       "chunks": [
         1
       ],
-      "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/layouts/default.vue",
+      "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/components/nuxt-error.vue",
       "issuerId": null,
-      "issuerName": "./example/.nuxt/layouts/default.vue",
+      "issuerName": "./example/.nuxt/components/nuxt-error.vue",
       "issuerPath": [
         {
           "id": 111,
@@ -24451,13 +24436,8 @@
         },
         {
           "id": null,
-          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/babel-loader/lib/index.js??ref--2-0!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/App.js",
-          "name": "./example/.nuxt/App.js"
-        },
-        {
-          "id": null,
-          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/layouts/default.vue",
-          "name": "./example/.nuxt/layouts/default.vue"
+          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/components/nuxt-error.vue",
+          "name": "./example/.nuxt/components/nuxt-error.vue"
         }
       ],
       "failed": false,
@@ -26069,9 +26049,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/stylePostLoader.js!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/postcss-loader/src/index.js??ref--4-oneOf-1-2!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=style&index=0&lang=postcss&",
-      "issuerId": 175,
-      "issuerName": "./node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--4-oneOf-1-2!./node_modules/vue-loader/lib??vue-loader-options!./example/pages/index.vue?vue&type=style&index=0&lang=postcss&",
+      "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/postcss-loader/src/index.js??ref--3-oneOf-1-2!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/nuxt-font-loader-strategy/font-face.css",
+      "issuerId": 162,
+      "issuerName": "./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/postcss-loader/src??ref--3-oneOf-1-2!./example/.nuxt/nuxt-font-loader-strategy/font-face.css",
       "issuerPath": [
         {
           "id": 111,
@@ -26090,28 +26070,18 @@
         },
         {
           "id": null,
-          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/babel-loader/lib/index.js??ref--2-0!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/router.js",
-          "name": "./example/.nuxt/router.js"
+          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/babel-loader/lib/index.js??ref--2-0!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/nuxt-font-loader-strategy/index.js",
+          "name": "./example/.nuxt/nuxt-font-loader-strategy/index.js"
         },
         {
-          "id": null,
-          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue",
-          "name": "./example/pages/index.vue"
+          "id": 161,
+          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-style-loader/index.js??ref--3-oneOf-1-0!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/postcss-loader/src/index.js??ref--3-oneOf-1-2!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/nuxt-font-loader-strategy/font-face.css",
+          "name": "./example/.nuxt/nuxt-font-loader-strategy/font-face.css"
         },
         {
-          "id": 174,
-          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-style-loader/index.js??ref--4-oneOf-1-0!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/postcss-loader/src/index.js??ref--4-oneOf-1-2!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=style&index=0&lang=postcss&",
-          "name": "./example/pages/index.vue?vue&type=style&index=0&lang=postcss&"
-        },
-        {
-          "id": 171,
-          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-style-loader/index.js??ref--4-oneOf-1-0!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/stylePostLoader.js!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/postcss-loader/src/index.js??ref--4-oneOf-1-2!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=style&index=0&lang=postcss&",
-          "name": "./node_modules/vue-style-loader??ref--4-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--4-oneOf-1-2!./node_modules/vue-loader/lib??vue-loader-options!./example/pages/index.vue?vue&type=style&index=0&lang=postcss&"
-        },
-        {
-          "id": 175,
-          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/stylePostLoader.js!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/postcss-loader/src/index.js??ref--4-oneOf-1-2!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=style&index=0&lang=postcss&",
-          "name": "./node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--4-oneOf-1-2!./node_modules/vue-loader/lib??vue-loader-options!./example/pages/index.vue?vue&type=style&index=0&lang=postcss&"
+          "id": 162,
+          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/postcss-loader/src/index.js??ref--3-oneOf-1-2!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/nuxt-font-loader-strategy/font-face.css",
+          "name": "./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/postcss-loader/src??ref--3-oneOf-1-2!./example/.nuxt/nuxt-font-loader-strategy/font-face.css"
         }
       ],
       "failed": false,
@@ -34588,7 +34558,7 @@
       "name": "./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/postcss-loader/src??ref--3-oneOf-1-2!./example/.nuxt/nuxt-font-loader-strategy/font-face.css",
       "index": 172,
       "index2": 180,
-      "size": 4810,
+      "size": 4834,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -34648,7 +34618,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 5,
-      "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../../node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = require(\"../../../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_1___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff\");\nvar ___CSS_LOADER_URL_IMPORT_2___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_3___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff\");\nvar ___CSS_LOADER_URL_IMPORT_4___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_5___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff\");\nvar ___CSS_LOADER_URL_IMPORT_6___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_7___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff\");\nvar ___CSS_LOADER_URL_IMPORT_8___ = require(\"assets/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_9___ = require(\"assets/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff\");\nvar ___CSS_LOADER_URL_IMPORT_10___ = require(\"assets/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_11___ = require(\"assets/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700.woff\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_5___);\nvar ___CSS_LOADER_URL_REPLACEMENT_6___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_6___);\nvar ___CSS_LOADER_URL_REPLACEMENT_7___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_7___);\nvar ___CSS_LOADER_URL_REPLACEMENT_8___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_8___);\nvar ___CSS_LOADER_URL_REPLACEMENT_9___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_9___);\nvar ___CSS_LOADER_URL_REPLACEMENT_10___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_10___);\nvar ___CSS_LOADER_URL_REPLACEMENT_11___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_11___);\n// Module\nexports.push([module.id, \"@font-face{font-family:Roboto;font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:normal;font-display:swap;src:local(\\\"Roboto\\\"),local(\\\"Roboto-Regular\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \") format(\\\"woff\\\")}@font-face{font-family:Roboto;font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:300;font-style:normal;font-display:swap;src:local(\\\"Roboto Light\\\"),local(\\\"Roboto-Light\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \") format(\\\"woff\\\")}@font-face{font-family:Roboto;font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:italic;font-display:swap;src:local(\\\"Roboto\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_4___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_5___ + \") format(\\\"woff\\\")}@font-face{font-family:Roboto;font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:700;font-style:normal;font-display:swap;src:local(\\\"Roboto Bold\\\"),local(\\\"Roboto-Bold\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_6___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_7___ + \") format(\\\"woff\\\")}@font-face{font-family:Roboto Slab;font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:normal;font-display:swap;src:url(\" + ___CSS_LOADER_URL_REPLACEMENT_8___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_9___ + \") format(\\\"woff\\\")}@font-face{font-family:Roboto Slab;font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:700;font-style:normal;font-display:swap;src:url(\" + ___CSS_LOADER_URL_REPLACEMENT_10___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_11___ + \") format(\\\"woff\\\")}\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
+      "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../../node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = require(\"../../../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_1___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff\");\nvar ___CSS_LOADER_URL_IMPORT_2___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_3___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff\");\nvar ___CSS_LOADER_URL_IMPORT_4___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_5___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff\");\nvar ___CSS_LOADER_URL_IMPORT_6___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_7___ = require(\"assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff\");\nvar ___CSS_LOADER_URL_IMPORT_8___ = require(\"assets/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_9___ = require(\"assets/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff\");\nvar ___CSS_LOADER_URL_IMPORT_10___ = require(\"assets/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_11___ = require(\"assets/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700.woff\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_5___);\nvar ___CSS_LOADER_URL_REPLACEMENT_6___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_6___);\nvar ___CSS_LOADER_URL_REPLACEMENT_7___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_7___);\nvar ___CSS_LOADER_URL_REPLACEMENT_8___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_8___);\nvar ___CSS_LOADER_URL_REPLACEMENT_9___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_9___);\nvar ___CSS_LOADER_URL_REPLACEMENT_10___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_10___);\nvar ___CSS_LOADER_URL_REPLACEMENT_11___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_11___);\n// Module\nexports.push([module.id, \"@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:normal;font-display:swap;src:local(\\\"Roboto\\\"),local(\\\"Roboto-Regular\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:300;font-style:normal;font-display:swap;src:local(\\\"Roboto Light\\\"),local(\\\"Roboto-Light\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:italic;font-display:swap;src:local(\\\"Roboto\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_4___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_5___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:700;font-style:normal;font-display:swap;src:local(\\\"Roboto Bold\\\"),local(\\\"Roboto-Bold\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_6___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_7___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto Slab\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:normal;font-display:swap;src:url(\" + ___CSS_LOADER_URL_REPLACEMENT_8___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_9___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto Slab\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:700;font-style:normal;font-display:swap;src:url(\" + ___CSS_LOADER_URL_REPLACEMENT_10___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_11___ + \") format(\\\"woff\\\")}\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
     },
     {
       "id": 163,
@@ -35636,7 +35606,7 @@
       "name": "./node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--4-oneOf-1-2!./node_modules/vue-loader/lib??vue-loader-options!./example/pages/index.vue?vue&type=style&index=0&lang=postcss&",
       "index": 203,
       "index2": 200,
-      "size": 1772,
+      "size": 1796,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -35706,7 +35676,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 7,
-      "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.id, \"body{margin:0;font-size:16px;color:#333;background:#fff;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@media (prefers-color-scheme:light){body{color:#333;background:#fff}}@media (prefers-color-scheme:dark){body{color:#fff;background:#333}}.content{width:90%;margin:0 auto}.content h2,.content h3,.content h4,.content h5,.content h6{font-family:serif;font-weight:400;text-shadow:10px 10px #ddd}@media (prefers-color-scheme:dark){.content h2,.content h3,.content h4,.content h5,.content h6{text-shadow:10px 10px #000}}.font_roboto_slab_400_normal .content h2,.font_roboto_slab_400_normal .content h3,.font_roboto_slab_400_normal .content h4,.font_roboto_slab_400_normal .content h5,.font_roboto_slab_400_normal .content h6{font-family:Roboto Slab,serif}.content h1{font-family:serif}.font_roboto_slab_700_normal .content h1{font-family:Roboto Slab,serif;font-weight:700}.content h1{text-shadow:10px 10px #ddd}@media (prefers-color-scheme:dark){.content h1{text-shadow:10px 10px #000}}.content p{font-family:sans-serif;font-style:normal;font-weight:400}.font_roboto_400_normal .content p{font-family:Roboto,sans-serif}.content p.bold{font-family:sans-serif;font-weight:700}.font_roboto_700_normal .content p.bold{font-family:Roboto,sans-serif}.content p.light{font-family:sans-serif;font-weight:300}.font_roboto_300_normal .content p.light{font-family:Roboto,sans-serif}.content p.italic{font-family:sans-serif;font-style:italic;font-weight:400}.font_roboto_400_italic .content p.italic{font-family:Roboto,sans-serif}\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
+      "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.id, \"body{margin:0;font-size:16px;color:#333;background:#fff;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@media (prefers-color-scheme:light){body{color:#333;background:#fff}}@media (prefers-color-scheme:dark){body{color:#fff;background:#333}}.content{width:90%;margin:0 auto}.content h2,.content h3,.content h4,.content h5,.content h6{font-family:serif;font-weight:400;text-shadow:10px 10px #ddd}@media (prefers-color-scheme:dark){.content h2,.content h3,.content h4,.content h5,.content h6{text-shadow:10px 10px #000}}.font_roboto_slab_400_normal .content h2,.font_roboto_slab_400_normal .content h3,.font_roboto_slab_400_normal .content h4,.font_roboto_slab_400_normal .content h5,.font_roboto_slab_400_normal .content h6{font-family:\\\"Roboto Slab\\\",serif}.content h1{font-family:serif}.font_roboto_slab_700_normal .content h1{font-family:\\\"Roboto Slab\\\",serif;font-weight:700}.content h1{text-shadow:10px 10px #ddd}@media (prefers-color-scheme:dark){.content h1{text-shadow:10px 10px #000}}.content p{font-family:sans-serif;font-style:normal;font-weight:400}.font_roboto_400_normal .content p{font-family:\\\"Roboto\\\",sans-serif}.content p.bold{font-family:sans-serif;font-weight:700}.font_roboto_700_normal .content p.bold{font-family:\\\"Roboto\\\",sans-serif}.content p.light{font-family:sans-serif;font-weight:300}.font_roboto_300_normal .content p.light{font-family:\\\"Roboto\\\",sans-serif}.content p.italic{font-family:sans-serif;font-style:italic;font-weight:400}.font_roboto_400_italic .content p.italic{font-family:\\\"Roboto\\\",sans-serif}\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
     },
     {
       "id": 176,
