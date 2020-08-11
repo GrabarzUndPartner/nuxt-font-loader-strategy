@@ -4,9 +4,9 @@
   "warnings": [
   ],
   "version": "4.44.1",
-  "hash": "c6585d570fa48b52f524",
-  "time": 783,
-  "builtAt": 1596288548803,
+  "hash": "e0653be58b78b502d0ca",
+  "time": 797,
+  "builtAt": 1597173733438,
   "publicPath": "/nuxt-font-loader-strategy/_nuxt/",
   "outputPath": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/dist/server",
   "assetsByChunkName": {
@@ -51,7 +51,7 @@
     },
     {
       "name": "server.js",
-      "size": 88463,
+      "size": 88682,
       "chunks": [
         0
       ],
@@ -59,13 +59,13 @@
         "app"
       ],
       "info": {
-        "size": 88463
+        "size": 88682
       },
       "emitted": true
     },
     {
       "name": "server.js.map",
-      "size": 103118,
+      "size": 103357,
       "chunks": [
         0
       ],
@@ -74,7 +74,7 @@
       ],
       "info": {
         "development": true,
-        "size": 103118
+        "size": 103357
       },
       "emitted": true
     },
@@ -141,7 +141,7 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 80010,
+      "size": 80229,
       "names": [
         "app"
       ],
@@ -149,7 +149,7 @@
         "server.js",
         "server.js.map"
       ],
-      "hash": "d1d23cf37b785a1e64fa",
+      "hash": "59293f85a58d878f05ea",
       "siblings": [
       ],
       "parents": [
@@ -3130,7 +3130,7 @@
           "name": "./example/.nuxt/server.js + 23 modules",
           "index": 1,
           "index2": 55,
-          "size": 59801,
+          "size": 60020,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -3589,7 +3589,7 @@
                   "moduleName": "./example/.nuxt/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "./utils",
-                  "loc": "206:36-48"
+                  "loc": "211:36-48"
                 },
                 {
                   "moduleId": null,
@@ -3737,7 +3737,7 @@
               "name": "./example/.nuxt/index.js",
               "index": 8,
               "index2": 53,
-              "size": 6166,
+              "size": 6385,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -3831,7 +3831,7 @@
               "optimizationBailout": [
               ],
               "depth": 2,
-              "source": "import Vue from 'vue';\nimport Meta from 'vue-meta';\nimport ClientOnly from 'vue-client-only';\nimport NoSsr from 'vue-no-ssr';\nimport { createRouter } from './router.js';\nimport NuxtChild from './components/nuxt-child.js';\nimport NuxtError from './components/nuxt-error.vue';\nimport Nuxt from './components/nuxt.js';\nimport App from './App.js';\nimport { setContext, getLocation, getRouteData, normalizeError } from './utils';\n/* Plugins */\n\nimport nuxt_plugin_index_184ea200 from 'nuxt_plugin_index_184ea200'; // Source: ./nuxt-font-loader-strategy/index.js (mode: 'all')\n// Component: <ClientOnly>\n\nVue.component(ClientOnly.name, ClientOnly); // TODO: Remove in Nuxt 3: <NoSsr>\n\nVue.component(NoSsr.name, { ...NoSsr,\n\n  render(h, ctx) {\n    if (process.client && !NoSsr._warned) {\n      NoSsr._warned = true;\n      console.warn('<no-ssr> has been deprecated and will be removed in Nuxt 3, please use <client-only> instead');\n    }\n\n    return NoSsr.render(h, ctx);\n  }\n\n}); // Component: <NuxtChild>\n\nVue.component(NuxtChild.name, NuxtChild);\nVue.component('NChild', NuxtChild); // Component NuxtLink is imported in server.js or client.js\n// Component: <Nuxt>\n\nVue.component(Nuxt.name, Nuxt);\nVue.use(Meta, {\n  \"keyName\": \"head\",\n  \"attribute\": \"data-n-head\",\n  \"ssrAttribute\": \"data-n-head-ssr\",\n  \"tagIDKeyName\": \"hid\"\n});\nconst defaultTransition = {\n  \"name\": \"page\",\n  \"mode\": \"out-in\",\n  \"appear\": false,\n  \"appearClass\": \"appear\",\n  \"appearActiveClass\": \"appear-active\",\n  \"appearToClass\": \"appear-to\"\n};\n\nasync function createApp(ssrContext, config = {}) {\n  const router = await createRouter(ssrContext); // Create Root instance\n  // here we inject the router and store to all child components,\n  // making them available everywhere as `this.$router` and `this.$store`.\n\n  const app = {\n    head: {\n      \"meta\": [],\n      \"link\": [],\n      \"style\": [],\n      \"script\": []\n    },\n    router,\n    nuxt: {\n      defaultTransition,\n      transitions: [defaultTransition],\n\n      setTransitions(transitions) {\n        if (!Array.isArray(transitions)) {\n          transitions = [transitions];\n        }\n\n        transitions = transitions.map(transition => {\n          if (!transition) {\n            transition = defaultTransition;\n          } else if (typeof transition === 'string') {\n            transition = Object.assign({}, defaultTransition, {\n              name: transition\n            });\n          } else {\n            transition = Object.assign({}, defaultTransition, transition);\n          }\n\n          return transition;\n        });\n        this.$options.nuxt.transitions = transitions;\n        return transitions;\n      },\n\n      err: null,\n      dateErr: null,\n\n      error(err) {\n        err = err || null;\n        app.context._errored = Boolean(err);\n        err = err ? normalizeError(err) : null;\n        let nuxt = app.nuxt; // to work with @vue/composition-api, see https://github.com/nuxt/nuxt.js/issues/6517#issuecomment-573280207\n\n        if (this) {\n          nuxt = this.nuxt || this.$options.nuxt;\n        }\n\n        nuxt.dateErr = Date.now();\n        nuxt.err = err; // Used in src/server.js\n\n        if (ssrContext) {\n          ssrContext.nuxt.error = err;\n        }\n\n        return err;\n      }\n\n    },\n    ...App\n  };\n  const next = ssrContext ? ssrContext.next : location => app.router.push(location); // Resolve route\n\n  let route;\n\n  if (ssrContext) {\n    route = router.resolve(ssrContext.url).route;\n  } else {\n    const path = getLocation(router.options.base, router.options.mode);\n    route = router.resolve(path).route;\n  } // Set context to app.context\n\n\n  await setContext(app, {\n    route,\n    next,\n    error: app.nuxt.error.bind(app),\n    payload: ssrContext ? ssrContext.payload : undefined,\n    req: ssrContext ? ssrContext.req : undefined,\n    res: ssrContext ? ssrContext.res : undefined,\n    beforeRenderFns: ssrContext ? ssrContext.beforeRenderFns : undefined,\n    ssrContext\n  });\n\n  function inject(key, value) {\n    if (!key) {\n      throw new Error('inject(key, value) has no key provided');\n    }\n\n    if (value === undefined) {\n      throw new Error(`inject('${key}', value) has no value provided`);\n    }\n\n    key = '$' + key; // Add into app\n\n    app[key] = value; // Add into context\n\n    if (!app.context[key]) {\n      app.context[key] = value;\n    } // Check if plugin not already installed\n\n\n    const installKey = '__nuxt_' + key + '_installed__';\n\n    if (Vue[installKey]) {\n      return;\n    }\n\n    Vue[installKey] = true; // Call Vue.use() to install the plugin into vm\n\n    Vue.use(() => {\n      if (!Object.prototype.hasOwnProperty.call(Vue.prototype, key)) {\n        Object.defineProperty(Vue.prototype, key, {\n          get() {\n            return this.$root.$options[key];\n          }\n\n        });\n      }\n    });\n  } // Inject runtime config as $config\n\n\n  inject('config', config); // Add enablePreview(previewData = {}) in context for plugins\n\n  if (process.static && process.client) {\n    app.context.enablePreview = function (previewData = {}) {\n      app.previewData = Object.assign({}, previewData);\n      inject('preview', previewData);\n    };\n  } // Plugin execution\n\n\n  if (typeof nuxt_plugin_index_184ea200 === 'function') {\n    await nuxt_plugin_index_184ea200(app.context, inject);\n  } // Lock enablePreview in context\n\n\n  if (process.static && process.client) {\n    app.context.enablePreview = function () {\n      console.warn('You cannot call enablePreview() outside a plugin.');\n    };\n  } // If server-side, wait for async component to be resolved first\n\n\n  if (process.server && ssrContext && ssrContext.url) {\n    await new Promise((resolve, reject) => {\n      router.push(ssrContext.url, resolve, () => {\n        // navigated to a different route in router guard\n        const unregister = router.afterEach(async (to, from, next) => {\n          ssrContext.url = to.fullPath;\n          app.context.route = await getRouteData(to);\n          app.context.params = to.params || {};\n          app.context.query = to.query || {};\n          unregister();\n          resolve();\n        });\n      });\n    });\n  }\n\n  return {\n    app,\n    router\n  };\n}\n\nexport { createApp, NuxtError };"
+              "source": "import Vue from 'vue';\nimport Meta from 'vue-meta';\nimport ClientOnly from 'vue-client-only';\nimport NoSsr from 'vue-no-ssr';\nimport { createRouter } from './router.js';\nimport NuxtChild from './components/nuxt-child.js';\nimport NuxtError from './components/nuxt-error.vue';\nimport Nuxt from './components/nuxt.js';\nimport App from './App.js';\nimport { setContext, getLocation, getRouteData, normalizeError } from './utils';\n/* Plugins */\n\nimport nuxt_plugin_index_184ea200 from 'nuxt_plugin_index_184ea200'; // Source: ./nuxt-font-loader-strategy/index.js (mode: 'all')\n// Component: <ClientOnly>\n\nVue.component(ClientOnly.name, ClientOnly); // TODO: Remove in Nuxt 3: <NoSsr>\n\nVue.component(NoSsr.name, { ...NoSsr,\n\n  render(h, ctx) {\n    if (process.client && !NoSsr._warned) {\n      NoSsr._warned = true;\n      console.warn('<no-ssr> has been deprecated and will be removed in Nuxt 3, please use <client-only> instead');\n    }\n\n    return NoSsr.render(h, ctx);\n  }\n\n}); // Component: <NuxtChild>\n\nVue.component(NuxtChild.name, NuxtChild);\nVue.component('NChild', NuxtChild); // Component NuxtLink is imported in server.js or client.js\n// Component: <Nuxt>\n\nVue.component(Nuxt.name, Nuxt);\nVue.use(Meta, {\n  \"keyName\": \"head\",\n  \"attribute\": \"data-n-head\",\n  \"ssrAttribute\": \"data-n-head-ssr\",\n  \"tagIDKeyName\": \"hid\"\n});\nconst defaultTransition = {\n  \"name\": \"page\",\n  \"mode\": \"out-in\",\n  \"appear\": false,\n  \"appearClass\": \"appear\",\n  \"appearActiveClass\": \"appear-active\",\n  \"appearToClass\": \"appear-to\"\n};\n\nasync function createApp(ssrContext, config = {}) {\n  const router = await createRouter(ssrContext); // Create Root instance\n  // here we inject the router and store to all child components,\n  // making them available everywhere as `this.$router` and `this.$store`.\n\n  const app = {\n    head: {\n      \"meta\": [],\n      \"link\": [],\n      \"style\": [],\n      \"script\": []\n    },\n    router,\n    nuxt: {\n      defaultTransition,\n      transitions: [defaultTransition],\n\n      setTransitions(transitions) {\n        if (!Array.isArray(transitions)) {\n          transitions = [transitions];\n        }\n\n        transitions = transitions.map(transition => {\n          if (!transition) {\n            transition = defaultTransition;\n          } else if (typeof transition === 'string') {\n            transition = Object.assign({}, defaultTransition, {\n              name: transition\n            });\n          } else {\n            transition = Object.assign({}, defaultTransition, transition);\n          }\n\n          return transition;\n        });\n        this.$options.nuxt.transitions = transitions;\n        return transitions;\n      },\n\n      err: null,\n      dateErr: null,\n\n      error(err) {\n        err = err || null;\n        app.context._errored = Boolean(err);\n        err = err ? normalizeError(err) : null;\n        let nuxt = app.nuxt; // to work with @vue/composition-api, see https://github.com/nuxt/nuxt.js/issues/6517#issuecomment-573280207\n\n        if (this) {\n          nuxt = this.nuxt || this.$options.nuxt;\n        }\n\n        nuxt.dateErr = Date.now();\n        nuxt.err = err; // Used in src/server.js\n\n        if (ssrContext) {\n          ssrContext.nuxt.error = err;\n        }\n\n        return err;\n      }\n\n    },\n    ...App\n  };\n  const next = ssrContext ? ssrContext.next : location => app.router.push(location); // Resolve route\n\n  let route;\n\n  if (ssrContext) {\n    route = router.resolve(ssrContext.url).route;\n  } else {\n    const path = getLocation(router.options.base, router.options.mode);\n    route = router.resolve(path).route;\n  } // Set context to app.context\n\n\n  await setContext(app, {\n    route,\n    next,\n    error: app.nuxt.error.bind(app),\n    payload: ssrContext ? ssrContext.payload : undefined,\n    req: ssrContext ? ssrContext.req : undefined,\n    res: ssrContext ? ssrContext.res : undefined,\n    beforeRenderFns: ssrContext ? ssrContext.beforeRenderFns : undefined,\n    ssrContext\n  });\n\n  function inject(key, value) {\n    if (!key) {\n      throw new Error('inject(key, value) has no key provided');\n    }\n\n    if (value === undefined) {\n      throw new Error(`inject('${key}', value) has no value provided`);\n    }\n\n    key = '$' + key; // Add into app\n\n    app[key] = value; // Add into context\n\n    if (!app.context[key]) {\n      app.context[key] = value;\n    } // Check if plugin not already installed\n\n\n    const installKey = '__nuxt_' + key + '_installed__';\n\n    if (Vue[installKey]) {\n      return;\n    }\n\n    Vue[installKey] = true; // Call Vue.use() to install the plugin into vm\n\n    Vue.use(() => {\n      if (!Object.prototype.hasOwnProperty.call(Vue.prototype, key)) {\n        Object.defineProperty(Vue.prototype, key, {\n          get() {\n            return this.$root.$options[key];\n          }\n\n        });\n      }\n    });\n  } // Inject runtime config as $config\n\n\n  inject('config', config); // Add enablePreview(previewData = {}) in context for plugins\n\n  if (process.static && process.client) {\n    app.context.enablePreview = function (previewData = {}) {\n      app.previewData = Object.assign({}, previewData);\n      inject('preview', previewData);\n    };\n  } // Plugin execution\n\n\n  if (typeof nuxt_plugin_index_184ea200 === 'function') {\n    await nuxt_plugin_index_184ea200(app.context, inject);\n  } // Lock enablePreview in context\n\n\n  if (process.static && process.client) {\n    app.context.enablePreview = function () {\n      console.warn('You cannot call enablePreview() outside a plugin.');\n    };\n  } // If server-side, wait for async component to be resolved first\n\n\n  if (process.server && ssrContext && ssrContext.url) {\n    await new Promise((resolve, reject) => {\n      router.push(ssrContext.url, resolve, err => {\n        // https://github.com/vuejs/vue-router/blob/v3.3.4/src/history/errors.js\n        if (!err._isRouter) return reject(err);\n        if (err.type !== 1\n        /* NavigationFailureType.redirected */\n        ) return resolve(); // navigated to a different route in router guard\n\n        const unregister = router.afterEach(async (to, from) => {\n          ssrContext.url = to.fullPath;\n          app.context.route = await getRouteData(to);\n          app.context.params = to.params || {};\n          app.context.query = to.query || {};\n          unregister();\n          resolve();\n        });\n      });\n    });\n  }\n\n  return {\n    app,\n    router\n  };\n}\n\nexport { createApp, NuxtError };"
             },
             {
               "id": null,
@@ -4172,7 +4172,7 @@
                   "moduleName": "./example/.nuxt/index.js",
                   "type": "harmony export imported specifier",
                   "userRequest": "./components/nuxt-error.vue",
-                  "loc": "222:0-32"
+                  "loc": "227:0-32"
                 }
               ],
               "usedExports": [
@@ -10018,7 +10018,7 @@
       "name": "./example/.nuxt/server.js + 23 modules",
       "index": 1,
       "index2": 55,
-      "size": 59801,
+      "size": 60020,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -10477,7 +10477,7 @@
               "moduleName": "./example/.nuxt/index.js",
               "type": "harmony import specifier",
               "userRequest": "./utils",
-              "loc": "206:36-48"
+              "loc": "211:36-48"
             },
             {
               "moduleId": null,
@@ -10625,7 +10625,7 @@
           "name": "./example/.nuxt/index.js",
           "index": 8,
           "index2": 53,
-          "size": 6166,
+          "size": 6385,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -10719,7 +10719,7 @@
           "optimizationBailout": [
           ],
           "depth": 2,
-          "source": "import Vue from 'vue';\nimport Meta from 'vue-meta';\nimport ClientOnly from 'vue-client-only';\nimport NoSsr from 'vue-no-ssr';\nimport { createRouter } from './router.js';\nimport NuxtChild from './components/nuxt-child.js';\nimport NuxtError from './components/nuxt-error.vue';\nimport Nuxt from './components/nuxt.js';\nimport App from './App.js';\nimport { setContext, getLocation, getRouteData, normalizeError } from './utils';\n/* Plugins */\n\nimport nuxt_plugin_index_184ea200 from 'nuxt_plugin_index_184ea200'; // Source: ./nuxt-font-loader-strategy/index.js (mode: 'all')\n// Component: <ClientOnly>\n\nVue.component(ClientOnly.name, ClientOnly); // TODO: Remove in Nuxt 3: <NoSsr>\n\nVue.component(NoSsr.name, { ...NoSsr,\n\n  render(h, ctx) {\n    if (process.client && !NoSsr._warned) {\n      NoSsr._warned = true;\n      console.warn('<no-ssr> has been deprecated and will be removed in Nuxt 3, please use <client-only> instead');\n    }\n\n    return NoSsr.render(h, ctx);\n  }\n\n}); // Component: <NuxtChild>\n\nVue.component(NuxtChild.name, NuxtChild);\nVue.component('NChild', NuxtChild); // Component NuxtLink is imported in server.js or client.js\n// Component: <Nuxt>\n\nVue.component(Nuxt.name, Nuxt);\nVue.use(Meta, {\n  \"keyName\": \"head\",\n  \"attribute\": \"data-n-head\",\n  \"ssrAttribute\": \"data-n-head-ssr\",\n  \"tagIDKeyName\": \"hid\"\n});\nconst defaultTransition = {\n  \"name\": \"page\",\n  \"mode\": \"out-in\",\n  \"appear\": false,\n  \"appearClass\": \"appear\",\n  \"appearActiveClass\": \"appear-active\",\n  \"appearToClass\": \"appear-to\"\n};\n\nasync function createApp(ssrContext, config = {}) {\n  const router = await createRouter(ssrContext); // Create Root instance\n  // here we inject the router and store to all child components,\n  // making them available everywhere as `this.$router` and `this.$store`.\n\n  const app = {\n    head: {\n      \"meta\": [],\n      \"link\": [],\n      \"style\": [],\n      \"script\": []\n    },\n    router,\n    nuxt: {\n      defaultTransition,\n      transitions: [defaultTransition],\n\n      setTransitions(transitions) {\n        if (!Array.isArray(transitions)) {\n          transitions = [transitions];\n        }\n\n        transitions = transitions.map(transition => {\n          if (!transition) {\n            transition = defaultTransition;\n          } else if (typeof transition === 'string') {\n            transition = Object.assign({}, defaultTransition, {\n              name: transition\n            });\n          } else {\n            transition = Object.assign({}, defaultTransition, transition);\n          }\n\n          return transition;\n        });\n        this.$options.nuxt.transitions = transitions;\n        return transitions;\n      },\n\n      err: null,\n      dateErr: null,\n\n      error(err) {\n        err = err || null;\n        app.context._errored = Boolean(err);\n        err = err ? normalizeError(err) : null;\n        let nuxt = app.nuxt; // to work with @vue/composition-api, see https://github.com/nuxt/nuxt.js/issues/6517#issuecomment-573280207\n\n        if (this) {\n          nuxt = this.nuxt || this.$options.nuxt;\n        }\n\n        nuxt.dateErr = Date.now();\n        nuxt.err = err; // Used in src/server.js\n\n        if (ssrContext) {\n          ssrContext.nuxt.error = err;\n        }\n\n        return err;\n      }\n\n    },\n    ...App\n  };\n  const next = ssrContext ? ssrContext.next : location => app.router.push(location); // Resolve route\n\n  let route;\n\n  if (ssrContext) {\n    route = router.resolve(ssrContext.url).route;\n  } else {\n    const path = getLocation(router.options.base, router.options.mode);\n    route = router.resolve(path).route;\n  } // Set context to app.context\n\n\n  await setContext(app, {\n    route,\n    next,\n    error: app.nuxt.error.bind(app),\n    payload: ssrContext ? ssrContext.payload : undefined,\n    req: ssrContext ? ssrContext.req : undefined,\n    res: ssrContext ? ssrContext.res : undefined,\n    beforeRenderFns: ssrContext ? ssrContext.beforeRenderFns : undefined,\n    ssrContext\n  });\n\n  function inject(key, value) {\n    if (!key) {\n      throw new Error('inject(key, value) has no key provided');\n    }\n\n    if (value === undefined) {\n      throw new Error(`inject('${key}', value) has no value provided`);\n    }\n\n    key = '$' + key; // Add into app\n\n    app[key] = value; // Add into context\n\n    if (!app.context[key]) {\n      app.context[key] = value;\n    } // Check if plugin not already installed\n\n\n    const installKey = '__nuxt_' + key + '_installed__';\n\n    if (Vue[installKey]) {\n      return;\n    }\n\n    Vue[installKey] = true; // Call Vue.use() to install the plugin into vm\n\n    Vue.use(() => {\n      if (!Object.prototype.hasOwnProperty.call(Vue.prototype, key)) {\n        Object.defineProperty(Vue.prototype, key, {\n          get() {\n            return this.$root.$options[key];\n          }\n\n        });\n      }\n    });\n  } // Inject runtime config as $config\n\n\n  inject('config', config); // Add enablePreview(previewData = {}) in context for plugins\n\n  if (process.static && process.client) {\n    app.context.enablePreview = function (previewData = {}) {\n      app.previewData = Object.assign({}, previewData);\n      inject('preview', previewData);\n    };\n  } // Plugin execution\n\n\n  if (typeof nuxt_plugin_index_184ea200 === 'function') {\n    await nuxt_plugin_index_184ea200(app.context, inject);\n  } // Lock enablePreview in context\n\n\n  if (process.static && process.client) {\n    app.context.enablePreview = function () {\n      console.warn('You cannot call enablePreview() outside a plugin.');\n    };\n  } // If server-side, wait for async component to be resolved first\n\n\n  if (process.server && ssrContext && ssrContext.url) {\n    await new Promise((resolve, reject) => {\n      router.push(ssrContext.url, resolve, () => {\n        // navigated to a different route in router guard\n        const unregister = router.afterEach(async (to, from, next) => {\n          ssrContext.url = to.fullPath;\n          app.context.route = await getRouteData(to);\n          app.context.params = to.params || {};\n          app.context.query = to.query || {};\n          unregister();\n          resolve();\n        });\n      });\n    });\n  }\n\n  return {\n    app,\n    router\n  };\n}\n\nexport { createApp, NuxtError };"
+          "source": "import Vue from 'vue';\nimport Meta from 'vue-meta';\nimport ClientOnly from 'vue-client-only';\nimport NoSsr from 'vue-no-ssr';\nimport { createRouter } from './router.js';\nimport NuxtChild from './components/nuxt-child.js';\nimport NuxtError from './components/nuxt-error.vue';\nimport Nuxt from './components/nuxt.js';\nimport App from './App.js';\nimport { setContext, getLocation, getRouteData, normalizeError } from './utils';\n/* Plugins */\n\nimport nuxt_plugin_index_184ea200 from 'nuxt_plugin_index_184ea200'; // Source: ./nuxt-font-loader-strategy/index.js (mode: 'all')\n// Component: <ClientOnly>\n\nVue.component(ClientOnly.name, ClientOnly); // TODO: Remove in Nuxt 3: <NoSsr>\n\nVue.component(NoSsr.name, { ...NoSsr,\n\n  render(h, ctx) {\n    if (process.client && !NoSsr._warned) {\n      NoSsr._warned = true;\n      console.warn('<no-ssr> has been deprecated and will be removed in Nuxt 3, please use <client-only> instead');\n    }\n\n    return NoSsr.render(h, ctx);\n  }\n\n}); // Component: <NuxtChild>\n\nVue.component(NuxtChild.name, NuxtChild);\nVue.component('NChild', NuxtChild); // Component NuxtLink is imported in server.js or client.js\n// Component: <Nuxt>\n\nVue.component(Nuxt.name, Nuxt);\nVue.use(Meta, {\n  \"keyName\": \"head\",\n  \"attribute\": \"data-n-head\",\n  \"ssrAttribute\": \"data-n-head-ssr\",\n  \"tagIDKeyName\": \"hid\"\n});\nconst defaultTransition = {\n  \"name\": \"page\",\n  \"mode\": \"out-in\",\n  \"appear\": false,\n  \"appearClass\": \"appear\",\n  \"appearActiveClass\": \"appear-active\",\n  \"appearToClass\": \"appear-to\"\n};\n\nasync function createApp(ssrContext, config = {}) {\n  const router = await createRouter(ssrContext); // Create Root instance\n  // here we inject the router and store to all child components,\n  // making them available everywhere as `this.$router` and `this.$store`.\n\n  const app = {\n    head: {\n      \"meta\": [],\n      \"link\": [],\n      \"style\": [],\n      \"script\": []\n    },\n    router,\n    nuxt: {\n      defaultTransition,\n      transitions: [defaultTransition],\n\n      setTransitions(transitions) {\n        if (!Array.isArray(transitions)) {\n          transitions = [transitions];\n        }\n\n        transitions = transitions.map(transition => {\n          if (!transition) {\n            transition = defaultTransition;\n          } else if (typeof transition === 'string') {\n            transition = Object.assign({}, defaultTransition, {\n              name: transition\n            });\n          } else {\n            transition = Object.assign({}, defaultTransition, transition);\n          }\n\n          return transition;\n        });\n        this.$options.nuxt.transitions = transitions;\n        return transitions;\n      },\n\n      err: null,\n      dateErr: null,\n\n      error(err) {\n        err = err || null;\n        app.context._errored = Boolean(err);\n        err = err ? normalizeError(err) : null;\n        let nuxt = app.nuxt; // to work with @vue/composition-api, see https://github.com/nuxt/nuxt.js/issues/6517#issuecomment-573280207\n\n        if (this) {\n          nuxt = this.nuxt || this.$options.nuxt;\n        }\n\n        nuxt.dateErr = Date.now();\n        nuxt.err = err; // Used in src/server.js\n\n        if (ssrContext) {\n          ssrContext.nuxt.error = err;\n        }\n\n        return err;\n      }\n\n    },\n    ...App\n  };\n  const next = ssrContext ? ssrContext.next : location => app.router.push(location); // Resolve route\n\n  let route;\n\n  if (ssrContext) {\n    route = router.resolve(ssrContext.url).route;\n  } else {\n    const path = getLocation(router.options.base, router.options.mode);\n    route = router.resolve(path).route;\n  } // Set context to app.context\n\n\n  await setContext(app, {\n    route,\n    next,\n    error: app.nuxt.error.bind(app),\n    payload: ssrContext ? ssrContext.payload : undefined,\n    req: ssrContext ? ssrContext.req : undefined,\n    res: ssrContext ? ssrContext.res : undefined,\n    beforeRenderFns: ssrContext ? ssrContext.beforeRenderFns : undefined,\n    ssrContext\n  });\n\n  function inject(key, value) {\n    if (!key) {\n      throw new Error('inject(key, value) has no key provided');\n    }\n\n    if (value === undefined) {\n      throw new Error(`inject('${key}', value) has no value provided`);\n    }\n\n    key = '$' + key; // Add into app\n\n    app[key] = value; // Add into context\n\n    if (!app.context[key]) {\n      app.context[key] = value;\n    } // Check if plugin not already installed\n\n\n    const installKey = '__nuxt_' + key + '_installed__';\n\n    if (Vue[installKey]) {\n      return;\n    }\n\n    Vue[installKey] = true; // Call Vue.use() to install the plugin into vm\n\n    Vue.use(() => {\n      if (!Object.prototype.hasOwnProperty.call(Vue.prototype, key)) {\n        Object.defineProperty(Vue.prototype, key, {\n          get() {\n            return this.$root.$options[key];\n          }\n\n        });\n      }\n    });\n  } // Inject runtime config as $config\n\n\n  inject('config', config); // Add enablePreview(previewData = {}) in context for plugins\n\n  if (process.static && process.client) {\n    app.context.enablePreview = function (previewData = {}) {\n      app.previewData = Object.assign({}, previewData);\n      inject('preview', previewData);\n    };\n  } // Plugin execution\n\n\n  if (typeof nuxt_plugin_index_184ea200 === 'function') {\n    await nuxt_plugin_index_184ea200(app.context, inject);\n  } // Lock enablePreview in context\n\n\n  if (process.static && process.client) {\n    app.context.enablePreview = function () {\n      console.warn('You cannot call enablePreview() outside a plugin.');\n    };\n  } // If server-side, wait for async component to be resolved first\n\n\n  if (process.server && ssrContext && ssrContext.url) {\n    await new Promise((resolve, reject) => {\n      router.push(ssrContext.url, resolve, err => {\n        // https://github.com/vuejs/vue-router/blob/v3.3.4/src/history/errors.js\n        if (!err._isRouter) return reject(err);\n        if (err.type !== 1\n        /* NavigationFailureType.redirected */\n        ) return resolve(); // navigated to a different route in router guard\n\n        const unregister = router.afterEach(async (to, from) => {\n          ssrContext.url = to.fullPath;\n          app.context.route = await getRouteData(to);\n          app.context.params = to.params || {};\n          app.context.query = to.query || {};\n          unregister();\n          resolve();\n        });\n      });\n    });\n  }\n\n  return {\n    app,\n    router\n  };\n}\n\nexport { createApp, NuxtError };"
         },
         {
           "id": null,
@@ -11060,7 +11060,7 @@
               "moduleName": "./example/.nuxt/index.js",
               "type": "harmony export imported specifier",
               "userRequest": "./components/nuxt-error.vue",
-              "loc": "222:0-32"
+              "loc": "227:0-32"
             }
           ],
           "usedExports": [
