@@ -42,8 +42,8 @@
     "worker-loader": "3.0.2"
   },
   "devDependencies": {
-    "@babel/core": "7.11.4",
-    "@babel/preset-env": "7.11.0",
+    "@babel/core": "7.11.5",
+    "@babel/preset-env": "7.11.5",
     "@commitlint/cli": "9.1.2",
     "@commitlint/config-conventional": "9.1.2",
     "@nuxtjs/eslint-config": "3.1.0",
@@ -52,7 +52,7 @@
     "babel-jest": "26.3.0",
     "codecov": "3.7.2",
     "core-js": "3.6.5",
-    "eslint": "7.7.0",
+    "eslint": "7.8.0",
     "eslint-plugin-json": "2.1.2",
     "husky": "4.2.5",
     "jest": "26.4.2",
