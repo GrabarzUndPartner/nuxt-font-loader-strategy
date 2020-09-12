@@ -4,9 +4,9 @@
   "warnings": [
   ],
   "version": "4.44.1",
-  "hash": "a0b49cc47b4153a68c4f",
-  "time": 822,
-  "builtAt": 1598368297787,
+  "hash": "117a3b18156897d491e0",
+  "time": 702,
+  "builtAt": 1599951456704,
   "publicPath": "/nuxt-font-loader-strategy/_nuxt/",
   "outputPath": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/dist/server",
   "assetsByChunkName": {
@@ -51,7 +51,7 @@
     },
     {
       "name": "server.js",
-      "size": 88692,
+      "size": 89041,
       "chunks": [
         0
       ],
@@ -59,13 +59,13 @@
         "app"
       ],
       "info": {
-        "size": 88692
+        "size": 89041
       },
       "emitted": true
     },
     {
       "name": "server.js.map",
-      "size": 103413,
+      "size": 103840,
       "chunks": [
         0
       ],
@@ -74,7 +74,7 @@
       ],
       "info": {
         "development": true,
-        "size": 103413
+        "size": 103840
       },
       "emitted": true
     },
@@ -141,7 +141,7 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 80239,
+      "size": 80588,
       "names": [
         "app"
       ],
@@ -149,7 +149,7 @@
         "server.js",
         "server.js.map"
       ],
-      "hash": "d4a706f5f8d25fe56a42",
+      "hash": "0c4648609827fcffa61e",
       "siblings": [
       ],
       "parents": [
@@ -435,7 +435,7 @@
               "moduleName": "./example/.nuxt/server.js + 23 modules",
               "type": "harmony import specifier",
               "userRequest": "vue",
-              "loc": "44:4-7"
+              "loc": "48:4-7"
             },
             {
               "moduleId": 32,
@@ -3130,7 +3130,7 @@
           "name": "./example/.nuxt/server.js + 23 modules",
           "index": 1,
           "index2": 55,
-          "size": 60030,
+          "size": 60379,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -3472,7 +3472,7 @@
                   "moduleName": "./example/.nuxt/mixins/fetch.server.js",
                   "type": "harmony import specifier",
                   "userRequest": "../utils",
-                  "loc": "49:4-20"
+                  "loc": "53:4-20"
                 },
                 {
                   "moduleId": null,
@@ -3673,7 +3673,7 @@
               "name": "./example/.nuxt/mixins/fetch.server.js",
               "index": 7,
               "index2": 5,
-              "size": 1368,
+              "size": 1466,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -3729,7 +3729,7 @@
               "optimizationBailout": [
               ],
               "depth": 2,
-              "source": "import Vue from 'vue';\nimport { hasFetch, normalizeError, addLifecycleHook } from '../utils';\n\nasync function serverPrefetch() {\n  if (!this._fetchOnServer) {\n    return;\n  } // Call and await on $fetch\n\n\n  try {\n    await this.$options.fetch.call(this);\n  } catch (err) {\n    if (process.dev) {\n      console.error('Error in fetch():', err);\n    }\n\n    this.$fetchState.error = normalizeError(err);\n  }\n\n  this.$fetchState.pending = false; // Define an ssrKey for hydration\n\n  this._fetchKey = this.$ssrContext.nuxt.fetch.length; // Add data-fetch-key on parent element of Component\n\n  const attrs = this.$vnode.data.attrs = this.$vnode.data.attrs || {};\n  attrs['data-fetch-key'] = this._fetchKey; // Add to ssrContext for window.__NUXT__.fetch\n\n  this.$ssrContext.nuxt.fetch.push(this.$fetchState.error ? {\n    _error: this.$fetchState.error\n  } : this._data);\n}\n\nexport default {\n  created() {\n    if (!hasFetch(this)) {\n      return;\n    }\n\n    if (typeof this.$options.fetchOnServer === 'function') {\n      this._fetchOnServer = this.$options.fetchOnServer.call(this) !== false;\n    } else {\n      this._fetchOnServer = this.$options.fetchOnServer !== false;\n    }\n\n    Vue.util.defineReactive(this, '$fetchState', {\n      pending: true,\n      error: null,\n      timestamp: Date.now()\n    });\n    addLifecycleHook(this, 'serverPrefetch', serverPrefetch);\n  }\n\n};"
+              "source": "import Vue from 'vue';\nimport { hasFetch, normalizeError, addLifecycleHook } from '../utils';\n\nasync function serverPrefetch() {\n  if (!this._fetchOnServer) {\n    return;\n  } // Call and await on $fetch\n\n\n  try {\n    await this.$options.fetch.call(this);\n  } catch (err) {\n    if (process.dev) {\n      console.error('Error in fetch():', err);\n    }\n\n    this.$fetchState.error = normalizeError(err);\n  }\n\n  this.$fetchState.pending = false; // Define an ssrKey for hydration\n\n  this._fetchKey = this.$ssrContext.nuxt.fetch.length; // Add data-fetch-key on parent element of Component\n\n  const attrs = this.$vnode.data.attrs = this.$vnode.data.attrs || {};\n  attrs['data-fetch-key'] = this._fetchKey; // Add to ssrContext for window.__NUXT__.fetch\n\n  this.$ssrContext.nuxt.fetch.push(this.$fetchState.error ? {\n    _error: this.$fetchState.error\n  } : this._data);\n}\n\nexport default {\n  created() {\n    if (!hasFetch(this)) {\n      return;\n    }\n\n    if (typeof this.$options.fetchOnServer === 'function') {\n      this._fetchOnServer = this.$options.fetchOnServer.call(this) !== false;\n    } else {\n      this._fetchOnServer = this.$options.fetchOnServer !== false;\n    } // Added for remove vue undefined warning while ssr\n\n\n    this.$fetch = () => {}; // issue #8043\n\n\n    Vue.util.defineReactive(this, '$fetchState', {\n      pending: true,\n      error: null,\n      timestamp: Date.now()\n    });\n    addLifecycleHook(this, 'serverPrefetch', serverPrefetch);\n  }\n\n};"
             },
             {
               "id": null,
@@ -4270,7 +4270,7 @@
               "name": "./example/.nuxt/App.js",
               "index": 29,
               "index2": 35,
-              "size": 4491,
+              "size": 4742,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -4331,7 +4331,7 @@
               "optimizationBailout": [
               ],
               "depth": 3,
-              "source": "import Vue from 'vue';\nimport { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch, promisify, globalHandleError, urlJoin, sanitizeComponent } from './utils';\nimport NuxtLoading from './components/nuxt-loading.vue';\nimport _6f6c098b from './layouts/default.vue';\nconst layouts = {\n  \"_default\": sanitizeComponent(_6f6c098b)\n};\nexport default {\n  render(h, props) {\n    const loadingEl = h('NuxtLoading', {\n      ref: 'loading'\n    });\n    const layoutEl = h(this.layout || 'nuxt');\n    const templateEl = h('div', {\n      domProps: {\n        id: '__layout'\n      },\n      key: this.layoutName\n    }, [layoutEl]);\n    const transitionEl = h('transition', {\n      props: {\n        name: 'layout',\n        mode: 'out-in'\n      },\n      on: {\n        beforeEnter(el) {\n          // Ensure to trigger scroll event after calling scrollBehavior\n          window.$nuxt.$nextTick(() => {\n            window.$nuxt.$emit('triggerScroll');\n          });\n        }\n\n      }\n    }, [templateEl]);\n    return h('div', {\n      domProps: {\n        id: '__nuxt'\n      }\n    }, [loadingEl, transitionEl]);\n  },\n\n  data: () => ({\n    isOnline: true,\n    layout: null,\n    layoutName: '',\n    nbFetching: 0\n  }),\n\n  beforeCreate() {\n    Vue.util.defineReactive(this, 'nuxt', this.$options.nuxt);\n  },\n\n  created() {\n    // Add this.$nuxt in child instances\n    Vue.prototype.$nuxt = this;\n\n    if (process.client) {\n      // add to window so we can listen when ready\n      window.$nuxt = this;\n      this.refreshOnlineStatus(); // Setup the listeners\n\n      window.addEventListener('online', this.refreshOnlineStatus);\n      window.addEventListener('offline', this.refreshOnlineStatus);\n    } // Add $nuxt.error()\n\n\n    this.error = this.nuxt.error; // Add $nuxt.context\n\n    this.context = this.$options.context;\n  },\n\n  async mounted() {\n    this.$loading = this.$refs.loading;\n  },\n\n  watch: {\n    'nuxt.err': 'errorChanged'\n  },\n  computed: {\n    isOffline() {\n      return !this.isOnline;\n    },\n\n    isFetching() {\n      return this.nbFetching > 0;\n    },\n\n    isPreview() {\n      return Boolean(this.$options.previewData);\n    }\n\n  },\n  methods: {\n    refreshOnlineStatus() {\n      if (process.client) {\n        if (typeof window.navigator.onLine === 'undefined') {\n          // If the browser doesn't support connection status reports\n          // assume that we are online because most apps' only react\n          // when they now that the connection has been interrupted\n          this.isOnline = true;\n        } else {\n          this.isOnline = window.navigator.onLine;\n        }\n      }\n    },\n\n    async refresh() {\n      const pages = getMatchedComponentsInstances(this.$route);\n\n      if (!pages.length) {\n        return;\n      }\n\n      this.$loading.start();\n      const promises = pages.map(page => {\n        const p = []; // Old fetch\n\n        if (page.$options.fetch && page.$options.fetch.length) {\n          p.push(promisify(page.$options.fetch, this.context));\n        }\n\n        if (page.$fetch) {\n          p.push(page.$fetch());\n        } else {\n          // Get all component instance to call $fetch\n          for (const component of getChildrenComponentInstancesUsingFetch(page.$vnode.componentInstance)) {\n            p.push(component.$fetch());\n          }\n        }\n\n        if (page.$options.asyncData) {\n          p.push(promisify(page.$options.asyncData, this.context).then(newData => {\n            for (const key in newData) {\n              Vue.set(page.$data, key, newData[key]);\n            }\n          }));\n        }\n\n        return Promise.all(p);\n      });\n\n      try {\n        await Promise.all(promises);\n      } catch (error) {\n        this.$loading.fail(error);\n        globalHandleError(error);\n        this.error(error);\n      }\n\n      this.$loading.finish();\n    },\n\n    errorChanged() {\n      if (this.nuxt.err && this.$loading) {\n        if (this.$loading.fail) {\n          this.$loading.fail(this.nuxt.err);\n        }\n\n        if (this.$loading.finish) {\n          this.$loading.finish();\n        }\n      }\n    },\n\n    setLayout(layout) {\n      if (!layout || !layouts['_' + layout]) {\n        layout = 'default';\n      }\n\n      this.layoutName = layout;\n      this.layout = layouts['_' + layout];\n      return this.layout;\n    },\n\n    loadLayout(layout) {\n      if (!layout || !layouts['_' + layout]) {\n        layout = 'default';\n      }\n\n      return Promise.resolve(layouts['_' + layout]);\n    }\n\n  },\n  components: {\n    NuxtLoading\n  }\n};"
+              "source": "import Vue from 'vue';\nimport { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch, promisify, globalHandleError, urlJoin, sanitizeComponent } from './utils';\nimport NuxtLoading from './components/nuxt-loading.vue';\nimport _6f6c098b from './layouts/default.vue';\nconst layouts = {\n  \"_default\": sanitizeComponent(_6f6c098b)\n};\nexport default {\n  render(h, props) {\n    const loadingEl = h('NuxtLoading', {\n      ref: 'loading'\n    });\n    const layoutEl = h(this.layout || 'nuxt');\n    const templateEl = h('div', {\n      domProps: {\n        id: '__layout'\n      },\n      key: this.layoutName\n    }, [layoutEl]);\n    const transitionEl = h('transition', {\n      props: {\n        name: 'layout',\n        mode: 'out-in'\n      },\n      on: {\n        beforeEnter(el) {\n          // Ensure to trigger scroll event after calling scrollBehavior\n          window.$nuxt.$nextTick(() => {\n            window.$nuxt.$emit('triggerScroll');\n          });\n        }\n\n      }\n    }, [templateEl]);\n    return h('div', {\n      domProps: {\n        id: '__nuxt'\n      }\n    }, [loadingEl, transitionEl]);\n  },\n\n  data: () => ({\n    isOnline: true,\n    layout: null,\n    layoutName: '',\n    nbFetching: 0\n  }),\n\n  beforeCreate() {\n    Vue.util.defineReactive(this, 'nuxt', this.$options.nuxt);\n  },\n\n  created() {\n    // Add this.$nuxt in child instances\n    Vue.prototype.$nuxt = this;\n\n    if (process.client) {\n      // add to window so we can listen when ready\n      window.$nuxt = this;\n      this.refreshOnlineStatus(); // Setup the listeners\n\n      window.addEventListener('online', this.refreshOnlineStatus);\n      window.addEventListener('offline', this.refreshOnlineStatus);\n    } // Add $nuxt.error()\n\n\n    this.error = this.nuxt.error; // Add $nuxt.context\n\n    this.context = this.$options.context;\n  },\n\n  async mounted() {\n    this.$loading = this.$refs.loading;\n  },\n\n  watch: {\n    'nuxt.err': 'errorChanged'\n  },\n  computed: {\n    isOffline() {\n      return !this.isOnline;\n    },\n\n    isFetching() {\n      return this.nbFetching > 0;\n    },\n\n    isPreview() {\n      return Boolean(this.$options.previewData);\n    }\n\n  },\n  methods: {\n    refreshOnlineStatus() {\n      if (process.client) {\n        if (typeof window.navigator.onLine === 'undefined') {\n          // If the browser doesn't support connection status reports\n          // assume that we are online because most apps' only react\n          // when they now that the connection has been interrupted\n          this.isOnline = true;\n        } else {\n          this.isOnline = window.navigator.onLine;\n        }\n      }\n    },\n\n    async refresh() {\n      const pages = getMatchedComponentsInstances(this.$route);\n\n      if (!pages.length) {\n        return;\n      }\n\n      this.$loading.start();\n      const promises = pages.map(page => {\n        const p = []; // Old fetch\n\n        if (page.$options.fetch && page.$options.fetch.length) {\n          p.push(promisify(page.$options.fetch, this.context));\n        }\n\n        if (page.$fetch) {\n          p.push(page.$fetch());\n        } else {\n          // Get all component instance to call $fetch\n          for (const component of getChildrenComponentInstancesUsingFetch(page.$vnode.componentInstance)) {\n            p.push(component.$fetch());\n          }\n        }\n\n        if (page.$options.asyncData) {\n          p.push(promisify(page.$options.asyncData, this.context).then(newData => {\n            for (const key in newData) {\n              Vue.set(page.$data, key, newData[key]);\n            }\n          }));\n        }\n\n        return Promise.all(p);\n      });\n\n      try {\n        await Promise.all(promises);\n      } catch (error) {\n        this.$loading.fail(error);\n        globalHandleError(error);\n        this.error(error);\n      }\n\n      this.$loading.finish();\n    },\n\n    errorChanged() {\n      if (this.nuxt.err) {\n        if (this.$loading) {\n          if (this.$loading.fail) {\n            this.$loading.fail(this.nuxt.err);\n          }\n\n          if (this.$loading.finish) {\n            this.$loading.finish();\n          }\n        }\n\n        let errorLayout = (NuxtError.options || NuxtError).layout;\n\n        if (typeof errorLayout === 'function') {\n          errorLayout = errorLayout(this.context);\n        }\n\n        this.setLayout(errorLayout);\n      }\n    },\n\n    setLayout(layout) {\n      if (!layout || !layouts['_' + layout]) {\n        layout = 'default';\n      }\n\n      this.layoutName = layout;\n      this.layout = layouts['_' + layout];\n      return this.layout;\n    },\n\n    loadLayout(layout) {\n      if (!layout || !layouts['_' + layout]) {\n        layout = 'default';\n      }\n\n      return Promise.resolve(layouts['_' + layout]);\n    }\n\n  },\n  components: {\n    NuxtLoading\n  }\n};"
             },
             {
               "id": null,
@@ -4722,7 +4722,7 @@
                   "moduleName": "./example/.nuxt/App.js",
                   "type": "harmony import specifier",
                   "userRequest": "./components/nuxt-loading.vue",
-                  "loc": "185:4-15"
+                  "loc": "195:4-15"
                 }
               ],
               "usedExports": [
@@ -7323,7 +7323,7 @@
           "moduleName": "./example/.nuxt/server.js + 23 modules",
           "type": "harmony import specifier",
           "userRequest": "vue",
-          "loc": "44:4-7"
+          "loc": "48:4-7"
         },
         {
           "moduleId": 32,
@@ -10018,7 +10018,7 @@
       "name": "./example/.nuxt/server.js + 23 modules",
       "index": 1,
       "index2": 55,
-      "size": 60030,
+      "size": 60379,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -10360,7 +10360,7 @@
               "moduleName": "./example/.nuxt/mixins/fetch.server.js",
               "type": "harmony import specifier",
               "userRequest": "../utils",
-              "loc": "49:4-20"
+              "loc": "53:4-20"
             },
             {
               "moduleId": null,
@@ -10561,7 +10561,7 @@
           "name": "./example/.nuxt/mixins/fetch.server.js",
           "index": 7,
           "index2": 5,
-          "size": 1368,
+          "size": 1466,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -10617,7 +10617,7 @@
           "optimizationBailout": [
           ],
           "depth": 2,
-          "source": "import Vue from 'vue';\nimport { hasFetch, normalizeError, addLifecycleHook } from '../utils';\n\nasync function serverPrefetch() {\n  if (!this._fetchOnServer) {\n    return;\n  } // Call and await on $fetch\n\n\n  try {\n    await this.$options.fetch.call(this);\n  } catch (err) {\n    if (process.dev) {\n      console.error('Error in fetch():', err);\n    }\n\n    this.$fetchState.error = normalizeError(err);\n  }\n\n  this.$fetchState.pending = false; // Define an ssrKey for hydration\n\n  this._fetchKey = this.$ssrContext.nuxt.fetch.length; // Add data-fetch-key on parent element of Component\n\n  const attrs = this.$vnode.data.attrs = this.$vnode.data.attrs || {};\n  attrs['data-fetch-key'] = this._fetchKey; // Add to ssrContext for window.__NUXT__.fetch\n\n  this.$ssrContext.nuxt.fetch.push(this.$fetchState.error ? {\n    _error: this.$fetchState.error\n  } : this._data);\n}\n\nexport default {\n  created() {\n    if (!hasFetch(this)) {\n      return;\n    }\n\n    if (typeof this.$options.fetchOnServer === 'function') {\n      this._fetchOnServer = this.$options.fetchOnServer.call(this) !== false;\n    } else {\n      this._fetchOnServer = this.$options.fetchOnServer !== false;\n    }\n\n    Vue.util.defineReactive(this, '$fetchState', {\n      pending: true,\n      error: null,\n      timestamp: Date.now()\n    });\n    addLifecycleHook(this, 'serverPrefetch', serverPrefetch);\n  }\n\n};"
+          "source": "import Vue from 'vue';\nimport { hasFetch, normalizeError, addLifecycleHook } from '../utils';\n\nasync function serverPrefetch() {\n  if (!this._fetchOnServer) {\n    return;\n  } // Call and await on $fetch\n\n\n  try {\n    await this.$options.fetch.call(this);\n  } catch (err) {\n    if (process.dev) {\n      console.error('Error in fetch():', err);\n    }\n\n    this.$fetchState.error = normalizeError(err);\n  }\n\n  this.$fetchState.pending = false; // Define an ssrKey for hydration\n\n  this._fetchKey = this.$ssrContext.nuxt.fetch.length; // Add data-fetch-key on parent element of Component\n\n  const attrs = this.$vnode.data.attrs = this.$vnode.data.attrs || {};\n  attrs['data-fetch-key'] = this._fetchKey; // Add to ssrContext for window.__NUXT__.fetch\n\n  this.$ssrContext.nuxt.fetch.push(this.$fetchState.error ? {\n    _error: this.$fetchState.error\n  } : this._data);\n}\n\nexport default {\n  created() {\n    if (!hasFetch(this)) {\n      return;\n    }\n\n    if (typeof this.$options.fetchOnServer === 'function') {\n      this._fetchOnServer = this.$options.fetchOnServer.call(this) !== false;\n    } else {\n      this._fetchOnServer = this.$options.fetchOnServer !== false;\n    } // Added for remove vue undefined warning while ssr\n\n\n    this.$fetch = () => {}; // issue #8043\n\n\n    Vue.util.defineReactive(this, '$fetchState', {\n      pending: true,\n      error: null,\n      timestamp: Date.now()\n    });\n    addLifecycleHook(this, 'serverPrefetch', serverPrefetch);\n  }\n\n};"
         },
         {
           "id": null,
@@ -11158,7 +11158,7 @@
           "name": "./example/.nuxt/App.js",
           "index": 29,
           "index2": 35,
-          "size": 4491,
+          "size": 4742,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -11219,7 +11219,7 @@
           "optimizationBailout": [
           ],
           "depth": 3,
-          "source": "import Vue from 'vue';\nimport { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch, promisify, globalHandleError, urlJoin, sanitizeComponent } from './utils';\nimport NuxtLoading from './components/nuxt-loading.vue';\nimport _6f6c098b from './layouts/default.vue';\nconst layouts = {\n  \"_default\": sanitizeComponent(_6f6c098b)\n};\nexport default {\n  render(h, props) {\n    const loadingEl = h('NuxtLoading', {\n      ref: 'loading'\n    });\n    const layoutEl = h(this.layout || 'nuxt');\n    const templateEl = h('div', {\n      domProps: {\n        id: '__layout'\n      },\n      key: this.layoutName\n    }, [layoutEl]);\n    const transitionEl = h('transition', {\n      props: {\n        name: 'layout',\n        mode: 'out-in'\n      },\n      on: {\n        beforeEnter(el) {\n          // Ensure to trigger scroll event after calling scrollBehavior\n          window.$nuxt.$nextTick(() => {\n            window.$nuxt.$emit('triggerScroll');\n          });\n        }\n\n      }\n    }, [templateEl]);\n    return h('div', {\n      domProps: {\n        id: '__nuxt'\n      }\n    }, [loadingEl, transitionEl]);\n  },\n\n  data: () => ({\n    isOnline: true,\n    layout: null,\n    layoutName: '',\n    nbFetching: 0\n  }),\n\n  beforeCreate() {\n    Vue.util.defineReactive(this, 'nuxt', this.$options.nuxt);\n  },\n\n  created() {\n    // Add this.$nuxt in child instances\n    Vue.prototype.$nuxt = this;\n\n    if (process.client) {\n      // add to window so we can listen when ready\n      window.$nuxt = this;\n      this.refreshOnlineStatus(); // Setup the listeners\n\n      window.addEventListener('online', this.refreshOnlineStatus);\n      window.addEventListener('offline', this.refreshOnlineStatus);\n    } // Add $nuxt.error()\n\n\n    this.error = this.nuxt.error; // Add $nuxt.context\n\n    this.context = this.$options.context;\n  },\n\n  async mounted() {\n    this.$loading = this.$refs.loading;\n  },\n\n  watch: {\n    'nuxt.err': 'errorChanged'\n  },\n  computed: {\n    isOffline() {\n      return !this.isOnline;\n    },\n\n    isFetching() {\n      return this.nbFetching > 0;\n    },\n\n    isPreview() {\n      return Boolean(this.$options.previewData);\n    }\n\n  },\n  methods: {\n    refreshOnlineStatus() {\n      if (process.client) {\n        if (typeof window.navigator.onLine === 'undefined') {\n          // If the browser doesn't support connection status reports\n          // assume that we are online because most apps' only react\n          // when they now that the connection has been interrupted\n          this.isOnline = true;\n        } else {\n          this.isOnline = window.navigator.onLine;\n        }\n      }\n    },\n\n    async refresh() {\n      const pages = getMatchedComponentsInstances(this.$route);\n\n      if (!pages.length) {\n        return;\n      }\n\n      this.$loading.start();\n      const promises = pages.map(page => {\n        const p = []; // Old fetch\n\n        if (page.$options.fetch && page.$options.fetch.length) {\n          p.push(promisify(page.$options.fetch, this.context));\n        }\n\n        if (page.$fetch) {\n          p.push(page.$fetch());\n        } else {\n          // Get all component instance to call $fetch\n          for (const component of getChildrenComponentInstancesUsingFetch(page.$vnode.componentInstance)) {\n            p.push(component.$fetch());\n          }\n        }\n\n        if (page.$options.asyncData) {\n          p.push(promisify(page.$options.asyncData, this.context).then(newData => {\n            for (const key in newData) {\n              Vue.set(page.$data, key, newData[key]);\n            }\n          }));\n        }\n\n        return Promise.all(p);\n      });\n\n      try {\n        await Promise.all(promises);\n      } catch (error) {\n        this.$loading.fail(error);\n        globalHandleError(error);\n        this.error(error);\n      }\n\n      this.$loading.finish();\n    },\n\n    errorChanged() {\n      if (this.nuxt.err && this.$loading) {\n        if (this.$loading.fail) {\n          this.$loading.fail(this.nuxt.err);\n        }\n\n        if (this.$loading.finish) {\n          this.$loading.finish();\n        }\n      }\n    },\n\n    setLayout(layout) {\n      if (!layout || !layouts['_' + layout]) {\n        layout = 'default';\n      }\n\n      this.layoutName = layout;\n      this.layout = layouts['_' + layout];\n      return this.layout;\n    },\n\n    loadLayout(layout) {\n      if (!layout || !layouts['_' + layout]) {\n        layout = 'default';\n      }\n\n      return Promise.resolve(layouts['_' + layout]);\n    }\n\n  },\n  components: {\n    NuxtLoading\n  }\n};"
+          "source": "import Vue from 'vue';\nimport { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch, promisify, globalHandleError, urlJoin, sanitizeComponent } from './utils';\nimport NuxtLoading from './components/nuxt-loading.vue';\nimport _6f6c098b from './layouts/default.vue';\nconst layouts = {\n  \"_default\": sanitizeComponent(_6f6c098b)\n};\nexport default {\n  render(h, props) {\n    const loadingEl = h('NuxtLoading', {\n      ref: 'loading'\n    });\n    const layoutEl = h(this.layout || 'nuxt');\n    const templateEl = h('div', {\n      domProps: {\n        id: '__layout'\n      },\n      key: this.layoutName\n    }, [layoutEl]);\n    const transitionEl = h('transition', {\n      props: {\n        name: 'layout',\n        mode: 'out-in'\n      },\n      on: {\n        beforeEnter(el) {\n          // Ensure to trigger scroll event after calling scrollBehavior\n          window.$nuxt.$nextTick(() => {\n            window.$nuxt.$emit('triggerScroll');\n          });\n        }\n\n      }\n    }, [templateEl]);\n    return h('div', {\n      domProps: {\n        id: '__nuxt'\n      }\n    }, [loadingEl, transitionEl]);\n  },\n\n  data: () => ({\n    isOnline: true,\n    layout: null,\n    layoutName: '',\n    nbFetching: 0\n  }),\n\n  beforeCreate() {\n    Vue.util.defineReactive(this, 'nuxt', this.$options.nuxt);\n  },\n\n  created() {\n    // Add this.$nuxt in child instances\n    Vue.prototype.$nuxt = this;\n\n    if (process.client) {\n      // add to window so we can listen when ready\n      window.$nuxt = this;\n      this.refreshOnlineStatus(); // Setup the listeners\n\n      window.addEventListener('online', this.refreshOnlineStatus);\n      window.addEventListener('offline', this.refreshOnlineStatus);\n    } // Add $nuxt.error()\n\n\n    this.error = this.nuxt.error; // Add $nuxt.context\n\n    this.context = this.$options.context;\n  },\n\n  async mounted() {\n    this.$loading = this.$refs.loading;\n  },\n\n  watch: {\n    'nuxt.err': 'errorChanged'\n  },\n  computed: {\n    isOffline() {\n      return !this.isOnline;\n    },\n\n    isFetching() {\n      return this.nbFetching > 0;\n    },\n\n    isPreview() {\n      return Boolean(this.$options.previewData);\n    }\n\n  },\n  methods: {\n    refreshOnlineStatus() {\n      if (process.client) {\n        if (typeof window.navigator.onLine === 'undefined') {\n          // If the browser doesn't support connection status reports\n          // assume that we are online because most apps' only react\n          // when they now that the connection has been interrupted\n          this.isOnline = true;\n        } else {\n          this.isOnline = window.navigator.onLine;\n        }\n      }\n    },\n\n    async refresh() {\n      const pages = getMatchedComponentsInstances(this.$route);\n\n      if (!pages.length) {\n        return;\n      }\n\n      this.$loading.start();\n      const promises = pages.map(page => {\n        const p = []; // Old fetch\n\n        if (page.$options.fetch && page.$options.fetch.length) {\n          p.push(promisify(page.$options.fetch, this.context));\n        }\n\n        if (page.$fetch) {\n          p.push(page.$fetch());\n        } else {\n          // Get all component instance to call $fetch\n          for (const component of getChildrenComponentInstancesUsingFetch(page.$vnode.componentInstance)) {\n            p.push(component.$fetch());\n          }\n        }\n\n        if (page.$options.asyncData) {\n          p.push(promisify(page.$options.asyncData, this.context).then(newData => {\n            for (const key in newData) {\n              Vue.set(page.$data, key, newData[key]);\n            }\n          }));\n        }\n\n        return Promise.all(p);\n      });\n\n      try {\n        await Promise.all(promises);\n      } catch (error) {\n        this.$loading.fail(error);\n        globalHandleError(error);\n        this.error(error);\n      }\n\n      this.$loading.finish();\n    },\n\n    errorChanged() {\n      if (this.nuxt.err) {\n        if (this.$loading) {\n          if (this.$loading.fail) {\n            this.$loading.fail(this.nuxt.err);\n          }\n\n          if (this.$loading.finish) {\n            this.$loading.finish();\n          }\n        }\n\n        let errorLayout = (NuxtError.options || NuxtError).layout;\n\n        if (typeof errorLayout === 'function') {\n          errorLayout = errorLayout(this.context);\n        }\n\n        this.setLayout(errorLayout);\n      }\n    },\n\n    setLayout(layout) {\n      if (!layout || !layouts['_' + layout]) {\n        layout = 'default';\n      }\n\n      this.layoutName = layout;\n      this.layout = layouts['_' + layout];\n      return this.layout;\n    },\n\n    loadLayout(layout) {\n      if (!layout || !layouts['_' + layout]) {\n        layout = 'default';\n      }\n\n      return Promise.resolve(layouts['_' + layout]);\n    }\n\n  },\n  components: {\n    NuxtLoading\n  }\n};"
         },
         {
           "id": null,
@@ -11610,7 +11610,7 @@
               "moduleName": "./example/.nuxt/App.js",
               "type": "harmony import specifier",
               "userRequest": "./components/nuxt-loading.vue",
-              "loc": "185:4-15"
+              "loc": "195:4-15"
             }
           ],
           "usedExports": [
