@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "change-case": "4.1.1",
-    "worker-loader": "3.0.4"
+    "worker-loader": "3.0.5"
   },
   "devDependencies": {
     "@babel/core": "7.12.1",
