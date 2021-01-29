@@ -1,5 +1,12 @@
 # Project Changelog
 
+## [1.1.3](https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/compare/v1.1.2...v1.1.3) (2021-01-29)
+
+
+### Bug Fixes
+
+* **fonts:** fix font file integration for absolut paths ([1354ec0](https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/commit/1354ec0041296046e0440683035873b191f3f41e))
+
 ## [1.1.2](https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/compare/v1.1.1...v1.1.2) (2020-11-29)
 
 
