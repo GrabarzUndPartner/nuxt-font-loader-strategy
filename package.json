@@ -1,6 +1,6 @@
 {
   "name": "nuxt-font-loader-strategy",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Helps to load fonts and activate them by preloading.",
   "keywords": [
     "nuxtjs",
