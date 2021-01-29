@@ -1,5 +1,12 @@
 # Project Changelog
 
+## [1.1.4](https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/compare/v1.1.3...v1.1.4) (2021-01-29)
+
+
+### Bug Fixes
+
+* **fonts:** fix absolute font path with router base ([52951bf](https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/commit/52951bfeb1ffeecaa072f28198bacd09dda7e8b3))
+
 ## [1.1.3](https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/compare/v1.1.2...v1.1.3) (2021-01-29)
 
 
