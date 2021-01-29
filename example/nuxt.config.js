@@ -112,13 +112,13 @@ module.exports = {
             fontFaces: [
               {
                 preload: true,
-                src: '@/assets/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular',
+                src: '/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular',
                 fontWeight: 400,
                 fontStyle: 'normal'
               },
               {
                 preload: true,
-                src: '@/assets/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700',
+                src: '/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700',
                 fontWeight: 700,
                 fontStyle: 'normal'
               }
