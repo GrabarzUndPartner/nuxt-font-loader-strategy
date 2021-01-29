@@ -2,9 +2,9 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "95a42a3800d1edd3097c",
-  "time": 605,
-  "builtAt": 1611915709208,
+  "hash": "f3ba837d06f5c5845b43",
+  "time": 711,
+  "builtAt": 1611926126046,
   "publicPath": "/nuxt-font-loader-strategy/_nuxt/",
   "outputPath": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/.nuxt/dist/server",
   "assetsByChunkName": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "server.js",
-      "size": 89752,
+      "size": 89806,
       "chunks": [
         0
       ],
@@ -57,13 +57,13 @@
         "app"
       ],
       "info": {
-        "size": 89752
+        "size": 89806
       },
       "emitted": true
     },
     {
       "name": "server.js.map",
-      "size": 105096,
+      "size": 105150,
       "chunks": [
         0
       ],
@@ -72,7 +72,7 @@
       ],
       "info": {
         "development": true,
-        "size": 105096
+        "size": 105150
       },
       "emitted": true
     },
@@ -131,7 +131,7 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 81259,
+      "size": 81313,
       "names": [
         "app"
       ],
@@ -139,7 +139,7 @@
         "server.js",
         "server.js.map"
       ],
-      "hash": "8e808909b97d54b9fffd",
+      "hash": "21970b1f7de6365719fc",
       "siblings": [],
       "parents": [],
       "children": [
@@ -2868,7 +2868,7 @@
           "name": "./example/.nuxt/server.js + 24 modules",
           "index": 1,
           "index2": 53,
-          "size": 62828,
+          "size": 62882,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -4095,7 +4095,7 @@
               "name": "./example/.nuxt/nuxt-font-loader-strategy/index.js",
               "index": 40,
               "index2": 50,
-              "size": 1598,
+              "size": 1652,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -4162,7 +4162,7 @@
               ],
               "optimizationBailout": [],
               "depth": 3,
-              "source": "import { loadFonts, fontsToLinks } from './utils/fontLoader';\nimport './font-face.css';\nconst fonts = [{\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_400_normal\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_300_normal\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_400_italic\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_700_normal\"]\n}, {\n  \"preload\": true,\n  \"source\": {\n    \"path\": \"/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff2\",\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto_slab\", \"font_roboto_slab_400_normal\"]\n}, {\n  \"preload\": true,\n  \"source\": {\n    \"path\": \"/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700.woff2\",\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto_slab\", \"font_roboto_slab_700_normal\"]\n}];\n\nif (!process.server) {\n  loadFonts({\n    \"ignoredEffectiveTypes\": [\"2g\", \"slow-2g\"],\n    \"ignoreLighthouse\": true,\n    \"unlockDelay\": 0,\n    \"prefetchCount\": 2\n  });\n}\n\nexport default function ({\n  app\n}) {\n  app.head.link.push(...fontsToLinks(fonts));\n}"
+              "source": "import { loadFonts, fontsToLinks } from './utils/fontLoader';\nimport './font-face.css';\nconst fonts = [{\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_400_normal\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_300_normal\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_400_italic\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_700_normal\"]\n}, {\n  \"preload\": true,\n  \"source\": {\n    \"path\": \"/nuxt-font-loader-strategy//fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff2\",\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto_slab\", \"font_roboto_slab_400_normal\"]\n}, {\n  \"preload\": true,\n  \"source\": {\n    \"path\": \"/nuxt-font-loader-strategy//fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700.woff2\",\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto_slab\", \"font_roboto_slab_700_normal\"]\n}];\n\nif (!process.server) {\n  loadFonts({\n    \"ignoredEffectiveTypes\": [\"2g\", \"slow-2g\"],\n    \"ignoreLighthouse\": true,\n    \"unlockDelay\": 0,\n    \"prefetchCount\": 2\n  });\n}\n\nexport default function ({\n  app\n}) {\n  app.head.link.push(...fontsToLinks(fonts));\n}"
             },
             {
               "id": null,
@@ -9485,7 +9485,7 @@
       "name": "./example/.nuxt/server.js + 24 modules",
       "index": 1,
       "index2": 53,
-      "size": 62828,
+      "size": 62882,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -10712,7 +10712,7 @@
           "name": "./example/.nuxt/nuxt-font-loader-strategy/index.js",
           "index": 40,
           "index2": 50,
-          "size": 1598,
+          "size": 1652,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -10779,7 +10779,7 @@
           ],
           "optimizationBailout": [],
           "depth": 3,
-          "source": "import { loadFonts, fontsToLinks } from './utils/fontLoader';\nimport './font-face.css';\nconst fonts = [{\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_400_normal\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_300_normal\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_400_italic\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_700_normal\"]\n}, {\n  \"preload\": true,\n  \"source\": {\n    \"path\": \"/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff2\",\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto_slab\", \"font_roboto_slab_400_normal\"]\n}, {\n  \"preload\": true,\n  \"source\": {\n    \"path\": \"/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700.woff2\",\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto_slab\", \"font_roboto_slab_700_normal\"]\n}];\n\nif (!process.server) {\n  loadFonts({\n    \"ignoredEffectiveTypes\": [\"2g\", \"slow-2g\"],\n    \"ignoreLighthouse\": true,\n    \"unlockDelay\": 0,\n    \"prefetchCount\": 2\n  });\n}\n\nexport default function ({\n  app\n}) {\n  app.head.link.push(...fontsToLinks(fonts));\n}"
+          "source": "import { loadFonts, fontsToLinks } from './utils/fontLoader';\nimport './font-face.css';\nconst fonts = [{\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_400_normal\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_300_normal\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_400_italic\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_700_normal\"]\n}, {\n  \"preload\": true,\n  \"source\": {\n    \"path\": \"/nuxt-font-loader-strategy//fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff2\",\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto_slab\", \"font_roboto_slab_400_normal\"]\n}, {\n  \"preload\": true,\n  \"source\": {\n    \"path\": \"/nuxt-font-loader-strategy//fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700.woff2\",\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto_slab\", \"font_roboto_slab_700_normal\"]\n}];\n\nif (!process.server) {\n  loadFonts({\n    \"ignoredEffectiveTypes\": [\"2g\", \"slow-2g\"],\n    \"ignoreLighthouse\": true,\n    \"unlockDelay\": 0,\n    \"prefetchCount\": 2\n  });\n}\n\nexport default function ({\n  app\n}) {\n  app.head.link.push(...fontsToLinks(fonts));\n}"
         },
         {
           "id": null,
