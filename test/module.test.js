@@ -17,5 +17,7 @@ describe('module', () => {
     expect(html).toContain('Light')
     expect(html).toContain('Bold')
     expect(html).toContain('Italic')
+    expect(html).toContain('Mono Normal')
+    expect(html).toContain('Mono Bold')
   })
 })
