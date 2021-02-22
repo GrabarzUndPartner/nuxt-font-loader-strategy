@@ -27,6 +27,20 @@
         Cum natus eveniet condimentum aliquid, repudiandae ultrices est, cumque fringilla? Repellendus deleniti non quidem a, recusandae harum in, nemo! Aut rhoncus alias risus sem? Facere fugiat, magni animi reiciendis interdum mauris purus, laboriosam fringilla. Corporis dolores dis provident aperiam ipsam. Vivamus tellus, temporibus a luctus, nesciunt, rutrum similique nostrum. Temporibus quisquam, rerum maecenas, diam, risus, volutpat, viverra proin accusamus maecenas, nibh justo animi, mauris proin? A congue debitis architecto? Varius aptent minus pellentesque rutrum, quas rutrum dis, scelerisque massa nunc anim sociis dignissimos libero, viverra, suspendisse vehicula, vulputate? Distinctio et. Condimentum atque fugit necessitatibus odit molestie sodales voluptatibus doloremque. Suscipit.
       </p>
     </section>
+
+    <section>
+      <h2>Mono Normal</h2>
+      <p class="mono-normal">
+        Cum natus eveniet condimentum aliquid, repudiandae ultrices est, cumque fringilla? Repellendus deleniti non quidem a, recusandae harum in, nemo! Aut rhoncus alias risus sem? Facere fugiat, magni animi reiciendis interdum mauris purus, laboriosam fringilla. Corporis dolores dis provident aperiam ipsam. Vivamus tellus, temporibus a luctus, nesciunt, rutrum similique nostrum. Temporibus quisquam, rerum maecenas, diam, risus, volutpat, viverra proin accusamus maecenas, nibh justo animi, mauris proin? A congue debitis architecto? Varius aptent minus pellentesque rutrum, quas rutrum dis, scelerisque massa nunc anim sociis dignissimos libero, viverra, suspendisse vehicula, vulputate? Distinctio et. Condimentum atque fugit necessitatibus odit molestie sodales voluptatibus doloremque. Suscipit.
+      </p>
+    </section>
+
+    <section>
+      <h2>Mono Bold</h2>
+      <p class="mono-bold">
+        Cum natus eveniet condimentum aliquid, repudiandae ultrices est, cumque fringilla? Repellendus deleniti non quidem a, recusandae harum in, nemo! Aut rhoncus alias risus sem? Facere fugiat, magni animi reiciendis interdum mauris purus, laboriosam fringilla. Corporis dolores dis provident aperiam ipsam. Vivamus tellus, temporibus a luctus, nesciunt, rutrum similique nostrum. Temporibus quisquam, rerum maecenas, diam, risus, volutpat, viverra proin accusamus maecenas, nibh justo animi, mauris proin? A congue debitis architecto? Varius aptent minus pellentesque rutrum, quas rutrum dis, scelerisque massa nunc anim sociis dignissimos libero, viverra, suspendisse vehicula, vulputate? Distinctio et. Condimentum atque fugit necessitatibus odit molestie sodales voluptatibus doloremque. Suscipit.
+      </p>
+    </section>
     <atom-github-corner />
   </article>
 </template>
@@ -148,6 +162,24 @@ body {
 
       @nest .font_roboto_400_italic & {
         font-family: 'Roboto', sans-serif;
+      }
+    }
+
+    &.mono-normal {
+      font-family: monospace;
+      font-weight: 400;
+
+      @nest .font_roboto_mono_400_normal & {
+        font-family: 'Roboto Mono', monospace;
+      }
+    }
+
+    &.mono-bold {
+      font-family: monospace;
+      font-weight: 700;
+
+      @nest .font_roboto_mono_700_normal & {
+        font-family: 'Roboto Mono', monospace;
       }
     }
   }
