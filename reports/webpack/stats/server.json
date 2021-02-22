@@ -2,9 +2,9 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "762016d02fcbcdb651c3",
-  "time": 769,
-  "builtAt": 1613758802449,
+  "hash": "8c6bcdb8e1af2d1016a9",
+  "time": 754,
+  "builtAt": 1614020764278,
   "publicPath": "/nuxt-font-loader-strategy/_nuxt/",
   "outputPath": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/.cache/nuxt/dist/server",
   "assetsByChunkName": {
@@ -20,7 +20,7 @@
   "assets": [
     {
       "name": "pages/index.js",
-      "size": 17008,
+      "size": 19104,
       "chunks": [
         1
       ],
@@ -28,13 +28,13 @@
         "pages/index"
       ],
       "info": {
-        "size": 17008
+        "size": 19104
       },
       "emitted": true
     },
     {
       "name": "pages/index.js.map",
-      "size": 14891,
+      "size": 17091,
       "chunks": [
         1
       ],
@@ -43,13 +43,13 @@
       ],
       "info": {
         "development": true,
-        "size": 14891
+        "size": 17091
       },
       "emitted": true
     },
     {
       "name": "server.js",
-      "size": 89511,
+      "size": 90420,
       "chunks": [
         0
       ],
@@ -57,13 +57,13 @@
         "app"
       ],
       "info": {
-        "size": 89511
+        "size": 90420
       },
       "emitted": true
     },
     {
       "name": "server.js.map",
-      "size": 104865,
+      "size": 105830,
       "chunks": [
         0
       ],
@@ -72,7 +72,7 @@
       ],
       "info": {
         "development": true,
-        "size": 104865
+        "size": 105830
       },
       "emitted": true
     },
@@ -131,7 +131,7 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 80947,
+      "size": 81856,
       "names": [
         "app"
       ],
@@ -139,7 +139,7 @@
         "server.js",
         "server.js.map"
       ],
-      "hash": "f8fe8ef64196cb973d80",
+      "hash": "e76abe61a0e7929ecd2d",
       "siblings": [],
       "parents": [],
       "children": [
@@ -457,7 +457,7 @@
               "moduleName": "./node_modules/.cache/nuxt/server.js + 24 modules",
               "type": "harmony import specifier",
               "userRequest": "vue",
-              "loc": "104:19-22"
+              "loc": "102:19-22"
             },
             {
               "moduleId": 28,
@@ -871,7 +871,7 @@
             },
             {
               "moduleId": 35,
-              "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 1166d1fff7ee59ba3b470544864459ff",
+              "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 2b273fc944cd7f5824fbac8672a277ff",
               "module": "./example/pages/index.vue + 9 modules",
               "moduleName": "./example/pages/index.vue + 9 modules",
               "type": "harmony side effect evaluation",
@@ -880,7 +880,7 @@
             },
             {
               "moduleId": 35,
-              "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 1166d1fff7ee59ba3b470544864459ff",
+              "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 2b273fc944cd7f5824fbac8672a277ff",
               "module": "./example/pages/index.vue + 9 modules",
               "moduleName": "./example/pages/index.vue + 9 modules",
               "type": "harmony side effect evaluation",
@@ -889,7 +889,7 @@
             },
             {
               "moduleId": 35,
-              "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 1166d1fff7ee59ba3b470544864459ff",
+              "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 2b273fc944cd7f5824fbac8672a277ff",
               "module": "./example/pages/index.vue + 9 modules",
               "moduleName": "./example/pages/index.vue + 9 modules",
               "type": "harmony import specifier",
@@ -898,7 +898,7 @@
             },
             {
               "moduleId": 35,
-              "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 1166d1fff7ee59ba3b470544864459ff",
+              "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 2b273fc944cd7f5824fbac8672a277ff",
               "module": "./example/pages/index.vue + 9 modules",
               "moduleName": "./example/pages/index.vue + 9 modules",
               "type": "harmony import specifier",
@@ -2495,7 +2495,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/postcss-loader/src??ref--3-oneOf-1-2!./node_modules/.cache/nuxt/nuxt-font-loader-strategy/font-face.css",
           "index": 43,
           "index2": 47,
-          "size": 4308,
+          "size": 4829,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2554,7 +2554,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 5,
-          "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../../css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = require(\"../../../css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_1___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff\");\nvar ___CSS_LOADER_URL_IMPORT_2___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_3___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff\");\nvar ___CSS_LOADER_URL_IMPORT_4___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_5___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff\");\nvar ___CSS_LOADER_URL_IMPORT_6___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_7___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff\");\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_5___);\nvar ___CSS_LOADER_URL_REPLACEMENT_6___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_6___);\nvar ___CSS_LOADER_URL_REPLACEMENT_7___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_7___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:normal;font-display:swap;src:local(\\\"Roboto\\\"),local(\\\"Roboto-Regular\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:300;font-style:normal;font-display:swap;src:local(\\\"Roboto Light\\\"),local(\\\"Roboto-Light\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:italic;font-display:swap;src:local(\\\"Roboto\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_4___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_5___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:700;font-style:normal;font-display:swap;src:local(\\\"Roboto Bold\\\"),local(\\\"Roboto-Bold\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_6___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_7___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto Slab\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:normal;font-display:swap;src:url(/nuxt-font-loader-strategy/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff2) format(\\\"woff2\\\"),url(/nuxt-font-loader-strategy/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff) format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto Slab\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:700;font-style:normal;font-display:swap;src:url(/nuxt-font-loader-strategy/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700.woff2) format(\\\"woff2\\\"),url(/nuxt-font-loader-strategy/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700.woff) format(\\\"woff\\\")}\", \"\"]);\n// Exports\nmodule.exports = ___CSS_LOADER_EXPORT___;\n"
+          "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../../css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = require(\"../../../css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_1___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff\");\nvar ___CSS_LOADER_URL_IMPORT_2___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_3___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff\");\nvar ___CSS_LOADER_URL_IMPORT_4___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_5___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff\");\nvar ___CSS_LOADER_URL_IMPORT_6___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_7___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff\");\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_5___);\nvar ___CSS_LOADER_URL_REPLACEMENT_6___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_6___);\nvar ___CSS_LOADER_URL_REPLACEMENT_7___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_7___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:normal;font-display:swap;src:local(\\\"Roboto\\\"),local(\\\"Roboto-Regular\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:300;font-style:normal;font-display:swap;src:local(\\\"Roboto Light\\\"),local(\\\"Roboto-Light\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:italic;font-display:swap;src:local(\\\"Roboto\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_4___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_5___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:700;font-style:normal;font-display:swap;src:local(\\\"Roboto Bold\\\"),local(\\\"Roboto-Bold\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_6___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_7___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto Slab\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:normal;font-display:swap;src:url(/nuxt-font-loader-strategy/fonts/roboto-slab-v20-latin/roboto-slab-v20-latin-regular.woff2) format(\\\"woff2\\\"),url(/nuxt-font-loader-strategy/fonts/roboto-slab-v20-latin/roboto-slab-v20-latin-regular.woff) format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto Slab\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:700;font-style:normal;font-display:swap;src:url(/nuxt-font-loader-strategy/fonts/roboto-slab-v20-latin/roboto-slab-v20-latin-700.woff2) format(\\\"woff2\\\"),url(/nuxt-font-loader-strategy/fonts/roboto-slab-v20-latin/roboto-slab-v20-latin-700.woff) format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto Mono\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:normal;font-display:swap;src:url(/nuxt-font-loader-strategy/fonts/roboto-mono/RobotoMono-Regular.ttf.ttf) format(\\\"truetype\\\")}@font-face{font-family:\\\"Roboto Mono\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:700;font-style:normal;font-display:swap;src:url(/nuxt-font-loader-strategy/fonts/roboto-mono/RobotoMono-Bold.ttf.ttf) format(\\\"truetype\\\")}\", \"\"]);\n// Exports\nmodule.exports = ___CSS_LOADER_EXPORT___;\n"
         },
         {
           "id": 23,
@@ -2930,7 +2930,7 @@
           "name": "./node_modules/.cache/nuxt/server.js + 24 modules",
           "index": 1,
           "index2": 52,
-          "size": 62693,
+          "size": 63081,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2979,7 +2979,7 @@
               "name": "./node_modules/.cache/nuxt/server.js",
               "index": 1,
               "index2": 52,
-              "size": 8537,
+              "size": 8488,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -3018,7 +3018,7 @@
                 "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: multi ./node_modules/.cache/nuxt/server.js (referenced with single entry)"
               ],
               "depth": 1,
-              "source": "import Vue from 'vue';\nimport { joinURL, normalizeURL, withQuery } from 'ufo';\nimport fetch from 'node-fetch';\nimport middleware from './middleware.js';\nimport { applyAsyncData, middlewareSeries, sanitizeComponent, getMatchedComponents, promisify } from './utils.js';\nimport fetchMixin from './mixins/fetch.server';\nimport { createApp, NuxtError } from './index.js';\nimport NuxtLink from './components/nuxt-link.server.js'; // should be included after ./index.js\n// Update serverPrefetch strategy\n\nVue.config.optionMergeStrategies.serverPrefetch = Vue.config.optionMergeStrategies.created; // Fetch mixin\n\nif (!Vue.__nuxt__fetch__mixin__) {\n  Vue.mixin(fetchMixin);\n  Vue.__nuxt__fetch__mixin__ = true;\n} // Component: <NuxtLink>\n\n\nVue.component(NuxtLink.name, NuxtLink);\nVue.component('NLink', NuxtLink);\n\nif (!global.fetch) {\n  global.fetch = fetch;\n}\n\nconst noopApp = () => new Vue({\n  render: h => h('div', {\n    domProps: {\n      id: '__nuxt'\n    }\n  })\n});\n\nconst createNext = ssrContext => opts => {\n  // If static target, render on client-side\n  ssrContext.redirected = opts;\n\n  if (ssrContext.target === 'static' || !ssrContext.res) {\n    ssrContext.nuxt.serverRendered = false;\n    return;\n  }\n\n  let fullPath = withQuery(opts.path, opts.query);\n  const $config = ssrContext.runtimeConfig || {};\n  const routerBase = $config.app && $config.app.basePath || '/nuxt-font-loader-strategy/';\n\n  if (!fullPath.startsWith('http') && routerBase !== '/' && !fullPath.startsWith(routerBase)) {\n    fullPath = joinURL(routerBase, fullPath);\n  } // Avoid loop redirect\n\n\n  if (decodeURI(fullPath) === decodeURI(ssrContext.url)) {\n    ssrContext.redirected = false;\n    return;\n  }\n\n  ssrContext.res.writeHead(opts.status, {\n    Location: normalizeURL(fullPath)\n  });\n  ssrContext.res.end();\n}; // This exported function will be called by `bundleRenderer`.\n// This is where we perform data-prefetching to determine the\n// state of our application before actually rendering it.\n// Since data fetching is async, this function is expected to\n// return a Promise that resolves to the app instance.\n\n\nexport default (async ssrContext => {\n  // Create ssrContext.next for simulate next() of beforeEach() when wanted to redirect\n  ssrContext.redirected = false;\n  ssrContext.next = createNext(ssrContext); // Used for beforeNuxtRender({ Components, nuxtState })\n\n  ssrContext.beforeRenderFns = []; // Nuxt object (window.{{globals.context}}, defaults to window.__NUXT__)\n\n  ssrContext.nuxt = {\n    layout: 'default',\n    data: [],\n    fetch: {},\n    error: null,\n    serverRendered: true,\n    routePath: ''\n  };\n  ssrContext.fetchCounters = {}; // Remove query from url is static target\n\n  if (ssrContext.url) {\n    ssrContext.url = ssrContext.url.split('?')[0];\n  } // Public runtime config\n\n\n  ssrContext.nuxt.config = ssrContext.runtimeConfig.public;\n\n  if (ssrContext.nuxt.config.app) {\n    __webpack_public_path__ = joinURL(ssrContext.nuxt.config.app.cdnURL, ssrContext.nuxt.config.app.assetsPath);\n  } // Create the app definition and the instance (created for each request)\n\n\n  const {\n    app,\n    router\n  } = await createApp(ssrContext, { ...ssrContext.runtimeConfig.public,\n    ...ssrContext.runtimeConfig.private\n  });\n\n  const _app = new Vue(app); // Add ssr route path to nuxt context so we can account for page navigation between ssr and csr\n\n\n  ssrContext.nuxt.routePath = app.context.route.path; // Add meta infos (used in renderer.js)\n\n  ssrContext.meta = _app.$meta(); // Keep asyncData for each matched component in ssrContext (used in app/utils.js via this.$ssrContext)\n\n  ssrContext.asyncData = {};\n\n  const beforeRender = async () => {\n    // Call beforeNuxtRender() methods\n    await Promise.all(ssrContext.beforeRenderFns.map(fn => promisify(fn, {\n      Components,\n      nuxtState: ssrContext.nuxt\n    })));\n  };\n\n  const renderErrorPage = async () => {\n    // Don't server-render the page in static target\n    if (ssrContext.target === 'static') {\n      ssrContext.nuxt.serverRendered = false;\n    } // Load layout for error page\n\n\n    const layout = (NuxtError.options || NuxtError).layout;\n    const errLayout = typeof layout === 'function' ? layout.call(NuxtError, app.context) : layout;\n    ssrContext.nuxt.layout = errLayout || 'default';\n    await _app.loadLayout(errLayout);\n\n    _app.setLayout(errLayout);\n\n    await beforeRender();\n    return _app;\n  };\n\n  const render404Page = () => {\n    app.context.error({\n      statusCode: 404,\n      path: ssrContext.url,\n      message: 'This page could not be found'\n    });\n    return renderErrorPage();\n  }; // Components are already resolved by setContext -> getRouteData (app/utils.js)\n\n\n  const Components = getMatchedComponents(router.match(ssrContext.url));\n  /*\n  ** Call global middleware (nuxt.config.js)\n  */\n\n  let midd = [];\n  midd = midd.map(name => {\n    if (typeof name === 'function') {\n      return name;\n    }\n\n    if (typeof middleware[name] !== 'function') {\n      app.context.error({\n        statusCode: 500,\n        message: 'Unknown middleware ' + name\n      });\n    }\n\n    return middleware[name];\n  });\n  await middlewareSeries(midd, app.context); // ...If there is a redirect or an error, stop the process\n\n  if (ssrContext.redirected) {\n    return noopApp();\n  }\n\n  if (ssrContext.nuxt.error) {\n    return renderErrorPage();\n  }\n  /*\n  ** Set layout\n  */\n\n\n  let layout = Components.length ? Components[0].options.layout : NuxtError.layout;\n\n  if (typeof layout === 'function') {\n    layout = layout(app.context);\n  }\n\n  await _app.loadLayout(layout);\n\n  if (ssrContext.nuxt.error) {\n    return renderErrorPage();\n  }\n\n  layout = _app.setLayout(layout);\n  ssrContext.nuxt.layout = _app.layoutName;\n  /*\n  ** Call middleware (layout + pages)\n  */\n\n  midd = [];\n  layout = sanitizeComponent(layout);\n\n  if (layout.options.middleware) {\n    midd = midd.concat(layout.options.middleware);\n  }\n\n  Components.forEach(Component => {\n    if (Component.options.middleware) {\n      midd = midd.concat(Component.options.middleware);\n    }\n  });\n  midd = midd.map(name => {\n    if (typeof name === 'function') {\n      return name;\n    }\n\n    if (typeof middleware[name] !== 'function') {\n      app.context.error({\n        statusCode: 500,\n        message: 'Unknown middleware ' + name\n      });\n    }\n\n    return middleware[name];\n  });\n  await middlewareSeries(midd, app.context); // ...If there is a redirect or an error, stop the process\n\n  if (ssrContext.redirected) {\n    return noopApp();\n  }\n\n  if (ssrContext.nuxt.error) {\n    return renderErrorPage();\n  }\n  /*\n  ** Call .validate()\n  */\n\n\n  let isValid = true;\n\n  try {\n    for (const Component of Components) {\n      if (typeof Component.options.validate !== 'function') {\n        continue;\n      }\n\n      isValid = await Component.options.validate(app.context);\n\n      if (!isValid) {\n        break;\n      }\n    }\n  } catch (validationError) {\n    // ...If .validate() threw an error\n    app.context.error({\n      statusCode: validationError.statusCode || '500',\n      message: validationError.message\n    });\n    return renderErrorPage();\n  } // ...If .validate() returned false\n\n\n  if (!isValid) {\n    // Render a 404 error page\n    return render404Page();\n  } // If no Components found, returns 404\n\n\n  if (!Components.length) {\n    return render404Page();\n  } // Call asyncData & fetch hooks on components matched by the route.\n\n\n  const asyncDatas = await Promise.all(Components.map(Component => {\n    const promises = []; // Call asyncData(context)\n\n    if (Component.options.asyncData && typeof Component.options.asyncData === 'function') {\n      const promise = promisify(Component.options.asyncData, app.context);\n      promise.then(asyncDataResult => {\n        ssrContext.asyncData[Component.cid] = asyncDataResult;\n        applyAsyncData(Component);\n        return asyncDataResult;\n      });\n      promises.push(promise);\n    } else {\n      promises.push(null);\n    } // Call fetch(context)\n\n\n    if (Component.options.fetch && Component.options.fetch.length) {\n      promises.push(Component.options.fetch(app.context));\n    } else {\n      promises.push(null);\n    }\n\n    return Promise.all(promises);\n  })); // datas are the first row of each\n\n  ssrContext.nuxt.data = asyncDatas.map(r => r[0] || {}); // ...If there is a redirect or an error, stop the process\n\n  if (ssrContext.redirected) {\n    return noopApp();\n  }\n\n  if (ssrContext.nuxt.error) {\n    return renderErrorPage();\n  } // Call beforeNuxtRender methods & add store state\n\n\n  await beforeRender();\n  return _app;\n});"
+              "source": "import Vue from 'vue';\nimport { joinURL, normalizeURL, withQuery } from 'ufo';\nimport fetch from 'node-fetch';\nimport middleware from './middleware.js';\nimport { applyAsyncData, middlewareSeries, sanitizeComponent, getMatchedComponents, promisify } from './utils.js';\nimport fetchMixin from './mixins/fetch.server';\nimport { createApp, NuxtError } from './index.js';\nimport NuxtLink from './components/nuxt-link.server.js'; // should be included after ./index.js\n// Update serverPrefetch strategy\n\nVue.config.optionMergeStrategies.serverPrefetch = Vue.config.optionMergeStrategies.created; // Fetch mixin\n\nif (!Vue.__nuxt__fetch__mixin__) {\n  Vue.mixin(fetchMixin);\n  Vue.__nuxt__fetch__mixin__ = true;\n} // Component: <NuxtLink>\n\n\nVue.component(NuxtLink.name, NuxtLink);\nVue.component('NLink', NuxtLink);\n\nif (!global.fetch) {\n  global.fetch = fetch;\n}\n\nconst noopApp = () => new Vue({\n  render: h => h('div', {\n    domProps: {\n      id: '__nuxt'\n    }\n  })\n});\n\nconst createNext = ssrContext => opts => {\n  // If static target, render on client-side\n  ssrContext.redirected = opts;\n\n  if (ssrContext.target === 'static' || !ssrContext.res) {\n    ssrContext.nuxt.serverRendered = false;\n    return;\n  }\n\n  let fullPath = withQuery(opts.path, opts.query);\n  const $config = ssrContext.runtimeConfig || {};\n  const routerBase = $config.app && $config.app.basePath || '/nuxt-font-loader-strategy/';\n\n  if (!fullPath.startsWith('http') && routerBase !== '/' && !fullPath.startsWith(routerBase)) {\n    fullPath = joinURL(routerBase, fullPath);\n  } // Avoid loop redirect\n\n\n  if (decodeURI(fullPath) === decodeURI(ssrContext.url)) {\n    ssrContext.redirected = false;\n    return;\n  }\n\n  ssrContext.res.writeHead(opts.status, {\n    Location: normalizeURL(fullPath)\n  });\n  ssrContext.res.end();\n}; // This exported function will be called by `bundleRenderer`.\n// This is where we perform data-prefetching to determine the\n// state of our application before actually rendering it.\n// Since data fetching is async, this function is expected to\n// return a Promise that resolves to the app instance.\n\n\nexport default (async ssrContext => {\n  // Create ssrContext.next for simulate next() of beforeEach() when wanted to redirect\n  ssrContext.redirected = false;\n  ssrContext.next = createNext(ssrContext); // Used for beforeNuxtRender({ Components, nuxtState })\n\n  ssrContext.beforeRenderFns = []; // Nuxt object (window.{{globals.context}}, defaults to window.__NUXT__)\n\n  ssrContext.nuxt = {\n    layout: 'default',\n    data: [],\n    fetch: {},\n    error: null,\n    serverRendered: true,\n    routePath: ''\n  };\n  ssrContext.fetchCounters = {}; // Remove query from url is static target\n\n  if (ssrContext.url) {\n    ssrContext.url = ssrContext.url.split('?')[0];\n  } // Public runtime config\n\n\n  ssrContext.nuxt.config = ssrContext.runtimeConfig.public;\n\n  if (ssrContext.nuxt.config.app) {\n    __webpack_public_path__ = joinURL(ssrContext.nuxt.config.app.cdnURL, ssrContext.nuxt.config.app.assetsPath);\n  } // Create the app definition and the instance (created for each request)\n\n\n  const {\n    app,\n    router\n  } = await createApp(ssrContext, ssrContext.runtimeConfig.private);\n\n  const _app = new Vue(app); // Add ssr route path to nuxt context so we can account for page navigation between ssr and csr\n\n\n  ssrContext.nuxt.routePath = app.context.route.path; // Add meta infos (used in renderer.js)\n\n  ssrContext.meta = _app.$meta(); // Keep asyncData for each matched component in ssrContext (used in app/utils.js via this.$ssrContext)\n\n  ssrContext.asyncData = {};\n\n  const beforeRender = async () => {\n    // Call beforeNuxtRender() methods\n    await Promise.all(ssrContext.beforeRenderFns.map(fn => promisify(fn, {\n      Components,\n      nuxtState: ssrContext.nuxt\n    })));\n  };\n\n  const renderErrorPage = async () => {\n    // Don't server-render the page in static target\n    if (ssrContext.target === 'static') {\n      ssrContext.nuxt.serverRendered = false;\n    } // Load layout for error page\n\n\n    const layout = (NuxtError.options || NuxtError).layout;\n    const errLayout = typeof layout === 'function' ? layout.call(NuxtError, app.context) : layout;\n    ssrContext.nuxt.layout = errLayout || 'default';\n    await _app.loadLayout(errLayout);\n\n    _app.setLayout(errLayout);\n\n    await beforeRender();\n    return _app;\n  };\n\n  const render404Page = () => {\n    app.context.error({\n      statusCode: 404,\n      path: ssrContext.url,\n      message: 'This page could not be found'\n    });\n    return renderErrorPage();\n  }; // Components are already resolved by setContext -> getRouteData (app/utils.js)\n\n\n  const Components = getMatchedComponents(router.match(ssrContext.url));\n  /*\n  ** Call global middleware (nuxt.config.js)\n  */\n\n  let midd = [];\n  midd = midd.map(name => {\n    if (typeof name === 'function') {\n      return name;\n    }\n\n    if (typeof middleware[name] !== 'function') {\n      app.context.error({\n        statusCode: 500,\n        message: 'Unknown middleware ' + name\n      });\n    }\n\n    return middleware[name];\n  });\n  await middlewareSeries(midd, app.context); // ...If there is a redirect or an error, stop the process\n\n  if (ssrContext.redirected) {\n    return noopApp();\n  }\n\n  if (ssrContext.nuxt.error) {\n    return renderErrorPage();\n  }\n  /*\n  ** Set layout\n  */\n\n\n  let layout = Components.length ? Components[0].options.layout : NuxtError.layout;\n\n  if (typeof layout === 'function') {\n    layout = layout(app.context);\n  }\n\n  await _app.loadLayout(layout);\n\n  if (ssrContext.nuxt.error) {\n    return renderErrorPage();\n  }\n\n  layout = _app.setLayout(layout);\n  ssrContext.nuxt.layout = _app.layoutName;\n  /*\n  ** Call middleware (layout + pages)\n  */\n\n  midd = [];\n  layout = sanitizeComponent(layout);\n\n  if (layout.options.middleware) {\n    midd = midd.concat(layout.options.middleware);\n  }\n\n  Components.forEach(Component => {\n    if (Component.options.middleware) {\n      midd = midd.concat(Component.options.middleware);\n    }\n  });\n  midd = midd.map(name => {\n    if (typeof name === 'function') {\n      return name;\n    }\n\n    if (typeof middleware[name] !== 'function') {\n      app.context.error({\n        statusCode: 500,\n        message: 'Unknown middleware ' + name\n      });\n    }\n\n    return middleware[name];\n  });\n  await middlewareSeries(midd, app.context); // ...If there is a redirect or an error, stop the process\n\n  if (ssrContext.redirected) {\n    return noopApp();\n  }\n\n  if (ssrContext.nuxt.error) {\n    return renderErrorPage();\n  }\n  /*\n  ** Call .validate()\n  */\n\n\n  let isValid = true;\n\n  try {\n    for (const Component of Components) {\n      if (typeof Component.options.validate !== 'function') {\n        continue;\n      }\n\n      isValid = await Component.options.validate(app.context);\n\n      if (!isValid) {\n        break;\n      }\n    }\n  } catch (validationError) {\n    // ...If .validate() threw an error\n    app.context.error({\n      statusCode: validationError.statusCode || '500',\n      message: validationError.message\n    });\n    return renderErrorPage();\n  } // ...If .validate() returned false\n\n\n  if (!isValid) {\n    // Render a 404 error page\n    return render404Page();\n  } // If no Components found, returns 404\n\n\n  if (!Components.length) {\n    return render404Page();\n  } // Call asyncData & fetch hooks on components matched by the route.\n\n\n  const asyncDatas = await Promise.all(Components.map(Component => {\n    const promises = []; // Call asyncData(context)\n\n    if (Component.options.asyncData && typeof Component.options.asyncData === 'function') {\n      const promise = promisify(Component.options.asyncData, app.context);\n      promise.then(asyncDataResult => {\n        ssrContext.asyncData[Component.cid] = asyncDataResult;\n        applyAsyncData(Component);\n        return asyncDataResult;\n      });\n      promises.push(promise);\n    } else {\n      promises.push(null);\n    } // Call fetch(context)\n\n\n    if (Component.options.fetch && Component.options.fetch.length) {\n      promises.push(Component.options.fetch(app.context));\n    } else {\n      promises.push(null);\n    }\n\n    return Promise.all(promises);\n  })); // datas are the first row of each\n\n  ssrContext.nuxt.data = asyncDatas.map(r => r[0] || {}); // ...If there is a redirect or an error, stop the process\n\n  if (ssrContext.redirected) {\n    return noopApp();\n  }\n\n  if (ssrContext.nuxt.error) {\n    return renderErrorPage();\n  } // Call beforeNuxtRender methods & add store state\n\n\n  await beforeRender();\n  return _app;\n});"
             },
             {
               "id": null,
@@ -3068,7 +3068,7 @@
                   "moduleName": "./node_modules/.cache/nuxt/server.js",
                   "type": "harmony import specifier",
                   "userRequest": "./middleware.js",
-                  "loc": "160:15-25"
+                  "loc": "158:15-25"
                 },
                 {
                   "moduleId": null,
@@ -3077,7 +3077,7 @@
                   "moduleName": "./node_modules/.cache/nuxt/server.js",
                   "type": "harmony import specifier",
                   "userRequest": "./middleware.js",
-                  "loc": "167:11-21"
+                  "loc": "165:11-21"
                 },
                 {
                   "moduleId": null,
@@ -3086,7 +3086,7 @@
                   "moduleName": "./node_modules/.cache/nuxt/server.js",
                   "type": "harmony import specifier",
                   "userRequest": "./middleware.js",
-                  "loc": "218:15-25"
+                  "loc": "216:15-25"
                 },
                 {
                   "moduleId": null,
@@ -3095,7 +3095,7 @@
                   "moduleName": "./node_modules/.cache/nuxt/server.js",
                   "type": "harmony import specifier",
                   "userRequest": "./middleware.js",
-                  "loc": "225:11-21"
+                  "loc": "223:11-21"
                 }
               ],
               "usedExports": [
@@ -3300,7 +3300,7 @@
                   "moduleName": "./node_modules/.cache/nuxt/server.js",
                   "type": "harmony import specifier",
                   "userRequest": "./utils.js",
-                  "loc": "115:59-68"
+                  "loc": "113:59-68"
                 },
                 {
                   "moduleId": null,
@@ -3363,7 +3363,7 @@
                   "moduleName": "./node_modules/.cache/nuxt/server.js",
                   "type": "harmony import specifier",
                   "userRequest": "./utils.js",
-                  "loc": "149:21-41"
+                  "loc": "147:21-41"
                 },
                 {
                   "moduleId": null,
@@ -3381,7 +3381,7 @@
                   "moduleName": "./node_modules/.cache/nuxt/server.js",
                   "type": "harmony import specifier",
                   "userRequest": "./utils.js",
-                  "loc": "169:8-24"
+                  "loc": "167:8-24"
                 },
                 {
                   "moduleId": null,
@@ -3390,7 +3390,7 @@
                   "moduleName": "./node_modules/.cache/nuxt/server.js",
                   "type": "harmony import specifier",
                   "userRequest": "./utils.js",
-                  "loc": "202:11-28"
+                  "loc": "200:11-28"
                 },
                 {
                   "moduleId": null,
@@ -3426,7 +3426,7 @@
                   "moduleName": "./node_modules/.cache/nuxt/server.js",
                   "type": "harmony import specifier",
                   "userRequest": "./utils.js",
-                  "loc": "227:8-24"
+                  "loc": "225:8-24"
                 },
                 {
                   "moduleId": null,
@@ -3444,7 +3444,7 @@
                   "moduleName": "./node_modules/.cache/nuxt/server.js",
                   "type": "harmony import specifier",
                   "userRequest": "./utils.js",
-                  "loc": "280:22-31"
+                  "loc": "278:22-31"
                 },
                 {
                   "moduleId": null,
@@ -3453,7 +3453,7 @@
                   "moduleName": "./node_modules/.cache/nuxt/server.js",
                   "type": "harmony import specifier",
                   "userRequest": "./utils.js",
-                  "loc": "283:8-22"
+                  "loc": "281:8-22"
                 }
               ],
               "usedExports": [
@@ -3627,7 +3627,7 @@
                   "moduleName": "./node_modules/.cache/nuxt/server.js",
                   "type": "harmony import specifier",
                   "userRequest": "./index.js",
-                  "loc": "128:20-29"
+                  "loc": "126:20-29"
                 },
                 {
                   "moduleId": null,
@@ -3636,7 +3636,7 @@
                   "moduleName": "./node_modules/.cache/nuxt/server.js",
                   "type": "harmony import specifier",
                   "userRequest": "./index.js",
-                  "loc": "128:41-50"
+                  "loc": "126:41-50"
                 },
                 {
                   "moduleId": null,
@@ -3645,7 +3645,7 @@
                   "moduleName": "./node_modules/.cache/nuxt/server.js",
                   "type": "harmony import specifier",
                   "userRequest": "./index.js",
-                  "loc": "129:65-74"
+                  "loc": "127:65-74"
                 },
                 {
                   "moduleId": null,
@@ -3654,7 +3654,7 @@
                   "moduleName": "./node_modules/.cache/nuxt/server.js",
                   "type": "harmony import specifier",
                   "userRequest": "./index.js",
-                  "loc": "183:66-75"
+                  "loc": "181:66-75"
                 }
               ],
               "usedExports": [
@@ -4184,7 +4184,7 @@
               "name": "./node_modules/.cache/nuxt/nuxt-font-loader-strategy/index.js",
               "index": 39,
               "index2": 49,
-              "size": 1650,
+              "size": 2087,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -4251,7 +4251,7 @@
               ],
               "optimizationBailout": [],
               "depth": 3,
-              "source": "import { loadFonts, fontsToLinks } from './utils/fontLoader';\nimport './font-face.css';\nconst fonts = [{\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_400_normal\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_300_normal\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_400_italic\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_700_normal\"]\n}, {\n  \"preload\": true,\n  \"source\": {\n    \"path\": \"/nuxt-font-loader-strategy/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff2\",\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto_slab\", \"font_roboto_slab_400_normal\"]\n}, {\n  \"preload\": true,\n  \"source\": {\n    \"path\": \"/nuxt-font-loader-strategy/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700.woff2\",\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto_slab\", \"font_roboto_slab_700_normal\"]\n}];\n\nif (!process.server) {\n  loadFonts({\n    \"ignoredEffectiveTypes\": [\"2g\", \"slow-2g\"],\n    \"ignoreLighthouse\": true,\n    \"unlockDelay\": 0,\n    \"prefetchCount\": 2\n  });\n}\n\nexport default function ({\n  app\n}) {\n  app.head.link.push(...fontsToLinks(fonts));\n}"
+              "source": "import { loadFonts, fontsToLinks } from './utils/fontLoader';\nimport './font-face.css';\nconst fonts = [{\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_400_normal\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_300_normal\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_400_italic\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_700_normal\"]\n}, {\n  \"preload\": true,\n  \"source\": {\n    \"path\": \"/nuxt-font-loader-strategy/fonts/roboto-slab-v20-latin/roboto-slab-v20-latin-regular.woff2\",\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto_slab\", \"font_roboto_slab_400_normal\"]\n}, {\n  \"preload\": true,\n  \"source\": {\n    \"path\": \"/nuxt-font-loader-strategy/fonts/roboto-slab-v20-latin/roboto-slab-v20-latin-700.woff2\",\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto_slab\", \"font_roboto_slab_700_normal\"]\n}, {\n  \"preload\": true,\n  \"source\": {\n    \"path\": \"/nuxt-font-loader-strategy/fonts/roboto-mono/RobotoMono-Regular.ttf.ttf\",\n    \"format\": \"truetype\"\n  },\n  \"classes\": [\"font_roboto_mono\", \"font_roboto_mono_400_normal\"]\n}, {\n  \"preload\": true,\n  \"source\": {\n    \"path\": \"/nuxt-font-loader-strategy/fonts/roboto-mono/RobotoMono-Bold.ttf.ttf\",\n    \"format\": \"truetype\"\n  },\n  \"classes\": [\"font_roboto_mono\", \"font_roboto_mono_700_normal\"]\n}];\n\nif (!process.server) {\n  loadFonts({\n    \"ignoredEffectiveTypes\": [\"2g\", \"slow-2g\"],\n    \"ignoreLighthouse\": true,\n    \"unlockDelay\": 0,\n    \"prefetchCount\": 2\n  });\n}\n\nexport default function ({\n  app\n}) {\n  app.head.link.push(...fontsToLinks(fonts));\n}"
             },
             {
               "id": null,
@@ -4695,7 +4695,7 @@
                   "moduleName": "./node_modules/.cache/nuxt/nuxt-font-loader-strategy/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "./utils/fontLoader",
-                  "loc": "59:24-36"
+                  "loc": "73:24-36"
                 }
               ],
               "usedExports": [
@@ -5347,7 +5347,7 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 13199,
+      "size": 15295,
       "names": [
         "pages/index"
       ],
@@ -5355,7 +5355,7 @@
         "pages/index.js",
         "pages/index.js.map"
       ],
-      "hash": "e78b680432b0469b5c0c",
+      "hash": "6d0318a5fa09b2c35fd2",
       "siblings": [],
       "parents": [
         0
@@ -5606,7 +5606,7 @@
           "reasons": [
             {
               "moduleId": 35,
-              "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 1166d1fff7ee59ba3b470544864459ff",
+              "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 2b273fc944cd7f5824fbac8672a277ff",
               "module": "./example/pages/index.vue + 9 modules",
               "moduleName": "./example/pages/index.vue + 9 modules",
               "type": "cjs require",
@@ -5765,7 +5765,7 @@
           "reasons": [
             {
               "moduleId": 35,
-              "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 1166d1fff7ee59ba3b470544864459ff",
+              "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 2b273fc944cd7f5824fbac8672a277ff",
               "module": "./example/pages/index.vue + 9 modules",
               "moduleName": "./example/pages/index.vue + 9 modules",
               "type": "cjs require",
@@ -5787,7 +5787,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--4-oneOf-1-2!./node_modules/vue-loader/lib??vue-loader-options!./example/pages/index.vue?vue&type=style&index=0&lang=postcss&",
           "index": 69,
           "index2": 66,
-          "size": 1848,
+          "size": 2146,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -5856,15 +5856,15 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 7,
-          "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body{margin:0;font-size:16px;color:#333;background:#fff;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@media (prefers-color-scheme:light){body{color:#333;background:#fff}}@media (prefers-color-scheme:dark){body{color:#fff;background:#333}}.content{width:90%;margin:0 auto}.content h2,.content h3,.content h4,.content h5,.content h6{font-family:serif;font-weight:400;text-shadow:10px 10px #ddd}@media (prefers-color-scheme:dark){.content h2,.content h3,.content h4,.content h5,.content h6{text-shadow:10px 10px #000}}.font_roboto_slab_400_normal .content h2,.font_roboto_slab_400_normal .content h3,.font_roboto_slab_400_normal .content h4,.font_roboto_slab_400_normal .content h5,.font_roboto_slab_400_normal .content h6{font-family:\\\"Roboto Slab\\\",serif}.content h1{font-family:serif}.font_roboto_slab_700_normal .content h1{font-family:\\\"Roboto Slab\\\",serif;font-weight:700}.content h1{text-shadow:10px 10px #ddd}@media (prefers-color-scheme:dark){.content h1{text-shadow:10px 10px #000}}.content p{font-family:sans-serif;font-style:normal;font-weight:400}.font_roboto_400_normal .content p{font-family:\\\"Roboto\\\",sans-serif}.content p.bold{font-family:sans-serif;font-weight:700}.font_roboto_700_normal .content p.bold{font-family:\\\"Roboto\\\",sans-serif}.content p.light{font-family:sans-serif;font-weight:300}.font_roboto_300_normal .content p.light{font-family:\\\"Roboto\\\",sans-serif}.content p.italic{font-family:sans-serif;font-style:italic;font-weight:400}.font_roboto_400_italic .content p.italic{font-family:\\\"Roboto\\\",sans-serif}\", \"\"]);\n// Exports\nmodule.exports = ___CSS_LOADER_EXPORT___;\n"
+          "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body{margin:0;font-size:16px;color:#333;background:#fff;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@media (prefers-color-scheme:light){body{color:#333;background:#fff}}@media (prefers-color-scheme:dark){body{color:#fff;background:#333}}.content{width:90%;margin:0 auto}.content h2,.content h3,.content h4,.content h5,.content h6{font-family:serif;font-weight:400;text-shadow:10px 10px #ddd}@media (prefers-color-scheme:dark){.content h2,.content h3,.content h4,.content h5,.content h6{text-shadow:10px 10px #000}}.font_roboto_slab_400_normal .content h2,.font_roboto_slab_400_normal .content h3,.font_roboto_slab_400_normal .content h4,.font_roboto_slab_400_normal .content h5,.font_roboto_slab_400_normal .content h6{font-family:\\\"Roboto Slab\\\",serif}.content h1{font-family:serif}.font_roboto_slab_700_normal .content h1{font-family:\\\"Roboto Slab\\\",serif;font-weight:700}.content h1{text-shadow:10px 10px #ddd}@media (prefers-color-scheme:dark){.content h1{text-shadow:10px 10px #000}}.content p{font-family:sans-serif;font-style:normal;font-weight:400}.font_roboto_400_normal .content p{font-family:\\\"Roboto\\\",sans-serif}.content p.bold{font-family:sans-serif;font-weight:700}.font_roboto_700_normal .content p.bold{font-family:\\\"Roboto\\\",sans-serif}.content p.light{font-family:sans-serif;font-weight:300}.font_roboto_300_normal .content p.light{font-family:\\\"Roboto\\\",sans-serif}.content p.italic{font-family:sans-serif;font-style:italic;font-weight:400}.font_roboto_400_italic .content p.italic{font-family:\\\"Roboto\\\",sans-serif}.content p.mono-normal{font-family:monospace;font-weight:400}.font_roboto_mono_400_normal .content p.mono-normal{font-family:\\\"Roboto Mono\\\",monospace}.content p.mono-bold{font-family:monospace;font-weight:700}.font_roboto_mono_700_normal .content p.mono-bold{font-family:\\\"Roboto Mono\\\",monospace}\", \"\"]);\n// Exports\nmodule.exports = ___CSS_LOADER_EXPORT___;\n"
         },
         {
           "id": 35,
-          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 1166d1fff7ee59ba3b470544864459ff",
+          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 2b273fc944cd7f5824fbac8672a277ff",
           "name": "./example/pages/index.vue + 9 modules",
           "index": 54,
           "index2": 69,
-          "size": 8195,
+          "size": 9993,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -5960,12 +5960,12 @@
                 "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./node_modules/.cache/nuxt/router.js (referenced with import())"
               ],
               "depth": 4,
-              "source": "import { render, staticRenderFns } from \"./index.vue?vue&type=template&id=32c05296&\"\nimport script from \"./index.vue?vue&type=script&lang=js&\"\nexport * from \"./index.vue?vue&type=script&lang=js&\"\nfunction injectStyles (context) {\n  \n  var style0 = require(\"./index.vue?vue&type=style&index=0&lang=postcss&\")\nif (style0.__inject__) style0.__inject__(context)\n\n}\n\n/* normalize component */\nimport normalizer from \"!../../node_modules/vue-loader/lib/runtime/componentNormalizer.js\"\nvar component = normalizer(\n  script,\n  render,\n  staticRenderFns,\n  false,\n  injectStyles,\n  null,\n  \"5a12918e\"\n  \n)\n\nexport default component.exports"
+              "source": "import { render, staticRenderFns } from \"./index.vue?vue&type=template&id=c14da43c&\"\nimport script from \"./index.vue?vue&type=script&lang=js&\"\nexport * from \"./index.vue?vue&type=script&lang=js&\"\nfunction injectStyles (context) {\n  \n  var style0 = require(\"./index.vue?vue&type=style&index=0&lang=postcss&\")\nif (style0.__inject__) style0.__inject__(context)\n\n}\n\n/* normalize component */\nimport normalizer from \"!../../node_modules/vue-loader/lib/runtime/componentNormalizer.js\"\nvar component = normalizer(\n  script,\n  render,\n  staticRenderFns,\n  false,\n  injectStyles,\n  null,\n  \"5a12918e\"\n  \n)\n\nexport default component.exports"
             },
             {
               "id": null,
-              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=32c05296&",
-              "name": "./example/pages/index.vue?vue&type=template&id=32c05296&",
+              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=c14da43c&",
+              "name": "./example/pages/index.vue?vue&type=template&id=c14da43c&",
               "index": 55,
               "index2": 55,
               "size": 203,
@@ -6015,7 +6015,7 @@
                   "module": "./example/pages/index.vue",
                   "moduleName": "./example/pages/index.vue",
                   "type": "harmony side effect evaluation",
-                  "userRequest": "./index.vue?vue&type=template&id=32c05296&",
+                  "userRequest": "./index.vue?vue&type=template&id=c14da43c&",
                   "loc": "1:0-84"
                 },
                 {
@@ -6024,7 +6024,7 @@
                   "module": "./example/pages/index.vue",
                   "moduleName": "./example/pages/index.vue",
                   "type": "harmony import specifier",
-                  "userRequest": "./index.vue?vue&type=template&id=32c05296&",
+                  "userRequest": "./index.vue?vue&type=template&id=c14da43c&",
                   "loc": "15:2-8"
                 },
                 {
@@ -6033,7 +6033,7 @@
                   "module": "./example/pages/index.vue",
                   "moduleName": "./example/pages/index.vue",
                   "type": "harmony import specifier",
-                  "userRequest": "./index.vue?vue&type=template&id=32c05296&",
+                  "userRequest": "./index.vue?vue&type=template&id=c14da43c&",
                   "loc": "16:2-17"
                 }
               ],
@@ -6047,7 +6047,7 @@
               ],
               "optimizationBailout": [],
               "depth": 5,
-              "source": "export * from \"-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./index.vue?vue&type=template&id=32c05296&\""
+              "source": "export * from \"-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./index.vue?vue&type=template&id=c14da43c&\""
             },
             {
               "id": null,
@@ -6145,19 +6145,19 @@
             },
             {
               "id": null,
-              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=32c05296&",
-              "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./example/pages/index.vue?vue&type=template&id=32c05296&",
+              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=c14da43c&",
+              "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./example/pages/index.vue?vue&type=template&id=c14da43c&",
               "index": 56,
               "index2": 54,
-              "size": 3716,
+              "size": 5472,
               "cacheable": true,
               "built": true,
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=32c05296&",
+              "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=c14da43c&",
               "issuerId": null,
-              "issuerName": "./example/pages/index.vue?vue&type=template&id=32c05296&",
+              "issuerName": "./example/pages/index.vue?vue&type=template&id=c14da43c&",
               "issuerPath": [
                 {
                   "id": 16,
@@ -6186,8 +6186,8 @@
                 },
                 {
                   "id": null,
-                  "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=32c05296&",
-                  "name": "./example/pages/index.vue?vue&type=template&id=32c05296&"
+                  "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=c14da43c&",
+                  "name": "./example/pages/index.vue?vue&type=template&id=c14da43c&"
                 }
               ],
               "failed": false,
@@ -6197,20 +6197,20 @@
               "reasons": [
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=32c05296&",
-                  "module": "./example/pages/index.vue?vue&type=template&id=32c05296&",
-                  "moduleName": "./example/pages/index.vue?vue&type=template&id=32c05296&",
+                  "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=c14da43c&",
+                  "module": "./example/pages/index.vue?vue&type=template&id=c14da43c&",
+                  "moduleName": "./example/pages/index.vue?vue&type=template&id=c14da43c&",
                   "type": "harmony side effect evaluation",
-                  "userRequest": "-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./index.vue?vue&type=template&id=32c05296&",
+                  "userRequest": "-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./index.vue?vue&type=template&id=c14da43c&",
                   "loc": "1:0-203"
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=32c05296&",
-                  "module": "./example/pages/index.vue?vue&type=template&id=32c05296&",
-                  "moduleName": "./example/pages/index.vue?vue&type=template&id=32c05296&",
+                  "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=c14da43c&",
+                  "module": "./example/pages/index.vue?vue&type=template&id=c14da43c&",
+                  "moduleName": "./example/pages/index.vue?vue&type=template&id=c14da43c&",
                   "type": "harmony export imported specifier",
-                  "userRequest": "-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./index.vue?vue&type=template&id=32c05296&",
+                  "userRequest": "-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./index.vue?vue&type=template&id=c14da43c&",
                   "loc": "1:0-203"
                 }
               ],
@@ -6224,7 +6224,7 @@
               ],
               "optimizationBailout": [],
               "depth": 6,
-              "source": "var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('article',{staticClass:\"content\"},[_vm._ssrNode(\"<header><h1>\"+_vm._ssrEscape(_vm._s(_vm.$metaInfo.title))+\"</h1></header> <section><h2>Normal</h2> <p>Gravida qui saepe tellus ut ultricies modi curabitur! Nulla? Nobis earum quisquam facilisi sequi ridiculus ligula sint hymenaeos donec nemo ipsam, nascetur possimus diamlorem, natoque iusto, fringilla, consectetuer. Sociis soluta accusamus porttitor, rutrum primis nibh sociosqu? Aliqua hymenaeos. Distinctio? Exercitationem? Eius penatibus curabitur doloribus, doloribus scelerisque hac voluptate! Sequi! Volutpat beatae aliquam esse condimentum, iusto imperdiet cubilia blandit odio nostrum sit voluptate? Quaerat nonummy erat reiciendis augue dicta vitae adipisci, urna eius, congue quam dicta? Hic. Qui viverra, egestas laoreet! Facere ipsa iusto harum, beatae gravida harum, litora mollit quibusdam facilisi dolorem phasellus montes. Rutrum vel gravida iste esse ligula.</p></section> <section><h2>Light</h2> <p class=\\\"light\\\">\\n      Gravida qui saepe tellus ut ultricies modi curabitur! Nulla? Nobis earum quisquam facilisi sequi ridiculus ligula sint hymenaeos donec nemo ipsam, nascetur possimus diamlorem, natoque iusto, fringilla, consectetuer. Sociis soluta accusamus porttitor, rutrum primis nibh sociosqu? Aliqua hymenaeos. Distinctio? Exercitationem? Eius penatibus curabitur doloribus, doloribus scelerisque hac voluptate! Sequi! Volutpat beatae aliquam esse condimentum, iusto imperdiet cubilia blandit odio nostrum sit voluptate? Quaerat nonummy erat reiciendis augue dicta vitae adipisci, urna eius, congue quam dicta? Hic. Qui viverra, egestas laoreet! Facere ipsa iusto harum, beatae gravida harum, litora mollit quibusdam facilisi dolorem phasellus montes. Rutrum vel gravida iste esse ligula.\\n    </p></section> <section><h2>Bold</h2> <p class=\\\"bold\\\">\\n      Cum natus eveniet condimentum aliquid, repudiandae ultrices est, cumque fringilla? Repellendus deleniti non quidem a, recusandae harum in, nemo! Aut rhoncus alias risus sem? Facere fugiat, magni animi reiciendis interdum mauris purus, laboriosam fringilla. Corporis dolores dis provident aperiam ipsam. Vivamus tellus, temporibus a luctus, nesciunt, rutrum similique nostrum. Temporibus quisquam, rerum maecenas, diam, risus, volutpat, viverra proin accusamus maecenas, nibh justo animi, mauris proin? A congue debitis architecto? Varius aptent minus pellentesque rutrum, quas rutrum dis, scelerisque massa nunc anim sociis dignissimos libero, viverra, suspendisse vehicula, vulputate? Distinctio et. Condimentum atque fugit necessitatibus odit molestie sodales voluptatibus doloremque. Suscipit.\\n    </p></section> <section><h2>Italic</h2> <p class=\\\"italic\\\">\\n      Cum natus eveniet condimentum aliquid, repudiandae ultrices est, cumque fringilla? Repellendus deleniti non quidem a, recusandae harum in, nemo! Aut rhoncus alias risus sem? Facere fugiat, magni animi reiciendis interdum mauris purus, laboriosam fringilla. Corporis dolores dis provident aperiam ipsam. Vivamus tellus, temporibus a luctus, nesciunt, rutrum similique nostrum. Temporibus quisquam, rerum maecenas, diam, risus, volutpat, viverra proin accusamus maecenas, nibh justo animi, mauris proin? A congue debitis architecto? Varius aptent minus pellentesque rutrum, quas rutrum dis, scelerisque massa nunc anim sociis dignissimos libero, viverra, suspendisse vehicula, vulputate? Distinctio et. Condimentum atque fugit necessitatibus odit molestie sodales voluptatibus doloremque. Suscipit.\\n    </p></section> \"),_c('atom-github-corner')],2)}\nvar staticRenderFns = []\n\nexport { render, staticRenderFns }"
+              "source": "var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('article',{staticClass:\"content\"},[_vm._ssrNode(\"<header><h1>\"+_vm._ssrEscape(_vm._s(_vm.$metaInfo.title))+\"</h1></header> <section><h2>Normal</h2> <p>Gravida qui saepe tellus ut ultricies modi curabitur! Nulla? Nobis earum quisquam facilisi sequi ridiculus ligula sint hymenaeos donec nemo ipsam, nascetur possimus diamlorem, natoque iusto, fringilla, consectetuer. Sociis soluta accusamus porttitor, rutrum primis nibh sociosqu? Aliqua hymenaeos. Distinctio? Exercitationem? Eius penatibus curabitur doloribus, doloribus scelerisque hac voluptate! Sequi! Volutpat beatae aliquam esse condimentum, iusto imperdiet cubilia blandit odio nostrum sit voluptate? Quaerat nonummy erat reiciendis augue dicta vitae adipisci, urna eius, congue quam dicta? Hic. Qui viverra, egestas laoreet! Facere ipsa iusto harum, beatae gravida harum, litora mollit quibusdam facilisi dolorem phasellus montes. Rutrum vel gravida iste esse ligula.</p></section> <section><h2>Light</h2> <p class=\\\"light\\\">\\n      Gravida qui saepe tellus ut ultricies modi curabitur! Nulla? Nobis earum quisquam facilisi sequi ridiculus ligula sint hymenaeos donec nemo ipsam, nascetur possimus diamlorem, natoque iusto, fringilla, consectetuer. Sociis soluta accusamus porttitor, rutrum primis nibh sociosqu? Aliqua hymenaeos. Distinctio? Exercitationem? Eius penatibus curabitur doloribus, doloribus scelerisque hac voluptate! Sequi! Volutpat beatae aliquam esse condimentum, iusto imperdiet cubilia blandit odio nostrum sit voluptate? Quaerat nonummy erat reiciendis augue dicta vitae adipisci, urna eius, congue quam dicta? Hic. Qui viverra, egestas laoreet! Facere ipsa iusto harum, beatae gravida harum, litora mollit quibusdam facilisi dolorem phasellus montes. Rutrum vel gravida iste esse ligula.\\n    </p></section> <section><h2>Bold</h2> <p class=\\\"bold\\\">\\n      Cum natus eveniet condimentum aliquid, repudiandae ultrices est, cumque fringilla? Repellendus deleniti non quidem a, recusandae harum in, nemo! Aut rhoncus alias risus sem? Facere fugiat, magni animi reiciendis interdum mauris purus, laboriosam fringilla. Corporis dolores dis provident aperiam ipsam. Vivamus tellus, temporibus a luctus, nesciunt, rutrum similique nostrum. Temporibus quisquam, rerum maecenas, diam, risus, volutpat, viverra proin accusamus maecenas, nibh justo animi, mauris proin? A congue debitis architecto? Varius aptent minus pellentesque rutrum, quas rutrum dis, scelerisque massa nunc anim sociis dignissimos libero, viverra, suspendisse vehicula, vulputate? Distinctio et. Condimentum atque fugit necessitatibus odit molestie sodales voluptatibus doloremque. Suscipit.\\n    </p></section> <section><h2>Italic</h2> <p class=\\\"italic\\\">\\n      Cum natus eveniet condimentum aliquid, repudiandae ultrices est, cumque fringilla? Repellendus deleniti non quidem a, recusandae harum in, nemo! Aut rhoncus alias risus sem? Facere fugiat, magni animi reiciendis interdum mauris purus, laboriosam fringilla. Corporis dolores dis provident aperiam ipsam. Vivamus tellus, temporibus a luctus, nesciunt, rutrum similique nostrum. Temporibus quisquam, rerum maecenas, diam, risus, volutpat, viverra proin accusamus maecenas, nibh justo animi, mauris proin? A congue debitis architecto? Varius aptent minus pellentesque rutrum, quas rutrum dis, scelerisque massa nunc anim sociis dignissimos libero, viverra, suspendisse vehicula, vulputate? Distinctio et. Condimentum atque fugit necessitatibus odit molestie sodales voluptatibus doloremque. Suscipit.\\n    </p></section> <section><h2>Mono Normal</h2> <p class=\\\"mono-normal\\\">\\n      Cum natus eveniet condimentum aliquid, repudiandae ultrices est, cumque fringilla? Repellendus deleniti non quidem a, recusandae harum in, nemo! Aut rhoncus alias risus sem? Facere fugiat, magni animi reiciendis interdum mauris purus, laboriosam fringilla. Corporis dolores dis provident aperiam ipsam. Vivamus tellus, temporibus a luctus, nesciunt, rutrum similique nostrum. Temporibus quisquam, rerum maecenas, diam, risus, volutpat, viverra proin accusamus maecenas, nibh justo animi, mauris proin? A congue debitis architecto? Varius aptent minus pellentesque rutrum, quas rutrum dis, scelerisque massa nunc anim sociis dignissimos libero, viverra, suspendisse vehicula, vulputate? Distinctio et. Condimentum atque fugit necessitatibus odit molestie sodales voluptatibus doloremque. Suscipit.\\n    </p></section> <section><h2>Mono Bold</h2> <p class=\\\"mono-bold\\\">\\n      Cum natus eveniet condimentum aliquid, repudiandae ultrices est, cumque fringilla? Repellendus deleniti non quidem a, recusandae harum in, nemo! Aut rhoncus alias risus sem? Facere fugiat, magni animi reiciendis interdum mauris purus, laboriosam fringilla. Corporis dolores dis provident aperiam ipsam. Vivamus tellus, temporibus a luctus, nesciunt, rutrum similique nostrum. Temporibus quisquam, rerum maecenas, diam, risus, volutpat, viverra proin accusamus maecenas, nibh justo animi, mauris proin? A congue debitis architecto? Varius aptent minus pellentesque rutrum, quas rutrum dis, scelerisque massa nunc anim sociis dignissimos libero, viverra, suspendisse vehicula, vulputate? Distinctio et. Condimentum atque fugit necessitatibus odit molestie sodales voluptatibus doloremque. Suscipit.\\n    </p></section> \"),_c('atom-github-corner')],2)}\nvar staticRenderFns = []\n\nexport { render, staticRenderFns }"
             },
             {
               "id": null,
@@ -6232,7 +6232,7 @@
               "name": "./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./example/pages/index.vue?vue&type=script&lang=js&",
               "index": 58,
               "index2": 64,
-              "size": 367,
+              "size": 409,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -6323,7 +6323,7 @@
               ],
               "optimizationBailout": [],
               "depth": 6,
-              "source": "//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\nimport AtomGithubCorner from '@/components/atoms/GithubCorner';\nexport default {\n  components: {\n    AtomGithubCorner\n  },\n\n  head() {\n    return {\n      htmlAttrs: {\n        lang: 'en'\n      },\n      title: 'Fonts Example: Two Fonts with total 6 Files'\n    };\n  }\n\n};"
+              "source": "//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\nimport AtomGithubCorner from '@/components/atoms/GithubCorner';\nexport default {\n  components: {\n    AtomGithubCorner\n  },\n\n  head() {\n    return {\n      htmlAttrs: {\n        lang: 'en'\n      },\n      title: 'Fonts Example: Two Fonts with total 6 Files'\n    };\n  }\n\n};"
             },
             {
               "id": null,
@@ -6389,7 +6389,7 @@
                   "moduleName": "./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./example/pages/index.vue?vue&type=script&lang=js&",
                   "type": "harmony side effect evaluation",
                   "userRequest": "@/components/atoms/GithubCorner",
-                  "loc": "34:0-63"
+                  "loc": "48:0-63"
                 },
                 {
                   "moduleId": null,
@@ -6398,7 +6398,7 @@
                   "moduleName": "./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./example/pages/index.vue?vue&type=script&lang=js&",
                   "type": "harmony import specifier",
                   "userRequest": "@/components/atoms/GithubCorner",
-                  "loc": "37:4-20"
+                  "loc": "51:4-20"
                 }
               ],
               "usedExports": [
@@ -7163,7 +7163,7 @@
           "moduleName": "./node_modules/.cache/nuxt/server.js + 24 modules",
           "type": "harmony import specifier",
           "userRequest": "vue",
-          "loc": "104:19-22"
+          "loc": "102:19-22"
         },
         {
           "moduleId": 28,
@@ -7577,7 +7577,7 @@
         },
         {
           "moduleId": 35,
-          "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 1166d1fff7ee59ba3b470544864459ff",
+          "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 2b273fc944cd7f5824fbac8672a277ff",
           "module": "./example/pages/index.vue + 9 modules",
           "moduleName": "./example/pages/index.vue + 9 modules",
           "type": "harmony side effect evaluation",
@@ -7586,7 +7586,7 @@
         },
         {
           "moduleId": 35,
-          "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 1166d1fff7ee59ba3b470544864459ff",
+          "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 2b273fc944cd7f5824fbac8672a277ff",
           "module": "./example/pages/index.vue + 9 modules",
           "moduleName": "./example/pages/index.vue + 9 modules",
           "type": "harmony side effect evaluation",
@@ -7595,7 +7595,7 @@
         },
         {
           "moduleId": 35,
-          "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 1166d1fff7ee59ba3b470544864459ff",
+          "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 2b273fc944cd7f5824fbac8672a277ff",
           "module": "./example/pages/index.vue + 9 modules",
           "moduleName": "./example/pages/index.vue + 9 modules",
           "type": "harmony import specifier",
@@ -7604,7 +7604,7 @@
         },
         {
           "moduleId": 35,
-          "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 1166d1fff7ee59ba3b470544864459ff",
+          "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 2b273fc944cd7f5824fbac8672a277ff",
           "module": "./example/pages/index.vue + 9 modules",
           "moduleName": "./example/pages/index.vue + 9 modules",
           "type": "harmony import specifier",
@@ -9201,7 +9201,7 @@
       "name": "./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/postcss-loader/src??ref--3-oneOf-1-2!./node_modules/.cache/nuxt/nuxt-font-loader-strategy/font-face.css",
       "index": 43,
       "index2": 47,
-      "size": 4308,
+      "size": 4829,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -9260,7 +9260,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 5,
-      "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../../css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = require(\"../../../css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_1___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff\");\nvar ___CSS_LOADER_URL_IMPORT_2___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_3___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff\");\nvar ___CSS_LOADER_URL_IMPORT_4___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_5___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff\");\nvar ___CSS_LOADER_URL_IMPORT_6___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_7___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff\");\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_5___);\nvar ___CSS_LOADER_URL_REPLACEMENT_6___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_6___);\nvar ___CSS_LOADER_URL_REPLACEMENT_7___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_7___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:normal;font-display:swap;src:local(\\\"Roboto\\\"),local(\\\"Roboto-Regular\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:300;font-style:normal;font-display:swap;src:local(\\\"Roboto Light\\\"),local(\\\"Roboto-Light\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:italic;font-display:swap;src:local(\\\"Roboto\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_4___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_5___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:700;font-style:normal;font-display:swap;src:local(\\\"Roboto Bold\\\"),local(\\\"Roboto-Bold\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_6___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_7___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto Slab\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:normal;font-display:swap;src:url(/nuxt-font-loader-strategy/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff2) format(\\\"woff2\\\"),url(/nuxt-font-loader-strategy/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff) format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto Slab\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:700;font-style:normal;font-display:swap;src:url(/nuxt-font-loader-strategy/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700.woff2) format(\\\"woff2\\\"),url(/nuxt-font-loader-strategy/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700.woff) format(\\\"woff\\\")}\", \"\"]);\n// Exports\nmodule.exports = ___CSS_LOADER_EXPORT___;\n"
+      "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../../css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = require(\"../../../css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_1___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff\");\nvar ___CSS_LOADER_URL_IMPORT_2___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_3___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff\");\nvar ___CSS_LOADER_URL_IMPORT_4___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_5___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff\");\nvar ___CSS_LOADER_URL_IMPORT_6___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_7___ = require(\"../../../../example/assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff\");\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_5___);\nvar ___CSS_LOADER_URL_REPLACEMENT_6___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_6___);\nvar ___CSS_LOADER_URL_REPLACEMENT_7___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_7___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:normal;font-display:swap;src:local(\\\"Roboto\\\"),local(\\\"Roboto-Regular\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:300;font-style:normal;font-display:swap;src:local(\\\"Roboto Light\\\"),local(\\\"Roboto-Light\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:italic;font-display:swap;src:local(\\\"Roboto\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_4___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_5___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:700;font-style:normal;font-display:swap;src:local(\\\"Roboto Bold\\\"),local(\\\"Roboto-Bold\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_6___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL_REPLACEMENT_7___ + \") format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto Slab\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:normal;font-display:swap;src:url(/nuxt-font-loader-strategy/fonts/roboto-slab-v20-latin/roboto-slab-v20-latin-regular.woff2) format(\\\"woff2\\\"),url(/nuxt-font-loader-strategy/fonts/roboto-slab-v20-latin/roboto-slab-v20-latin-regular.woff) format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto Slab\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:700;font-style:normal;font-display:swap;src:url(/nuxt-font-loader-strategy/fonts/roboto-slab-v20-latin/roboto-slab-v20-latin-700.woff2) format(\\\"woff2\\\"),url(/nuxt-font-loader-strategy/fonts/roboto-slab-v20-latin/roboto-slab-v20-latin-700.woff) format(\\\"woff\\\")}@font-face{font-family:\\\"Roboto Mono\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:400;font-style:normal;font-display:swap;src:url(/nuxt-font-loader-strategy/fonts/roboto-mono/RobotoMono-Regular.ttf.ttf) format(\\\"truetype\\\")}@font-face{font-family:\\\"Roboto Mono\\\";font-variant:normal;font-feature-settings:normal;font-stretch:normal;font-weight:700;font-style:normal;font-display:swap;src:url(/nuxt-font-loader-strategy/fonts/roboto-mono/RobotoMono-Bold.ttf.ttf) format(\\\"truetype\\\")}\", \"\"]);\n// Exports\nmodule.exports = ___CSS_LOADER_EXPORT___;\n"
     },
     {
       "id": 23,
@@ -9636,7 +9636,7 @@
       "name": "./node_modules/.cache/nuxt/server.js + 24 modules",
       "index": 1,
       "index2": 52,
-      "size": 62693,
+      "size": 63081,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -9685,7 +9685,7 @@
           "name": "./node_modules/.cache/nuxt/server.js",
           "index": 1,
           "index2": 52,
-          "size": 8537,
+          "size": 8488,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -9724,7 +9724,7 @@
             "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: multi ./node_modules/.cache/nuxt/server.js (referenced with single entry)"
           ],
           "depth": 1,
-          "source": "import Vue from 'vue';\nimport { joinURL, normalizeURL, withQuery } from 'ufo';\nimport fetch from 'node-fetch';\nimport middleware from './middleware.js';\nimport { applyAsyncData, middlewareSeries, sanitizeComponent, getMatchedComponents, promisify } from './utils.js';\nimport fetchMixin from './mixins/fetch.server';\nimport { createApp, NuxtError } from './index.js';\nimport NuxtLink from './components/nuxt-link.server.js'; // should be included after ./index.js\n// Update serverPrefetch strategy\n\nVue.config.optionMergeStrategies.serverPrefetch = Vue.config.optionMergeStrategies.created; // Fetch mixin\n\nif (!Vue.__nuxt__fetch__mixin__) {\n  Vue.mixin(fetchMixin);\n  Vue.__nuxt__fetch__mixin__ = true;\n} // Component: <NuxtLink>\n\n\nVue.component(NuxtLink.name, NuxtLink);\nVue.component('NLink', NuxtLink);\n\nif (!global.fetch) {\n  global.fetch = fetch;\n}\n\nconst noopApp = () => new Vue({\n  render: h => h('div', {\n    domProps: {\n      id: '__nuxt'\n    }\n  })\n});\n\nconst createNext = ssrContext => opts => {\n  // If static target, render on client-side\n  ssrContext.redirected = opts;\n\n  if (ssrContext.target === 'static' || !ssrContext.res) {\n    ssrContext.nuxt.serverRendered = false;\n    return;\n  }\n\n  let fullPath = withQuery(opts.path, opts.query);\n  const $config = ssrContext.runtimeConfig || {};\n  const routerBase = $config.app && $config.app.basePath || '/nuxt-font-loader-strategy/';\n\n  if (!fullPath.startsWith('http') && routerBase !== '/' && !fullPath.startsWith(routerBase)) {\n    fullPath = joinURL(routerBase, fullPath);\n  } // Avoid loop redirect\n\n\n  if (decodeURI(fullPath) === decodeURI(ssrContext.url)) {\n    ssrContext.redirected = false;\n    return;\n  }\n\n  ssrContext.res.writeHead(opts.status, {\n    Location: normalizeURL(fullPath)\n  });\n  ssrContext.res.end();\n}; // This exported function will be called by `bundleRenderer`.\n// This is where we perform data-prefetching to determine the\n// state of our application before actually rendering it.\n// Since data fetching is async, this function is expected to\n// return a Promise that resolves to the app instance.\n\n\nexport default (async ssrContext => {\n  // Create ssrContext.next for simulate next() of beforeEach() when wanted to redirect\n  ssrContext.redirected = false;\n  ssrContext.next = createNext(ssrContext); // Used for beforeNuxtRender({ Components, nuxtState })\n\n  ssrContext.beforeRenderFns = []; // Nuxt object (window.{{globals.context}}, defaults to window.__NUXT__)\n\n  ssrContext.nuxt = {\n    layout: 'default',\n    data: [],\n    fetch: {},\n    error: null,\n    serverRendered: true,\n    routePath: ''\n  };\n  ssrContext.fetchCounters = {}; // Remove query from url is static target\n\n  if (ssrContext.url) {\n    ssrContext.url = ssrContext.url.split('?')[0];\n  } // Public runtime config\n\n\n  ssrContext.nuxt.config = ssrContext.runtimeConfig.public;\n\n  if (ssrContext.nuxt.config.app) {\n    __webpack_public_path__ = joinURL(ssrContext.nuxt.config.app.cdnURL, ssrContext.nuxt.config.app.assetsPath);\n  } // Create the app definition and the instance (created for each request)\n\n\n  const {\n    app,\n    router\n  } = await createApp(ssrContext, { ...ssrContext.runtimeConfig.public,\n    ...ssrContext.runtimeConfig.private\n  });\n\n  const _app = new Vue(app); // Add ssr route path to nuxt context so we can account for page navigation between ssr and csr\n\n\n  ssrContext.nuxt.routePath = app.context.route.path; // Add meta infos (used in renderer.js)\n\n  ssrContext.meta = _app.$meta(); // Keep asyncData for each matched component in ssrContext (used in app/utils.js via this.$ssrContext)\n\n  ssrContext.asyncData = {};\n\n  const beforeRender = async () => {\n    // Call beforeNuxtRender() methods\n    await Promise.all(ssrContext.beforeRenderFns.map(fn => promisify(fn, {\n      Components,\n      nuxtState: ssrContext.nuxt\n    })));\n  };\n\n  const renderErrorPage = async () => {\n    // Don't server-render the page in static target\n    if (ssrContext.target === 'static') {\n      ssrContext.nuxt.serverRendered = false;\n    } // Load layout for error page\n\n\n    const layout = (NuxtError.options || NuxtError).layout;\n    const errLayout = typeof layout === 'function' ? layout.call(NuxtError, app.context) : layout;\n    ssrContext.nuxt.layout = errLayout || 'default';\n    await _app.loadLayout(errLayout);\n\n    _app.setLayout(errLayout);\n\n    await beforeRender();\n    return _app;\n  };\n\n  const render404Page = () => {\n    app.context.error({\n      statusCode: 404,\n      path: ssrContext.url,\n      message: 'This page could not be found'\n    });\n    return renderErrorPage();\n  }; // Components are already resolved by setContext -> getRouteData (app/utils.js)\n\n\n  const Components = getMatchedComponents(router.match(ssrContext.url));\n  /*\n  ** Call global middleware (nuxt.config.js)\n  */\n\n  let midd = [];\n  midd = midd.map(name => {\n    if (typeof name === 'function') {\n      return name;\n    }\n\n    if (typeof middleware[name] !== 'function') {\n      app.context.error({\n        statusCode: 500,\n        message: 'Unknown middleware ' + name\n      });\n    }\n\n    return middleware[name];\n  });\n  await middlewareSeries(midd, app.context); // ...If there is a redirect or an error, stop the process\n\n  if (ssrContext.redirected) {\n    return noopApp();\n  }\n\n  if (ssrContext.nuxt.error) {\n    return renderErrorPage();\n  }\n  /*\n  ** Set layout\n  */\n\n\n  let layout = Components.length ? Components[0].options.layout : NuxtError.layout;\n\n  if (typeof layout === 'function') {\n    layout = layout(app.context);\n  }\n\n  await _app.loadLayout(layout);\n\n  if (ssrContext.nuxt.error) {\n    return renderErrorPage();\n  }\n\n  layout = _app.setLayout(layout);\n  ssrContext.nuxt.layout = _app.layoutName;\n  /*\n  ** Call middleware (layout + pages)\n  */\n\n  midd = [];\n  layout = sanitizeComponent(layout);\n\n  if (layout.options.middleware) {\n    midd = midd.concat(layout.options.middleware);\n  }\n\n  Components.forEach(Component => {\n    if (Component.options.middleware) {\n      midd = midd.concat(Component.options.middleware);\n    }\n  });\n  midd = midd.map(name => {\n    if (typeof name === 'function') {\n      return name;\n    }\n\n    if (typeof middleware[name] !== 'function') {\n      app.context.error({\n        statusCode: 500,\n        message: 'Unknown middleware ' + name\n      });\n    }\n\n    return middleware[name];\n  });\n  await middlewareSeries(midd, app.context); // ...If there is a redirect or an error, stop the process\n\n  if (ssrContext.redirected) {\n    return noopApp();\n  }\n\n  if (ssrContext.nuxt.error) {\n    return renderErrorPage();\n  }\n  /*\n  ** Call .validate()\n  */\n\n\n  let isValid = true;\n\n  try {\n    for (const Component of Components) {\n      if (typeof Component.options.validate !== 'function') {\n        continue;\n      }\n\n      isValid = await Component.options.validate(app.context);\n\n      if (!isValid) {\n        break;\n      }\n    }\n  } catch (validationError) {\n    // ...If .validate() threw an error\n    app.context.error({\n      statusCode: validationError.statusCode || '500',\n      message: validationError.message\n    });\n    return renderErrorPage();\n  } // ...If .validate() returned false\n\n\n  if (!isValid) {\n    // Render a 404 error page\n    return render404Page();\n  } // If no Components found, returns 404\n\n\n  if (!Components.length) {\n    return render404Page();\n  } // Call asyncData & fetch hooks on components matched by the route.\n\n\n  const asyncDatas = await Promise.all(Components.map(Component => {\n    const promises = []; // Call asyncData(context)\n\n    if (Component.options.asyncData && typeof Component.options.asyncData === 'function') {\n      const promise = promisify(Component.options.asyncData, app.context);\n      promise.then(asyncDataResult => {\n        ssrContext.asyncData[Component.cid] = asyncDataResult;\n        applyAsyncData(Component);\n        return asyncDataResult;\n      });\n      promises.push(promise);\n    } else {\n      promises.push(null);\n    } // Call fetch(context)\n\n\n    if (Component.options.fetch && Component.options.fetch.length) {\n      promises.push(Component.options.fetch(app.context));\n    } else {\n      promises.push(null);\n    }\n\n    return Promise.all(promises);\n  })); // datas are the first row of each\n\n  ssrContext.nuxt.data = asyncDatas.map(r => r[0] || {}); // ...If there is a redirect or an error, stop the process\n\n  if (ssrContext.redirected) {\n    return noopApp();\n  }\n\n  if (ssrContext.nuxt.error) {\n    return renderErrorPage();\n  } // Call beforeNuxtRender methods & add store state\n\n\n  await beforeRender();\n  return _app;\n});"
+          "source": "import Vue from 'vue';\nimport { joinURL, normalizeURL, withQuery } from 'ufo';\nimport fetch from 'node-fetch';\nimport middleware from './middleware.js';\nimport { applyAsyncData, middlewareSeries, sanitizeComponent, getMatchedComponents, promisify } from './utils.js';\nimport fetchMixin from './mixins/fetch.server';\nimport { createApp, NuxtError } from './index.js';\nimport NuxtLink from './components/nuxt-link.server.js'; // should be included after ./index.js\n// Update serverPrefetch strategy\n\nVue.config.optionMergeStrategies.serverPrefetch = Vue.config.optionMergeStrategies.created; // Fetch mixin\n\nif (!Vue.__nuxt__fetch__mixin__) {\n  Vue.mixin(fetchMixin);\n  Vue.__nuxt__fetch__mixin__ = true;\n} // Component: <NuxtLink>\n\n\nVue.component(NuxtLink.name, NuxtLink);\nVue.component('NLink', NuxtLink);\n\nif (!global.fetch) {\n  global.fetch = fetch;\n}\n\nconst noopApp = () => new Vue({\n  render: h => h('div', {\n    domProps: {\n      id: '__nuxt'\n    }\n  })\n});\n\nconst createNext = ssrContext => opts => {\n  // If static target, render on client-side\n  ssrContext.redirected = opts;\n\n  if (ssrContext.target === 'static' || !ssrContext.res) {\n    ssrContext.nuxt.serverRendered = false;\n    return;\n  }\n\n  let fullPath = withQuery(opts.path, opts.query);\n  const $config = ssrContext.runtimeConfig || {};\n  const routerBase = $config.app && $config.app.basePath || '/nuxt-font-loader-strategy/';\n\n  if (!fullPath.startsWith('http') && routerBase !== '/' && !fullPath.startsWith(routerBase)) {\n    fullPath = joinURL(routerBase, fullPath);\n  } // Avoid loop redirect\n\n\n  if (decodeURI(fullPath) === decodeURI(ssrContext.url)) {\n    ssrContext.redirected = false;\n    return;\n  }\n\n  ssrContext.res.writeHead(opts.status, {\n    Location: normalizeURL(fullPath)\n  });\n  ssrContext.res.end();\n}; // This exported function will be called by `bundleRenderer`.\n// This is where we perform data-prefetching to determine the\n// state of our application before actually rendering it.\n// Since data fetching is async, this function is expected to\n// return a Promise that resolves to the app instance.\n\n\nexport default (async ssrContext => {\n  // Create ssrContext.next for simulate next() of beforeEach() when wanted to redirect\n  ssrContext.redirected = false;\n  ssrContext.next = createNext(ssrContext); // Used for beforeNuxtRender({ Components, nuxtState })\n\n  ssrContext.beforeRenderFns = []; // Nuxt object (window.{{globals.context}}, defaults to window.__NUXT__)\n\n  ssrContext.nuxt = {\n    layout: 'default',\n    data: [],\n    fetch: {},\n    error: null,\n    serverRendered: true,\n    routePath: ''\n  };\n  ssrContext.fetchCounters = {}; // Remove query from url is static target\n\n  if (ssrContext.url) {\n    ssrContext.url = ssrContext.url.split('?')[0];\n  } // Public runtime config\n\n\n  ssrContext.nuxt.config = ssrContext.runtimeConfig.public;\n\n  if (ssrContext.nuxt.config.app) {\n    __webpack_public_path__ = joinURL(ssrContext.nuxt.config.app.cdnURL, ssrContext.nuxt.config.app.assetsPath);\n  } // Create the app definition and the instance (created for each request)\n\n\n  const {\n    app,\n    router\n  } = await createApp(ssrContext, ssrContext.runtimeConfig.private);\n\n  const _app = new Vue(app); // Add ssr route path to nuxt context so we can account for page navigation between ssr and csr\n\n\n  ssrContext.nuxt.routePath = app.context.route.path; // Add meta infos (used in renderer.js)\n\n  ssrContext.meta = _app.$meta(); // Keep asyncData for each matched component in ssrContext (used in app/utils.js via this.$ssrContext)\n\n  ssrContext.asyncData = {};\n\n  const beforeRender = async () => {\n    // Call beforeNuxtRender() methods\n    await Promise.all(ssrContext.beforeRenderFns.map(fn => promisify(fn, {\n      Components,\n      nuxtState: ssrContext.nuxt\n    })));\n  };\n\n  const renderErrorPage = async () => {\n    // Don't server-render the page in static target\n    if (ssrContext.target === 'static') {\n      ssrContext.nuxt.serverRendered = false;\n    } // Load layout for error page\n\n\n    const layout = (NuxtError.options || NuxtError).layout;\n    const errLayout = typeof layout === 'function' ? layout.call(NuxtError, app.context) : layout;\n    ssrContext.nuxt.layout = errLayout || 'default';\n    await _app.loadLayout(errLayout);\n\n    _app.setLayout(errLayout);\n\n    await beforeRender();\n    return _app;\n  };\n\n  const render404Page = () => {\n    app.context.error({\n      statusCode: 404,\n      path: ssrContext.url,\n      message: 'This page could not be found'\n    });\n    return renderErrorPage();\n  }; // Components are already resolved by setContext -> getRouteData (app/utils.js)\n\n\n  const Components = getMatchedComponents(router.match(ssrContext.url));\n  /*\n  ** Call global middleware (nuxt.config.js)\n  */\n\n  let midd = [];\n  midd = midd.map(name => {\n    if (typeof name === 'function') {\n      return name;\n    }\n\n    if (typeof middleware[name] !== 'function') {\n      app.context.error({\n        statusCode: 500,\n        message: 'Unknown middleware ' + name\n      });\n    }\n\n    return middleware[name];\n  });\n  await middlewareSeries(midd, app.context); // ...If there is a redirect or an error, stop the process\n\n  if (ssrContext.redirected) {\n    return noopApp();\n  }\n\n  if (ssrContext.nuxt.error) {\n    return renderErrorPage();\n  }\n  /*\n  ** Set layout\n  */\n\n\n  let layout = Components.length ? Components[0].options.layout : NuxtError.layout;\n\n  if (typeof layout === 'function') {\n    layout = layout(app.context);\n  }\n\n  await _app.loadLayout(layout);\n\n  if (ssrContext.nuxt.error) {\n    return renderErrorPage();\n  }\n\n  layout = _app.setLayout(layout);\n  ssrContext.nuxt.layout = _app.layoutName;\n  /*\n  ** Call middleware (layout + pages)\n  */\n\n  midd = [];\n  layout = sanitizeComponent(layout);\n\n  if (layout.options.middleware) {\n    midd = midd.concat(layout.options.middleware);\n  }\n\n  Components.forEach(Component => {\n    if (Component.options.middleware) {\n      midd = midd.concat(Component.options.middleware);\n    }\n  });\n  midd = midd.map(name => {\n    if (typeof name === 'function') {\n      return name;\n    }\n\n    if (typeof middleware[name] !== 'function') {\n      app.context.error({\n        statusCode: 500,\n        message: 'Unknown middleware ' + name\n      });\n    }\n\n    return middleware[name];\n  });\n  await middlewareSeries(midd, app.context); // ...If there is a redirect or an error, stop the process\n\n  if (ssrContext.redirected) {\n    return noopApp();\n  }\n\n  if (ssrContext.nuxt.error) {\n    return renderErrorPage();\n  }\n  /*\n  ** Call .validate()\n  */\n\n\n  let isValid = true;\n\n  try {\n    for (const Component of Components) {\n      if (typeof Component.options.validate !== 'function') {\n        continue;\n      }\n\n      isValid = await Component.options.validate(app.context);\n\n      if (!isValid) {\n        break;\n      }\n    }\n  } catch (validationError) {\n    // ...If .validate() threw an error\n    app.context.error({\n      statusCode: validationError.statusCode || '500',\n      message: validationError.message\n    });\n    return renderErrorPage();\n  } // ...If .validate() returned false\n\n\n  if (!isValid) {\n    // Render a 404 error page\n    return render404Page();\n  } // If no Components found, returns 404\n\n\n  if (!Components.length) {\n    return render404Page();\n  } // Call asyncData & fetch hooks on components matched by the route.\n\n\n  const asyncDatas = await Promise.all(Components.map(Component => {\n    const promises = []; // Call asyncData(context)\n\n    if (Component.options.asyncData && typeof Component.options.asyncData === 'function') {\n      const promise = promisify(Component.options.asyncData, app.context);\n      promise.then(asyncDataResult => {\n        ssrContext.asyncData[Component.cid] = asyncDataResult;\n        applyAsyncData(Component);\n        return asyncDataResult;\n      });\n      promises.push(promise);\n    } else {\n      promises.push(null);\n    } // Call fetch(context)\n\n\n    if (Component.options.fetch && Component.options.fetch.length) {\n      promises.push(Component.options.fetch(app.context));\n    } else {\n      promises.push(null);\n    }\n\n    return Promise.all(promises);\n  })); // datas are the first row of each\n\n  ssrContext.nuxt.data = asyncDatas.map(r => r[0] || {}); // ...If there is a redirect or an error, stop the process\n\n  if (ssrContext.redirected) {\n    return noopApp();\n  }\n\n  if (ssrContext.nuxt.error) {\n    return renderErrorPage();\n  } // Call beforeNuxtRender methods & add store state\n\n\n  await beforeRender();\n  return _app;\n});"
         },
         {
           "id": null,
@@ -9774,7 +9774,7 @@
               "moduleName": "./node_modules/.cache/nuxt/server.js",
               "type": "harmony import specifier",
               "userRequest": "./middleware.js",
-              "loc": "160:15-25"
+              "loc": "158:15-25"
             },
             {
               "moduleId": null,
@@ -9783,7 +9783,7 @@
               "moduleName": "./node_modules/.cache/nuxt/server.js",
               "type": "harmony import specifier",
               "userRequest": "./middleware.js",
-              "loc": "167:11-21"
+              "loc": "165:11-21"
             },
             {
               "moduleId": null,
@@ -9792,7 +9792,7 @@
               "moduleName": "./node_modules/.cache/nuxt/server.js",
               "type": "harmony import specifier",
               "userRequest": "./middleware.js",
-              "loc": "218:15-25"
+              "loc": "216:15-25"
             },
             {
               "moduleId": null,
@@ -9801,7 +9801,7 @@
               "moduleName": "./node_modules/.cache/nuxt/server.js",
               "type": "harmony import specifier",
               "userRequest": "./middleware.js",
-              "loc": "225:11-21"
+              "loc": "223:11-21"
             }
           ],
           "usedExports": [
@@ -10006,7 +10006,7 @@
               "moduleName": "./node_modules/.cache/nuxt/server.js",
               "type": "harmony import specifier",
               "userRequest": "./utils.js",
-              "loc": "115:59-68"
+              "loc": "113:59-68"
             },
             {
               "moduleId": null,
@@ -10069,7 +10069,7 @@
               "moduleName": "./node_modules/.cache/nuxt/server.js",
               "type": "harmony import specifier",
               "userRequest": "./utils.js",
-              "loc": "149:21-41"
+              "loc": "147:21-41"
             },
             {
               "moduleId": null,
@@ -10087,7 +10087,7 @@
               "moduleName": "./node_modules/.cache/nuxt/server.js",
               "type": "harmony import specifier",
               "userRequest": "./utils.js",
-              "loc": "169:8-24"
+              "loc": "167:8-24"
             },
             {
               "moduleId": null,
@@ -10096,7 +10096,7 @@
               "moduleName": "./node_modules/.cache/nuxt/server.js",
               "type": "harmony import specifier",
               "userRequest": "./utils.js",
-              "loc": "202:11-28"
+              "loc": "200:11-28"
             },
             {
               "moduleId": null,
@@ -10132,7 +10132,7 @@
               "moduleName": "./node_modules/.cache/nuxt/server.js",
               "type": "harmony import specifier",
               "userRequest": "./utils.js",
-              "loc": "227:8-24"
+              "loc": "225:8-24"
             },
             {
               "moduleId": null,
@@ -10150,7 +10150,7 @@
               "moduleName": "./node_modules/.cache/nuxt/server.js",
               "type": "harmony import specifier",
               "userRequest": "./utils.js",
-              "loc": "280:22-31"
+              "loc": "278:22-31"
             },
             {
               "moduleId": null,
@@ -10159,7 +10159,7 @@
               "moduleName": "./node_modules/.cache/nuxt/server.js",
               "type": "harmony import specifier",
               "userRequest": "./utils.js",
-              "loc": "283:8-22"
+              "loc": "281:8-22"
             }
           ],
           "usedExports": [
@@ -10333,7 +10333,7 @@
               "moduleName": "./node_modules/.cache/nuxt/server.js",
               "type": "harmony import specifier",
               "userRequest": "./index.js",
-              "loc": "128:20-29"
+              "loc": "126:20-29"
             },
             {
               "moduleId": null,
@@ -10342,7 +10342,7 @@
               "moduleName": "./node_modules/.cache/nuxt/server.js",
               "type": "harmony import specifier",
               "userRequest": "./index.js",
-              "loc": "128:41-50"
+              "loc": "126:41-50"
             },
             {
               "moduleId": null,
@@ -10351,7 +10351,7 @@
               "moduleName": "./node_modules/.cache/nuxt/server.js",
               "type": "harmony import specifier",
               "userRequest": "./index.js",
-              "loc": "129:65-74"
+              "loc": "127:65-74"
             },
             {
               "moduleId": null,
@@ -10360,7 +10360,7 @@
               "moduleName": "./node_modules/.cache/nuxt/server.js",
               "type": "harmony import specifier",
               "userRequest": "./index.js",
-              "loc": "183:66-75"
+              "loc": "181:66-75"
             }
           ],
           "usedExports": [
@@ -10890,7 +10890,7 @@
           "name": "./node_modules/.cache/nuxt/nuxt-font-loader-strategy/index.js",
           "index": 39,
           "index2": 49,
-          "size": 1650,
+          "size": 2087,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -10957,7 +10957,7 @@
           ],
           "optimizationBailout": [],
           "depth": 3,
-          "source": "import { loadFonts, fontsToLinks } from './utils/fontLoader';\nimport './font-face.css';\nconst fonts = [{\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_400_normal\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_300_normal\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_400_italic\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_700_normal\"]\n}, {\n  \"preload\": true,\n  \"source\": {\n    \"path\": \"/nuxt-font-loader-strategy/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff2\",\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto_slab\", \"font_roboto_slab_400_normal\"]\n}, {\n  \"preload\": true,\n  \"source\": {\n    \"path\": \"/nuxt-font-loader-strategy/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700.woff2\",\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto_slab\", \"font_roboto_slab_700_normal\"]\n}];\n\nif (!process.server) {\n  loadFonts({\n    \"ignoredEffectiveTypes\": [\"2g\", \"slow-2g\"],\n    \"ignoreLighthouse\": true,\n    \"unlockDelay\": 0,\n    \"prefetchCount\": 2\n  });\n}\n\nexport default function ({\n  app\n}) {\n  app.head.link.push(...fontsToLinks(fonts));\n}"
+          "source": "import { loadFonts, fontsToLinks } from './utils/fontLoader';\nimport './font-face.css';\nconst fonts = [{\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_400_normal\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-300.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_300_normal\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-italic.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_400_italic\"]\n}, {\n  \"preload\": false,\n  \"source\": {\n    \"path\": require('@/assets/fonts/roboto-v20-latin/roboto-v20-latin-700.woff2'),\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto\", \"font_roboto_700_normal\"]\n}, {\n  \"preload\": true,\n  \"source\": {\n    \"path\": \"/nuxt-font-loader-strategy/fonts/roboto-slab-v20-latin/roboto-slab-v20-latin-regular.woff2\",\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto_slab\", \"font_roboto_slab_400_normal\"]\n}, {\n  \"preload\": true,\n  \"source\": {\n    \"path\": \"/nuxt-font-loader-strategy/fonts/roboto-slab-v20-latin/roboto-slab-v20-latin-700.woff2\",\n    \"format\": \"woff2\"\n  },\n  \"classes\": [\"font_roboto_slab\", \"font_roboto_slab_700_normal\"]\n}, {\n  \"preload\": true,\n  \"source\": {\n    \"path\": \"/nuxt-font-loader-strategy/fonts/roboto-mono/RobotoMono-Regular.ttf.ttf\",\n    \"format\": \"truetype\"\n  },\n  \"classes\": [\"font_roboto_mono\", \"font_roboto_mono_400_normal\"]\n}, {\n  \"preload\": true,\n  \"source\": {\n    \"path\": \"/nuxt-font-loader-strategy/fonts/roboto-mono/RobotoMono-Bold.ttf.ttf\",\n    \"format\": \"truetype\"\n  },\n  \"classes\": [\"font_roboto_mono\", \"font_roboto_mono_700_normal\"]\n}];\n\nif (!process.server) {\n  loadFonts({\n    \"ignoredEffectiveTypes\": [\"2g\", \"slow-2g\"],\n    \"ignoreLighthouse\": true,\n    \"unlockDelay\": 0,\n    \"prefetchCount\": 2\n  });\n}\n\nexport default function ({\n  app\n}) {\n  app.head.link.push(...fontsToLinks(fonts));\n}"
         },
         {
           "id": null,
@@ -11401,7 +11401,7 @@
               "moduleName": "./node_modules/.cache/nuxt/nuxt-font-loader-strategy/index.js",
               "type": "harmony import specifier",
               "userRequest": "./utils/fontLoader",
-              "loc": "59:24-36"
+              "loc": "73:24-36"
             }
           ],
           "usedExports": [
@@ -12278,7 +12278,7 @@
       "reasons": [
         {
           "moduleId": 35,
-          "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 1166d1fff7ee59ba3b470544864459ff",
+          "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 2b273fc944cd7f5824fbac8672a277ff",
           "module": "./example/pages/index.vue + 9 modules",
           "moduleName": "./example/pages/index.vue + 9 modules",
           "type": "cjs require",
@@ -12437,7 +12437,7 @@
       "reasons": [
         {
           "moduleId": 35,
-          "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 1166d1fff7ee59ba3b470544864459ff",
+          "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 2b273fc944cd7f5824fbac8672a277ff",
           "module": "./example/pages/index.vue + 9 modules",
           "moduleName": "./example/pages/index.vue + 9 modules",
           "type": "cjs require",
@@ -12459,7 +12459,7 @@
       "name": "./node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--4-oneOf-1-2!./node_modules/vue-loader/lib??vue-loader-options!./example/pages/index.vue?vue&type=style&index=0&lang=postcss&",
       "index": 69,
       "index2": 66,
-      "size": 1848,
+      "size": 2146,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -12528,15 +12528,15 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 7,
-      "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body{margin:0;font-size:16px;color:#333;background:#fff;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@media (prefers-color-scheme:light){body{color:#333;background:#fff}}@media (prefers-color-scheme:dark){body{color:#fff;background:#333}}.content{width:90%;margin:0 auto}.content h2,.content h3,.content h4,.content h5,.content h6{font-family:serif;font-weight:400;text-shadow:10px 10px #ddd}@media (prefers-color-scheme:dark){.content h2,.content h3,.content h4,.content h5,.content h6{text-shadow:10px 10px #000}}.font_roboto_slab_400_normal .content h2,.font_roboto_slab_400_normal .content h3,.font_roboto_slab_400_normal .content h4,.font_roboto_slab_400_normal .content h5,.font_roboto_slab_400_normal .content h6{font-family:\\\"Roboto Slab\\\",serif}.content h1{font-family:serif}.font_roboto_slab_700_normal .content h1{font-family:\\\"Roboto Slab\\\",serif;font-weight:700}.content h1{text-shadow:10px 10px #ddd}@media (prefers-color-scheme:dark){.content h1{text-shadow:10px 10px #000}}.content p{font-family:sans-serif;font-style:normal;font-weight:400}.font_roboto_400_normal .content p{font-family:\\\"Roboto\\\",sans-serif}.content p.bold{font-family:sans-serif;font-weight:700}.font_roboto_700_normal .content p.bold{font-family:\\\"Roboto\\\",sans-serif}.content p.light{font-family:sans-serif;font-weight:300}.font_roboto_300_normal .content p.light{font-family:\\\"Roboto\\\",sans-serif}.content p.italic{font-family:sans-serif;font-style:italic;font-weight:400}.font_roboto_400_italic .content p.italic{font-family:\\\"Roboto\\\",sans-serif}\", \"\"]);\n// Exports\nmodule.exports = ___CSS_LOADER_EXPORT___;\n"
+      "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body{margin:0;font-size:16px;color:#333;background:#fff;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@media (prefers-color-scheme:light){body{color:#333;background:#fff}}@media (prefers-color-scheme:dark){body{color:#fff;background:#333}}.content{width:90%;margin:0 auto}.content h2,.content h3,.content h4,.content h5,.content h6{font-family:serif;font-weight:400;text-shadow:10px 10px #ddd}@media (prefers-color-scheme:dark){.content h2,.content h3,.content h4,.content h5,.content h6{text-shadow:10px 10px #000}}.font_roboto_slab_400_normal .content h2,.font_roboto_slab_400_normal .content h3,.font_roboto_slab_400_normal .content h4,.font_roboto_slab_400_normal .content h5,.font_roboto_slab_400_normal .content h6{font-family:\\\"Roboto Slab\\\",serif}.content h1{font-family:serif}.font_roboto_slab_700_normal .content h1{font-family:\\\"Roboto Slab\\\",serif;font-weight:700}.content h1{text-shadow:10px 10px #ddd}@media (prefers-color-scheme:dark){.content h1{text-shadow:10px 10px #000}}.content p{font-family:sans-serif;font-style:normal;font-weight:400}.font_roboto_400_normal .content p{font-family:\\\"Roboto\\\",sans-serif}.content p.bold{font-family:sans-serif;font-weight:700}.font_roboto_700_normal .content p.bold{font-family:\\\"Roboto\\\",sans-serif}.content p.light{font-family:sans-serif;font-weight:300}.font_roboto_300_normal .content p.light{font-family:\\\"Roboto\\\",sans-serif}.content p.italic{font-family:sans-serif;font-style:italic;font-weight:400}.font_roboto_400_italic .content p.italic{font-family:\\\"Roboto\\\",sans-serif}.content p.mono-normal{font-family:monospace;font-weight:400}.font_roboto_mono_400_normal .content p.mono-normal{font-family:\\\"Roboto Mono\\\",monospace}.content p.mono-bold{font-family:monospace;font-weight:700}.font_roboto_mono_700_normal .content p.mono-bold{font-family:\\\"Roboto Mono\\\",monospace}\", \"\"]);\n// Exports\nmodule.exports = ___CSS_LOADER_EXPORT___;\n"
     },
     {
       "id": 35,
-      "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 1166d1fff7ee59ba3b470544864459ff",
+      "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue 2b273fc944cd7f5824fbac8672a277ff",
       "name": "./example/pages/index.vue + 9 modules",
       "index": 54,
       "index2": 69,
-      "size": 8195,
+      "size": 9993,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -12632,12 +12632,12 @@
             "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./node_modules/.cache/nuxt/router.js (referenced with import())"
           ],
           "depth": 4,
-          "source": "import { render, staticRenderFns } from \"./index.vue?vue&type=template&id=32c05296&\"\nimport script from \"./index.vue?vue&type=script&lang=js&\"\nexport * from \"./index.vue?vue&type=script&lang=js&\"\nfunction injectStyles (context) {\n  \n  var style0 = require(\"./index.vue?vue&type=style&index=0&lang=postcss&\")\nif (style0.__inject__) style0.__inject__(context)\n\n}\n\n/* normalize component */\nimport normalizer from \"!../../node_modules/vue-loader/lib/runtime/componentNormalizer.js\"\nvar component = normalizer(\n  script,\n  render,\n  staticRenderFns,\n  false,\n  injectStyles,\n  null,\n  \"5a12918e\"\n  \n)\n\nexport default component.exports"
+          "source": "import { render, staticRenderFns } from \"./index.vue?vue&type=template&id=c14da43c&\"\nimport script from \"./index.vue?vue&type=script&lang=js&\"\nexport * from \"./index.vue?vue&type=script&lang=js&\"\nfunction injectStyles (context) {\n  \n  var style0 = require(\"./index.vue?vue&type=style&index=0&lang=postcss&\")\nif (style0.__inject__) style0.__inject__(context)\n\n}\n\n/* normalize component */\nimport normalizer from \"!../../node_modules/vue-loader/lib/runtime/componentNormalizer.js\"\nvar component = normalizer(\n  script,\n  render,\n  staticRenderFns,\n  false,\n  injectStyles,\n  null,\n  \"5a12918e\"\n  \n)\n\nexport default component.exports"
         },
         {
           "id": null,
-          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=32c05296&",
-          "name": "./example/pages/index.vue?vue&type=template&id=32c05296&",
+          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=c14da43c&",
+          "name": "./example/pages/index.vue?vue&type=template&id=c14da43c&",
           "index": 55,
           "index2": 55,
           "size": 203,
@@ -12687,7 +12687,7 @@
               "module": "./example/pages/index.vue",
               "moduleName": "./example/pages/index.vue",
               "type": "harmony side effect evaluation",
-              "userRequest": "./index.vue?vue&type=template&id=32c05296&",
+              "userRequest": "./index.vue?vue&type=template&id=c14da43c&",
               "loc": "1:0-84"
             },
             {
@@ -12696,7 +12696,7 @@
               "module": "./example/pages/index.vue",
               "moduleName": "./example/pages/index.vue",
               "type": "harmony import specifier",
-              "userRequest": "./index.vue?vue&type=template&id=32c05296&",
+              "userRequest": "./index.vue?vue&type=template&id=c14da43c&",
               "loc": "15:2-8"
             },
             {
@@ -12705,7 +12705,7 @@
               "module": "./example/pages/index.vue",
               "moduleName": "./example/pages/index.vue",
               "type": "harmony import specifier",
-              "userRequest": "./index.vue?vue&type=template&id=32c05296&",
+              "userRequest": "./index.vue?vue&type=template&id=c14da43c&",
               "loc": "16:2-17"
             }
           ],
@@ -12719,7 +12719,7 @@
           ],
           "optimizationBailout": [],
           "depth": 5,
-          "source": "export * from \"-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./index.vue?vue&type=template&id=32c05296&\""
+          "source": "export * from \"-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./index.vue?vue&type=template&id=c14da43c&\""
         },
         {
           "id": null,
@@ -12817,19 +12817,19 @@
         },
         {
           "id": null,
-          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=32c05296&",
-          "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./example/pages/index.vue?vue&type=template&id=32c05296&",
+          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=c14da43c&",
+          "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./example/pages/index.vue?vue&type=template&id=c14da43c&",
           "index": 56,
           "index2": 54,
-          "size": 3716,
+          "size": 5472,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=32c05296&",
+          "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=c14da43c&",
           "issuerId": null,
-          "issuerName": "./example/pages/index.vue?vue&type=template&id=32c05296&",
+          "issuerName": "./example/pages/index.vue?vue&type=template&id=c14da43c&",
           "issuerPath": [
             {
               "id": 16,
@@ -12858,8 +12858,8 @@
             },
             {
               "id": null,
-              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=32c05296&",
-              "name": "./example/pages/index.vue?vue&type=template&id=32c05296&"
+              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=c14da43c&",
+              "name": "./example/pages/index.vue?vue&type=template&id=c14da43c&"
             }
           ],
           "failed": false,
@@ -12869,20 +12869,20 @@
           "reasons": [
             {
               "moduleId": null,
-              "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=32c05296&",
-              "module": "./example/pages/index.vue?vue&type=template&id=32c05296&",
-              "moduleName": "./example/pages/index.vue?vue&type=template&id=32c05296&",
+              "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=c14da43c&",
+              "module": "./example/pages/index.vue?vue&type=template&id=c14da43c&",
+              "moduleName": "./example/pages/index.vue?vue&type=template&id=c14da43c&",
               "type": "harmony side effect evaluation",
-              "userRequest": "-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./index.vue?vue&type=template&id=32c05296&",
+              "userRequest": "-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./index.vue?vue&type=template&id=c14da43c&",
               "loc": "1:0-203"
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=32c05296&",
-              "module": "./example/pages/index.vue?vue&type=template&id=32c05296&",
-              "moduleName": "./example/pages/index.vue?vue&type=template&id=32c05296&",
+              "moduleIdentifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/vue-loader/lib/index.js??vue-loader-options!/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/example/pages/index.vue?vue&type=template&id=c14da43c&",
+              "module": "./example/pages/index.vue?vue&type=template&id=c14da43c&",
+              "moduleName": "./example/pages/index.vue?vue&type=template&id=c14da43c&",
               "type": "harmony export imported specifier",
-              "userRequest": "-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./index.vue?vue&type=template&id=32c05296&",
+              "userRequest": "-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./index.vue?vue&type=template&id=c14da43c&",
               "loc": "1:0-203"
             }
           ],
@@ -12896,7 +12896,7 @@
           ],
           "optimizationBailout": [],
           "depth": 6,
-          "source": "var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('article',{staticClass:\"content\"},[_vm._ssrNode(\"<header><h1>\"+_vm._ssrEscape(_vm._s(_vm.$metaInfo.title))+\"</h1></header> <section><h2>Normal</h2> <p>Gravida qui saepe tellus ut ultricies modi curabitur! Nulla? Nobis earum quisquam facilisi sequi ridiculus ligula sint hymenaeos donec nemo ipsam, nascetur possimus diamlorem, natoque iusto, fringilla, consectetuer. Sociis soluta accusamus porttitor, rutrum primis nibh sociosqu? Aliqua hymenaeos. Distinctio? Exercitationem? Eius penatibus curabitur doloribus, doloribus scelerisque hac voluptate! Sequi! Volutpat beatae aliquam esse condimentum, iusto imperdiet cubilia blandit odio nostrum sit voluptate? Quaerat nonummy erat reiciendis augue dicta vitae adipisci, urna eius, congue quam dicta? Hic. Qui viverra, egestas laoreet! Facere ipsa iusto harum, beatae gravida harum, litora mollit quibusdam facilisi dolorem phasellus montes. Rutrum vel gravida iste esse ligula.</p></section> <section><h2>Light</h2> <p class=\\\"light\\\">\\n      Gravida qui saepe tellus ut ultricies modi curabitur! Nulla? Nobis earum quisquam facilisi sequi ridiculus ligula sint hymenaeos donec nemo ipsam, nascetur possimus diamlorem, natoque iusto, fringilla, consectetuer. Sociis soluta accusamus porttitor, rutrum primis nibh sociosqu? Aliqua hymenaeos. Distinctio? Exercitationem? Eius penatibus curabitur doloribus, doloribus scelerisque hac voluptate! Sequi! Volutpat beatae aliquam esse condimentum, iusto imperdiet cubilia blandit odio nostrum sit voluptate? Quaerat nonummy erat reiciendis augue dicta vitae adipisci, urna eius, congue quam dicta? Hic. Qui viverra, egestas laoreet! Facere ipsa iusto harum, beatae gravida harum, litora mollit quibusdam facilisi dolorem phasellus montes. Rutrum vel gravida iste esse ligula.\\n    </p></section> <section><h2>Bold</h2> <p class=\\\"bold\\\">\\n      Cum natus eveniet condimentum aliquid, repudiandae ultrices est, cumque fringilla? Repellendus deleniti non quidem a, recusandae harum in, nemo! Aut rhoncus alias risus sem? Facere fugiat, magni animi reiciendis interdum mauris purus, laboriosam fringilla. Corporis dolores dis provident aperiam ipsam. Vivamus tellus, temporibus a luctus, nesciunt, rutrum similique nostrum. Temporibus quisquam, rerum maecenas, diam, risus, volutpat, viverra proin accusamus maecenas, nibh justo animi, mauris proin? A congue debitis architecto? Varius aptent minus pellentesque rutrum, quas rutrum dis, scelerisque massa nunc anim sociis dignissimos libero, viverra, suspendisse vehicula, vulputate? Distinctio et. Condimentum atque fugit necessitatibus odit molestie sodales voluptatibus doloremque. Suscipit.\\n    </p></section> <section><h2>Italic</h2> <p class=\\\"italic\\\">\\n      Cum natus eveniet condimentum aliquid, repudiandae ultrices est, cumque fringilla? Repellendus deleniti non quidem a, recusandae harum in, nemo! Aut rhoncus alias risus sem? Facere fugiat, magni animi reiciendis interdum mauris purus, laboriosam fringilla. Corporis dolores dis provident aperiam ipsam. Vivamus tellus, temporibus a luctus, nesciunt, rutrum similique nostrum. Temporibus quisquam, rerum maecenas, diam, risus, volutpat, viverra proin accusamus maecenas, nibh justo animi, mauris proin? A congue debitis architecto? Varius aptent minus pellentesque rutrum, quas rutrum dis, scelerisque massa nunc anim sociis dignissimos libero, viverra, suspendisse vehicula, vulputate? Distinctio et. Condimentum atque fugit necessitatibus odit molestie sodales voluptatibus doloremque. Suscipit.\\n    </p></section> \"),_c('atom-github-corner')],2)}\nvar staticRenderFns = []\n\nexport { render, staticRenderFns }"
+          "source": "var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('article',{staticClass:\"content\"},[_vm._ssrNode(\"<header><h1>\"+_vm._ssrEscape(_vm._s(_vm.$metaInfo.title))+\"</h1></header> <section><h2>Normal</h2> <p>Gravida qui saepe tellus ut ultricies modi curabitur! Nulla? Nobis earum quisquam facilisi sequi ridiculus ligula sint hymenaeos donec nemo ipsam, nascetur possimus diamlorem, natoque iusto, fringilla, consectetuer. Sociis soluta accusamus porttitor, rutrum primis nibh sociosqu? Aliqua hymenaeos. Distinctio? Exercitationem? Eius penatibus curabitur doloribus, doloribus scelerisque hac voluptate! Sequi! Volutpat beatae aliquam esse condimentum, iusto imperdiet cubilia blandit odio nostrum sit voluptate? Quaerat nonummy erat reiciendis augue dicta vitae adipisci, urna eius, congue quam dicta? Hic. Qui viverra, egestas laoreet! Facere ipsa iusto harum, beatae gravida harum, litora mollit quibusdam facilisi dolorem phasellus montes. Rutrum vel gravida iste esse ligula.</p></section> <section><h2>Light</h2> <p class=\\\"light\\\">\\n      Gravida qui saepe tellus ut ultricies modi curabitur! Nulla? Nobis earum quisquam facilisi sequi ridiculus ligula sint hymenaeos donec nemo ipsam, nascetur possimus diamlorem, natoque iusto, fringilla, consectetuer. Sociis soluta accusamus porttitor, rutrum primis nibh sociosqu? Aliqua hymenaeos. Distinctio? Exercitationem? Eius penatibus curabitur doloribus, doloribus scelerisque hac voluptate! Sequi! Volutpat beatae aliquam esse condimentum, iusto imperdiet cubilia blandit odio nostrum sit voluptate? Quaerat nonummy erat reiciendis augue dicta vitae adipisci, urna eius, congue quam dicta? Hic. Qui viverra, egestas laoreet! Facere ipsa iusto harum, beatae gravida harum, litora mollit quibusdam facilisi dolorem phasellus montes. Rutrum vel gravida iste esse ligula.\\n    </p></section> <section><h2>Bold</h2> <p class=\\\"bold\\\">\\n      Cum natus eveniet condimentum aliquid, repudiandae ultrices est, cumque fringilla? Repellendus deleniti non quidem a, recusandae harum in, nemo! Aut rhoncus alias risus sem? Facere fugiat, magni animi reiciendis interdum mauris purus, laboriosam fringilla. Corporis dolores dis provident aperiam ipsam. Vivamus tellus, temporibus a luctus, nesciunt, rutrum similique nostrum. Temporibus quisquam, rerum maecenas, diam, risus, volutpat, viverra proin accusamus maecenas, nibh justo animi, mauris proin? A congue debitis architecto? Varius aptent minus pellentesque rutrum, quas rutrum dis, scelerisque massa nunc anim sociis dignissimos libero, viverra, suspendisse vehicula, vulputate? Distinctio et. Condimentum atque fugit necessitatibus odit molestie sodales voluptatibus doloremque. Suscipit.\\n    </p></section> <section><h2>Italic</h2> <p class=\\\"italic\\\">\\n      Cum natus eveniet condimentum aliquid, repudiandae ultrices est, cumque fringilla? Repellendus deleniti non quidem a, recusandae harum in, nemo! Aut rhoncus alias risus sem? Facere fugiat, magni animi reiciendis interdum mauris purus, laboriosam fringilla. Corporis dolores dis provident aperiam ipsam. Vivamus tellus, temporibus a luctus, nesciunt, rutrum similique nostrum. Temporibus quisquam, rerum maecenas, diam, risus, volutpat, viverra proin accusamus maecenas, nibh justo animi, mauris proin? A congue debitis architecto? Varius aptent minus pellentesque rutrum, quas rutrum dis, scelerisque massa nunc anim sociis dignissimos libero, viverra, suspendisse vehicula, vulputate? Distinctio et. Condimentum atque fugit necessitatibus odit molestie sodales voluptatibus doloremque. Suscipit.\\n    </p></section> <section><h2>Mono Normal</h2> <p class=\\\"mono-normal\\\">\\n      Cum natus eveniet condimentum aliquid, repudiandae ultrices est, cumque fringilla? Repellendus deleniti non quidem a, recusandae harum in, nemo! Aut rhoncus alias risus sem? Facere fugiat, magni animi reiciendis interdum mauris purus, laboriosam fringilla. Corporis dolores dis provident aperiam ipsam. Vivamus tellus, temporibus a luctus, nesciunt, rutrum similique nostrum. Temporibus quisquam, rerum maecenas, diam, risus, volutpat, viverra proin accusamus maecenas, nibh justo animi, mauris proin? A congue debitis architecto? Varius aptent minus pellentesque rutrum, quas rutrum dis, scelerisque massa nunc anim sociis dignissimos libero, viverra, suspendisse vehicula, vulputate? Distinctio et. Condimentum atque fugit necessitatibus odit molestie sodales voluptatibus doloremque. Suscipit.\\n    </p></section> <section><h2>Mono Bold</h2> <p class=\\\"mono-bold\\\">\\n      Cum natus eveniet condimentum aliquid, repudiandae ultrices est, cumque fringilla? Repellendus deleniti non quidem a, recusandae harum in, nemo! Aut rhoncus alias risus sem? Facere fugiat, magni animi reiciendis interdum mauris purus, laboriosam fringilla. Corporis dolores dis provident aperiam ipsam. Vivamus tellus, temporibus a luctus, nesciunt, rutrum similique nostrum. Temporibus quisquam, rerum maecenas, diam, risus, volutpat, viverra proin accusamus maecenas, nibh justo animi, mauris proin? A congue debitis architecto? Varius aptent minus pellentesque rutrum, quas rutrum dis, scelerisque massa nunc anim sociis dignissimos libero, viverra, suspendisse vehicula, vulputate? Distinctio et. Condimentum atque fugit necessitatibus odit molestie sodales voluptatibus doloremque. Suscipit.\\n    </p></section> \"),_c('atom-github-corner')],2)}\nvar staticRenderFns = []\n\nexport { render, staticRenderFns }"
         },
         {
           "id": null,
@@ -12904,7 +12904,7 @@
           "name": "./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./example/pages/index.vue?vue&type=script&lang=js&",
           "index": 58,
           "index2": 64,
-          "size": 367,
+          "size": 409,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -12995,7 +12995,7 @@
           ],
           "optimizationBailout": [],
           "depth": 6,
-          "source": "//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\nimport AtomGithubCorner from '@/components/atoms/GithubCorner';\nexport default {\n  components: {\n    AtomGithubCorner\n  },\n\n  head() {\n    return {\n      htmlAttrs: {\n        lang: 'en'\n      },\n      title: 'Fonts Example: Two Fonts with total 6 Files'\n    };\n  }\n\n};"
+          "source": "//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\nimport AtomGithubCorner from '@/components/atoms/GithubCorner';\nexport default {\n  components: {\n    AtomGithubCorner\n  },\n\n  head() {\n    return {\n      htmlAttrs: {\n        lang: 'en'\n      },\n      title: 'Fonts Example: Two Fonts with total 6 Files'\n    };\n  }\n\n};"
         },
         {
           "id": null,
@@ -13061,7 +13061,7 @@
               "moduleName": "./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./example/pages/index.vue?vue&type=script&lang=js&",
               "type": "harmony side effect evaluation",
               "userRequest": "@/components/atoms/GithubCorner",
-              "loc": "34:0-63"
+              "loc": "48:0-63"
             },
             {
               "moduleId": null,
@@ -13070,7 +13070,7 @@
               "moduleName": "./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./example/pages/index.vue?vue&type=script&lang=js&",
               "type": "harmony import specifier",
               "userRequest": "@/components/atoms/GithubCorner",
-              "loc": "37:4-20"
+              "loc": "51:4-20"
             }
           ],
           "usedExports": [
