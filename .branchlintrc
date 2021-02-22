@@ -4,7 +4,9 @@
       "feature",
       "hotfix",
       "release",
-      "renovate"
+      "renovate",
+      "beta",
+      "next"
     ],
     "suggestions": {
       "features": "feature",
@@ -19,6 +21,7 @@
       "skip-ci"
     ],
     "disallowed": [
+      "main",
       "master",
       "develop",
       "staging"
