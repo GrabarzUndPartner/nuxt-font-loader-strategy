@@ -5,5 +5,5 @@
   "baseBranches": [
     "release"
   ],
-  "automerge": true
+  "rangeStrategy": "pin"
 }
