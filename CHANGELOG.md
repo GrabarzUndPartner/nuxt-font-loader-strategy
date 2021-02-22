@@ -1,5 +1,12 @@
 # Project Changelog
 
+## [1.1.6](https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/compare/v1.1.5...v1.1.6) (2021-02-22)
+
+
+### Bug Fixes
+
+* **path:** fix extension (ttf) to format (truetype) conversion ([03d7fa1](https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/commit/03d7fa1ab461a59c5f684b24ba7c1b898dfa0504))
+
 ## [1.1.5](https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/compare/v1.1.4...v1.1.5) (2021-01-29)
 
 
