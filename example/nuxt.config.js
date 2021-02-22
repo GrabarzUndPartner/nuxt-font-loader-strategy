@@ -112,13 +112,31 @@ module.exports = {
             fontFaces: [
               {
                 preload: true,
-                src: '/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular',
+                src: '/fonts/roboto-slab-v20-latin/roboto-slab-v20-latin-regular',
                 fontWeight: 400,
                 fontStyle: 'normal'
               },
               {
                 preload: true,
-                src: '/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700',
+                src: '/fonts/roboto-slab-v20-latin/roboto-slab-v20-latin-700',
+                fontWeight: 700,
+                fontStyle: 'normal'
+              }
+            ]
+          },
+          {
+            fileExtensions: ['ttf'],
+            fontFamily: 'Roboto Mono',
+            fontFaces: [
+              {
+                preload: true,
+                src: '/fonts/roboto-mono/RobotoMono-Regular.ttf',
+                fontWeight: 400,
+                fontStyle: 'normal'
+              },
+              {
+                preload: true,
+                src: '/fonts/roboto-mono/RobotoMono-Bold.ttf',
                 fontWeight: 700,
                 fontStyle: 'normal'
               }
