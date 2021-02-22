@@ -2,7 +2,7 @@
 
 [![Grabarz & Partner - Module][grabarz-partner-module-src]][grabarz-partner-href] 
 
-[![Master][github-workflow-master-src]][github-workflow-master-href]
+[![Main][github-workflow-main-src]][github-workflow-main-href]
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -265,8 +265,8 @@ Connection speed dependent font loading, requires the support of `navigator.conn
 [renovate-status-src]: <https://img.shields.io/badge/renovate-enabled-brightgreen>
 [renovate-status-href]: <https://renovate.whitesourcesoftware.com/>
 
-[github-workflow-master-src]: <https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/workflows/Master/badge.svg?branch=master>
-[github-workflow-master-href]: <https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/actions?query=workflow%3AMaster>
+[github-workflow-main-src]: <https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/workflows/Main/badge.svg?branch=main>
+[github-workflow-main-href]: <https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/actions?query=workflow%3AMain>
 
 [npm-version-src]: https://img.shields.io/npm/v/nuxt-font-loader-strategy/latest.svg?style=flat-square
 [npm-version-href]: https://npmjs.com/package/nuxt-font-loader-strategy
@@ -274,7 +274,7 @@ Connection speed dependent font loading, requires the support of `navigator.conn
 [npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-font-loader-strategy.svg?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/nuxt-font-loader-strategy
 
-[codecov-src]: https://img.shields.io/codecov/c/github/GrabarzUndPartner/nuxt-font-loader-strategy/branch/master/graph/badge.svg?style=flat-square
+[codecov-src]: https://img.shields.io/codecov/c/github/GrabarzUndPartner/nuxt-font-loader-strategy/branch/main/graph/badge.svg?style=flat-square
 [codecov-href]: https://codecov.io/gh/GrabarzUndPartner/nuxt-font-loader-strategy
 
 [license-src]: https://img.shields.io/npm/l/nuxt-font-loader-strategy.svg?style=flat-square

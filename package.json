@@ -1,6 +1,6 @@
 {
   "name": "nuxt-font-loader-strategy",
-  "version": "1.1.6",
+  "version": "1.1.5",
   "description": "Helps to load fonts and activate them by preloading.",
   "keywords": [
     "nuxtjs",
@@ -27,6 +27,9 @@
   ],
   "main": "lib/module.js",
   "scripts": {
+    "postinstall": "husky install",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable",
     "dev": "nuxt example",
     "generate": "nuxt generate --config-file example/nuxt.config.js --target static",
     "build": "nuxt build --config-file example/nuxt.config.js",
@@ -54,14 +57,15 @@
     "core-js": "3.9.0",
     "eslint": "7.20.0",
     "eslint-plugin-json": "2.1.2",
-    "husky": "5.1.0",
+    "husky": "5.1.1",
     "jest": "26.6.3",
     "nuxt-edge": "latest",
+    "pinst": "^2.1.6",
+    "postcss-nesting": "7.0.1",
     "standard-version": "9.1.1",
     "stylelint": "13.11.0",
     "stylelint-config-recess-order": "2.3.0",
-    "stylelint-config-standard": "20.0.0",
-    "postcss-nesting": "7.0.1"
+    "stylelint-config-standard": "20.0.0"
   },
   "publishConfig": {
     "access": "public"
