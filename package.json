@@ -45,8 +45,8 @@
     "worker-loader": "3.0.8"
   },
   "devDependencies": {
-    "@babel/core": "7.12.17",
-    "@babel/preset-env": "7.12.17",
+    "@babel/core": "7.13.1",
+    "@babel/preset-env": "7.13.5",
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
     "@nuxtjs/eslint-config": "5.0.0",
