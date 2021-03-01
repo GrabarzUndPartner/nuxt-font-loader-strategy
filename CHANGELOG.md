@@ -1,5 +1,12 @@
 # Project Changelog
 
+## [1.1.7](https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/compare/v1.1.6...v1.1.7) (2021-03-01)
+
+
+### Bug Fixes
+
+* **)preload:**  get mimetype from format ([e24e71c](https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/commit/e24e71c6315d8c90a4284764190b84378136cd70))
+
 ## [1.1.6](https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/compare/v1.1.5...v1.1.6) (2021-02-22)
 
 
