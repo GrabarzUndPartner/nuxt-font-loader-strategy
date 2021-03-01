@@ -49,8 +49,8 @@ module.exports = {
     extend (config) {
       if (!isDev) {
         config.plugins.push(new BundleAnalyzerPlugin({
-          reportFilename: resolve(`reports/webpack/${config.name}.html`),
-          statsFilename: resolve(`reports/webpack/stats/${config.name}.json`),
+          reportFilename: resolve(`.reports/webpack/${config.name}.html`),
+          statsFilename: resolve(`.reports/webpack/stats/${config.name}.json`),
           analyzerMode: 'static',
           generateStatsFile: true,
           openAnalyzer: false,
@@ -112,13 +112,13 @@ module.exports = {
             fontFaces: [
               {
                 preload: true,
-                src: '/fonts/roboto-slab-v20-latin/roboto-slab-v20-latin-regular',
+                src: '/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular',
                 fontWeight: 400,
                 fontStyle: 'normal'
               },
               {
                 preload: true,
-                src: '/fonts/roboto-slab-v20-latin/roboto-slab-v20-latin-700',
+                src: '/fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-700',
                 fontWeight: 700,
                 fontStyle: 'normal'
               }
@@ -130,13 +130,13 @@ module.exports = {
             fontFaces: [
               {
                 preload: true,
-                src: '/fonts/roboto-mono/RobotoMono-Regular.ttf',
+                src: '@/assets/fonts/roboto-mono/RobotoMono-Regular',
                 fontWeight: 400,
                 fontStyle: 'normal'
               },
               {
                 preload: true,
-                src: '/fonts/roboto-mono/RobotoMono-Bold.ttf',
+                src: '@/assets/fonts/roboto-mono/RobotoMono-Bold',
                 fontWeight: 700,
                 fontStyle: 'normal'
               }
