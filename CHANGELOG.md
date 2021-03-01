@@ -1,5 +1,12 @@
 # Project Changelog
 
+## [1.1.9](https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/compare/v1.1.8...v1.1.9) (2021-03-01)
+
+
+### Bug Fixes
+
+* **sematic-release:** add pinst to npx ([19575ab](https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/commit/19575abaea34e81af843ce354265eb24c9b8bd40))
+
 ## [1.1.8](https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/compare/v1.1.7...v1.1.8) (2021-03-01)
 
 
