@@ -282,3 +282,4 @@ Connection speed dependent font loading, requires the support of `navigator.conn
 
 
 [performance-image]: ./example/static/performance.jpg
+
