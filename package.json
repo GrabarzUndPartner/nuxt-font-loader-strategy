@@ -45,8 +45,8 @@
     "worker-loader": "3.0.8"
   },
   "devDependencies": {
-    "@babel/core": "7.13.8",
-    "@babel/preset-env": "7.13.9",
+    "@babel/core": "7.13.10",
+    "@babel/preset-env": "7.13.10",
     "@commitlint/cli": "12.0.1",
     "@commitlint/config-conventional": "12.0.1",
     "@nuxtjs/eslint-config": "6.0.0",
@@ -64,7 +64,7 @@
     "pinst": "2.1.6",
     "postcss-nesting": "7.0.1",
     "standard-version": "9.1.1",
-    "stylelint": "13.11.0",
+    "stylelint": "13.12.0",
     "stylelint-config-recess-order": "2.3.0",
     "stylelint-config-standard": "20.0.0"
   },
