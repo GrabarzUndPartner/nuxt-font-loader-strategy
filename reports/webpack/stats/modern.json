@@ -3,8 +3,8 @@
   "warnings": [],
   "version": "4.46.0",
   "hash": "a29ae1b5967f3dd648b8",
-  "time": 5808,
-  "builtAt": 1617021973469,
+  "time": 5338,
+  "builtAt": 1617022311492,
   "publicPath": "/nuxt-font-loader-strategy/_nuxt/",
   "outputPath": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/.cache/nuxt/dist/client",
   "assetsByChunkName": {
@@ -7467,9 +7467,9 @@
           "chunks": [
             1
           ],
-          "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/internals/object-assign.js",
-          "issuerId": 94,
-          "issuerName": "./node_modules/core-js/internals/object-assign.js",
+          "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/internals/to-indexed-object.js",
+          "issuerId": 39,
+          "issuerName": "./node_modules/core-js/internals/to-indexed-object.js",
           "issuerPath": [
             {
               "id": 125,
@@ -7482,14 +7482,14 @@
               "name": "./node_modules/.cache/nuxt/client.js"
             },
             {
-              "id": 38,
-              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/modules/es.object.assign.js",
-              "name": "./node_modules/core-js/modules/es.object.assign.js"
+              "id": 8,
+              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/modules/es.array.iterator.js",
+              "name": "./node_modules/core-js/modules/es.array.iterator.js"
             },
             {
-              "id": 94,
-              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/internals/object-assign.js",
-              "name": "./node_modules/core-js/internals/object-assign.js"
+              "id": 39,
+              "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/internals/to-indexed-object.js",
+              "name": "./node_modules/core-js/internals/to-indexed-object.js"
             }
           ],
           "failed": false,
@@ -30506,9 +30506,9 @@
       "chunks": [
         1
       ],
-      "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/internals/object-assign.js",
-      "issuerId": 94,
-      "issuerName": "./node_modules/core-js/internals/object-assign.js",
+      "issuer": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/internals/to-indexed-object.js",
+      "issuerId": 39,
+      "issuerName": "./node_modules/core-js/internals/to-indexed-object.js",
       "issuerPath": [
         {
           "id": 125,
@@ -30521,14 +30521,14 @@
           "name": "./node_modules/.cache/nuxt/client.js"
         },
         {
-          "id": 38,
-          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/modules/es.object.assign.js",
-          "name": "./node_modules/core-js/modules/es.object.assign.js"
+          "id": 8,
+          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/modules/es.array.iterator.js",
+          "name": "./node_modules/core-js/modules/es.array.iterator.js"
         },
         {
-          "id": 94,
-          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/internals/object-assign.js",
-          "name": "./node_modules/core-js/internals/object-assign.js"
+          "id": 39,
+          "identifier": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/core-js/internals/to-indexed-object.js",
+          "name": "./node_modules/core-js/internals/to-indexed-object.js"
         }
       ],
       "failed": false,
