@@ -3,8 +3,8 @@
   "warnings": [],
   "version": "4.46.0",
   "hash": "a29ae1b5967f3dd648b8",
-  "time": 5620,
-  "builtAt": 1614629021510,
+  "time": 5808,
+  "builtAt": 1617021973469,
   "publicPath": "/nuxt-font-loader-strategy/_nuxt/",
   "outputPath": "/home/runner/work/nuxt-font-loader-strategy/nuxt-font-loader-strategy/node_modules/.cache/nuxt/dist/client",
   "assetsByChunkName": {
