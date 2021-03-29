@@ -1,5 +1,7 @@
 # nuxt-font-loader-strategy
 
+> :warning: **This project is no longer maintained**, because the concept is not suitable for global management of many fonts in larger projects. For this reason we have developed a new concept that guarantees smart, efficient and performant component-based font management even in larger websites. Please visit: https://github.com/GrabarzUndPartner/nuxt-speedkit
+
 [![Grabarz & Partner - Module][grabarz-partner-module-src]][grabarz-partner-href] 
 
 [![Main][github-workflow-main-src]][github-workflow-main-href]
