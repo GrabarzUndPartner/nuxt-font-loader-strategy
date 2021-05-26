@@ -1,5 +1,12 @@
 # Project Changelog
 
+## [1.1.10](https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/compare/v1.1.9...v1.1.10) (2021-05-26)
+
+
+### Bug Fixes
+
+* **npm:** force publish ([d940152](https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/commit/d94015229072d142d7eaafc6cf7e9d28cddf532b))
+
 ## [1.1.9](https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy/compare/v1.1.8...v1.1.9) (2021-03-01)
 
 
