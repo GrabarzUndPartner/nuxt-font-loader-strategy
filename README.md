@@ -280,5 +280,4 @@ Connection speed dependent font loading, requires the support of `navigator.conn
 [license-src]: https://img.shields.io/npm/l/nuxt-font-loader-strategy.svg?style=flat-square
 [license-href]: https://npmjs.com/package/nuxt-font-loader-strategy
 
-
 [performance-image]: ./example/static/performance.jpg
