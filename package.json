@@ -62,7 +62,7 @@
     "lint-staged": "11.0.0",
     "nuxt-edge": "latest",
     "pinst": "2.1.6",
-    "postcss-nesting": "7.0.1",
+    "postcss-nesting": "8.0.1",
     "standard-version": "9.3.0",
     "stylelint": "13.13.1",
     "stylelint-config-recess-order": "2.4.0",
