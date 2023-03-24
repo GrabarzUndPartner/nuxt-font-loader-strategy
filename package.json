@@ -57,7 +57,7 @@
     "core-js": "3.13.0",
     "eslint": "7.27.0",
     "eslint-plugin-json": "3.0.0",
-    "husky": "6.0.0",
+    "husky": "8.0.3",
     "jest": "27.0.1",
     "lint-staged": "11.0.0",
     "nuxt-edge": "latest",
