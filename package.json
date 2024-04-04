@@ -41,7 +41,7 @@
     "test": "yarn lint && jest"
   },
   "dependencies": {
-    "change-case": "4.1.2",
+    "change-case": "5.4.4",
     "worker-loader": "3.0.8"
   },
   "devDependencies": {
